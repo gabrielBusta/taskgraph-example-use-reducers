@@ -1,8 +1,9 @@
 import json
 import networkx as nx
 
-TASKGRAPH_NAME = 'firefox-translations-training'
-LAYOUT_NAME = 'multipartite-layout'
+TASKGRAPH_NAME = "ship-mozilla-vpn-client"
+LAYOUT_NAME = "multipartite-layout"
+
 
 def load_taskgraph():
     f = open(f"./{TASKGRAPH_NAME}-taskgraph.json")
@@ -28,7 +29,7 @@ def build_digraph(taskgraph):
 
 
 def layout_digraph(digraph):
-    if LAYOUT_NAME == 'kamada-kawai-layout':
+    if LAYOUT_NAME == "kamada-kawai-layout":
         return nx.kamada_kawai_layout(digraph)
     for layer, nodes in enumerate(nx.topological_generations(digraph)):
         # `multipartite_layout` expects the layer as a node attribute, so add the
@@ -51,6 +52,7 @@ def serialize_taskgraph(taskgraph, pos):
                     "color": "#B30000",
                     "label": taskgraph[tasknode]["label"],
                     "size": 5,
+                    # "size": .5,
                     "x": pos[tasknode][0],
                     "y": pos[tasknode][1],
                 },
@@ -63,7 +65,12 @@ def serialize_taskgraph(taskgraph, pos):
                         "key": str(graph_size),
                         "source": taskgraph[tasknode]["dependencies"][dependency],
                         "target": tasknode,
-                        "attributes": {"size": 2.5, "type": "arrow", 'kind': taskgraph[tasknode]['attributes']['kind']},
+                        "attributes": {
+                            "size": 2.5,
+                            # "size": .25,
+                            "type": "arrow",
+                            "kind": taskgraph[tasknode]["attributes"]["kind"],
+                        },
                     }
                 )
                 graph_size += 1

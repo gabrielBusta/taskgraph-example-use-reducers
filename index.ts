@@ -1,11 +1,16 @@
 import Sigma from "sigma";
 import { Coordinates, EdgeDisplayData, NodeDisplayData } from "sigma/types";
 import { DirectedGraph as Graph } from "graphology";
-// import FA2Layout from "graphology-layout-forceatlas2/worker";
-// import forceAtlas2 from "graphology-layout-forceatlas2";
-
+// import data from "./mc-desktop-nightly-serialized-taskgraph-multipartite-layout.json";
+// import data from "./mc-onpush-serialized-taskgraph-multipartite-layout.json";
 // import data from "./ship-firefox-115.0-serialized-taskgraph-multipartite-layout.json";
 import data from "./firefox-translations-training-serialized-taskgraph-multipartite-layout.json";
+// import data from "./mr-promote-firefox-serialized-taskgraph-multipartite-layout.json";
+// import data from "./mr-onpush-serialized-taskgraph-multipartite-layout.json";
+// import data from "./mr-onpush-geckoview-serialized-taskgraph-multipartite-layout.json";
+// import data from "./ship-mozilla-vpn-client-serialized-taskgraph-multipartite-layout.json";
+// import data from "./main-onpush-mozilla-vpn-client-serialized-taskgraph-multipartite-layout.json";
+
 // Retrieve some useful DOM elements:
 const container = document.getElementById("sigma-container") as HTMLElement;
 const searchInput = document.getElementById("search-input") as HTMLInputElement;

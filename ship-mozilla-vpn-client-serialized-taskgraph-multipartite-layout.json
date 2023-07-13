@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "key": "APOnLjA7SGGHzixkig4pSA",
+      "attributes": {
+        "color": "#B30000",
+        "label": "beetmover-android-arm64",
+        "size": 5,
+        "x": -0.05714285714285714,
+        "y": 1.0
+      }
+    },
+    {
+      "key": "D_Io6SGLTuu20bFjFUreCA",
+      "attributes": {
+        "color": "#B30000",
+        "label": "beetmover-android-x86",
+        "size": 5,
+        "x": -0.05714285714285714,
+        "y": 0.6000000000000001
+      }
+    },
+    {
+      "key": "IBstIjndT_ajed__wxyr-w",
+      "attributes": {
+        "color": "#B30000",
+        "label": "beetmover-windows",
+        "size": 5,
+        "x": -0.05714285714285714,
+        "y": 0.2
+      }
+    },
+    {
+      "key": "JIuS4gZQS2aNIDL5F3B85g",
+      "attributes": {
+        "color": "#B30000",
+        "label": "beetmover-android-armv7",
+        "size": 5,
+        "x": -0.05714285714285714,
+        "y": -0.2
+      }
+    },
+    {
+      "key": "L0cCVwO9R2ec6jgbNWIruA",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-notify-ship-client",
+        "size": 5,
+        "x": 0.3428571428571429,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "MC-mzbdRTsKTy3mhvzJinQ",
+      "attributes": {
+        "color": "#B30000",
+        "label": "beetmover-android-x64",
+        "size": 5,
+        "x": -0.05714285714285714,
+        "y": -0.6000000000000001
+      }
+    },
+    {
+      "key": "THhHZZfdSBeXa5sfdM7qlA",
+      "attributes": {
+        "color": "#B30000",
+        "label": "beetmover-macos",
+        "size": 5,
+        "x": -0.05714285714285714,
+        "y": -1.0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "0",
+      "source": "APOnLjA7SGGHzixkig4pSA",
+      "target": "L0cCVwO9R2ec6jgbNWIruA",
+      "attributes": {
+        "size": 2.5,
+        "type": "arrow",
+        "kind": "release-notify"
+      }
+    },
+    {
+      "key": "1",
+      "source": "JIuS4gZQS2aNIDL5F3B85g",
+      "target": "L0cCVwO9R2ec6jgbNWIruA",
+      "attributes": {
+        "size": 2.5,
+        "type": "arrow",
+        "kind": "release-notify"
+      }
+    },
+    {
+      "key": "2",
+      "source": "MC-mzbdRTsKTy3mhvzJinQ",
+      "target": "L0cCVwO9R2ec6jgbNWIruA",
+      "attributes": {
+        "size": 2.5,
+        "type": "arrow",
+        "kind": "release-notify"
+      }
+    },
+    {
+      "key": "3",
+      "source": "D_Io6SGLTuu20bFjFUreCA",
+      "target": "L0cCVwO9R2ec6jgbNWIruA",
+      "attributes": {
+        "size": 2.5,
+        "type": "arrow",
+        "kind": "release-notify"
+      }
+    },
+    {
+      "key": "4",
+      "source": "THhHZZfdSBeXa5sfdM7qlA",
+      "target": "L0cCVwO9R2ec6jgbNWIruA",
+      "attributes": {
+        "size": 2.5,
+        "type": "arrow",
+        "kind": "release-notify"
+      }
+    },
+    {
+      "key": "5",
+      "source": "IBstIjndT_ajed__wxyr-w",
+      "target": "L0cCVwO9R2ec6jgbNWIruA",
+      "attributes": {
+        "size": 2.5,
+        "type": "arrow",
+        "kind": "release-notify"
+      }
+    }
+  ]
+}

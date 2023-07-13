@@ -1,0 +1,634 @@
+{
+  "APOnLjA7SGGHzixkig4pSA": {
+    "attributes": {
+      "always_target": false,
+      "build-type": "android/arm64-v8a",
+      "kind": "beetmover",
+      "release-artifacts": [
+        {
+          "name": "public/build/mozillavpn-arm64-v8a-release.apk",
+          "path": "/builds/worker/artifacts/mozillavpn-arm64-v8a-release.apk",
+          "type": "file"
+        }
+      ],
+      "run_on_projects": [
+        "all"
+      ],
+      "run_on_tasks_for": [
+        "action"
+      ],
+      "shipping-phase": "ship-client",
+      "shipping_phase": null
+    },
+    "dependencies": {},
+    "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+    "if_dependencies": [],
+    "kind": "beetmover",
+    "label": "beetmover-android-arm64",
+    "optimization": null,
+    "soft_dependencies": [],
+    "task": {
+      "created": {
+        "relative-datestamp": "0 seconds"
+      },
+      "deadline": {
+        "relative-datestamp": "1 day"
+      },
+      "dependencies": [
+        "EhZedFwsQhCC36-u-K21_A"
+      ],
+      "expires": {
+        "relative-datestamp": "1 year"
+      },
+      "extra": {
+        "index": {
+          "rank": 0
+        },
+        "parent": "dYInrOKdSyO_LYe8te7YEw",
+        "release_destinations": [
+          "https://ftp.mozilla.org/pub/vpn/releases/android/"
+        ]
+      },
+      "metadata": {
+        "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+        "name": "beetmover-android-arm64",
+        "owner": "9295855+mcleinman@users.noreply.github.com",
+        "source": "https://github.com/mozilla-mobile/mozilla-vpn-client/blob/824fe5d1558d7381fa96bcd72214f9093170b81b/taskcluster/ci/beetmover"
+      },
+      "payload": {
+        "build_number": 20230713155209,
+        "maxRunTime": 600,
+        "product": "vpn",
+        "version": ""
+      },
+      "priority": "highest",
+      "provisionerId": "scriptworker-k8s",
+      "routes": [
+        "checks"
+      ],
+      "scopes": [
+        "project:mozillavpn:releng:beetmover:bucket:release",
+        "project:mozillavpn:releng:beetmover:action:push-to-releases"
+      ],
+      "tags": {
+        "createdForUser": "9295855+mcleinman@users.noreply.github.com",
+        "kind": "beetmover",
+        "label": "beetmover-android-arm64",
+        "os": "scriptworker",
+        "worker-implementation": "scriptworker"
+      },
+      "workerType": "mozillavpn-3-beetmover"
+    },
+    "task_id": "APOnLjA7SGGHzixkig4pSA"
+  },
+  "D_Io6SGLTuu20bFjFUreCA": {
+    "attributes": {
+      "always_target": false,
+      "build-type": "android/x86",
+      "kind": "beetmover",
+      "release-artifacts": [
+        {
+          "name": "public/build/mozillavpn-x86-release.apk",
+          "path": "/builds/worker/artifacts/mozillavpn-x86-release.apk",
+          "type": "file"
+        }
+      ],
+      "run_on_projects": [
+        "all"
+      ],
+      "run_on_tasks_for": [
+        "action"
+      ],
+      "shipping-phase": "ship-client",
+      "shipping_phase": null
+    },
+    "dependencies": {},
+    "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+    "if_dependencies": [],
+    "kind": "beetmover",
+    "label": "beetmover-android-x86",
+    "optimization": null,
+    "soft_dependencies": [],
+    "task": {
+      "created": {
+        "relative-datestamp": "0 seconds"
+      },
+      "deadline": {
+        "relative-datestamp": "1 day"
+      },
+      "dependencies": [
+        "TiZqGiyxQKec1lXYUg_OFg"
+      ],
+      "expires": {
+        "relative-datestamp": "1 year"
+      },
+      "extra": {
+        "index": {
+          "rank": 0
+        },
+        "parent": "dYInrOKdSyO_LYe8te7YEw",
+        "release_destinations": [
+          "https://ftp.mozilla.org/pub/vpn/releases/android/"
+        ]
+      },
+      "metadata": {
+        "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+        "name": "beetmover-android-x86",
+        "owner": "9295855+mcleinman@users.noreply.github.com",
+        "source": "https://github.com/mozilla-mobile/mozilla-vpn-client/blob/824fe5d1558d7381fa96bcd72214f9093170b81b/taskcluster/ci/beetmover"
+      },
+      "payload": {
+        "build_number": 20230713155209,
+        "maxRunTime": 600,
+        "product": "vpn",
+        "version": ""
+      },
+      "priority": "highest",
+      "provisionerId": "scriptworker-k8s",
+      "routes": [
+        "checks"
+      ],
+      "scopes": [
+        "project:mozillavpn:releng:beetmover:bucket:release",
+        "project:mozillavpn:releng:beetmover:action:push-to-releases"
+      ],
+      "tags": {
+        "createdForUser": "9295855+mcleinman@users.noreply.github.com",
+        "kind": "beetmover",
+        "label": "beetmover-android-x86",
+        "os": "scriptworker",
+        "worker-implementation": "scriptworker"
+      },
+      "workerType": "mozillavpn-3-beetmover"
+    },
+    "task_id": "D_Io6SGLTuu20bFjFUreCA"
+  },
+  "IBstIjndT_ajed__wxyr-w": {
+    "attributes": {
+      "always_target": false,
+      "build-type": "windows/opt",
+      "kind": "beetmover",
+      "release-artifacts": [
+        {
+          "name": "public/build/MozillaVPN.msi",
+          "path": "/builds/worker/artifacts/MozillaVPN.msi",
+          "type": "file"
+        }
+      ],
+      "run_on_projects": [
+        "all"
+      ],
+      "run_on_tasks_for": [
+        "action"
+      ],
+      "shipping-phase": "ship-client",
+      "shipping_phase": null
+    },
+    "dependencies": {},
+    "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+    "if_dependencies": [],
+    "kind": "beetmover",
+    "label": "beetmover-windows",
+    "optimization": null,
+    "soft_dependencies": [],
+    "task": {
+      "created": {
+        "relative-datestamp": "0 seconds"
+      },
+      "deadline": {
+        "relative-datestamp": "1 day"
+      },
+      "dependencies": [
+        "fagGUBtkToq4_Fyp0EeDug"
+      ],
+      "expires": {
+        "relative-datestamp": "1 year"
+      },
+      "extra": {
+        "index": {
+          "rank": 0
+        },
+        "parent": "dYInrOKdSyO_LYe8te7YEw",
+        "release_destinations": [
+          "https://ftp.mozilla.org/pub/vpn/releases/windows/"
+        ]
+      },
+      "metadata": {
+        "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+        "name": "beetmover-windows",
+        "owner": "9295855+mcleinman@users.noreply.github.com",
+        "source": "https://github.com/mozilla-mobile/mozilla-vpn-client/blob/824fe5d1558d7381fa96bcd72214f9093170b81b/taskcluster/ci/beetmover"
+      },
+      "payload": {
+        "build_number": 20230713155209,
+        "maxRunTime": 600,
+        "product": "vpn",
+        "version": ""
+      },
+      "priority": "highest",
+      "provisionerId": "scriptworker-k8s",
+      "routes": [
+        "checks"
+      ],
+      "scopes": [
+        "project:mozillavpn:releng:beetmover:bucket:release",
+        "project:mozillavpn:releng:beetmover:action:push-to-releases"
+      ],
+      "tags": {
+        "createdForUser": "9295855+mcleinman@users.noreply.github.com",
+        "kind": "beetmover",
+        "label": "beetmover-windows",
+        "os": "scriptworker",
+        "worker-implementation": "scriptworker"
+      },
+      "workerType": "mozillavpn-3-beetmover"
+    },
+    "task_id": "IBstIjndT_ajed__wxyr-w"
+  },
+  "JIuS4gZQS2aNIDL5F3B85g": {
+    "attributes": {
+      "always_target": false,
+      "build-type": "android/armv7",
+      "kind": "beetmover",
+      "release-artifacts": [
+        {
+          "name": "public/build/mozillavpn-armeabi-v7a-release.apk",
+          "path": "/builds/worker/artifacts/mozillavpn-armeabi-v7a-release.apk",
+          "type": "file"
+        }
+      ],
+      "run_on_projects": [
+        "all"
+      ],
+      "run_on_tasks_for": [
+        "action"
+      ],
+      "shipping-phase": "ship-client",
+      "shipping_phase": null
+    },
+    "dependencies": {},
+    "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+    "if_dependencies": [],
+    "kind": "beetmover",
+    "label": "beetmover-android-armv7",
+    "optimization": null,
+    "soft_dependencies": [],
+    "task": {
+      "created": {
+        "relative-datestamp": "0 seconds"
+      },
+      "deadline": {
+        "relative-datestamp": "1 day"
+      },
+      "dependencies": [
+        "HJD0vpSCR7Wvwf0e0aU3Ig"
+      ],
+      "expires": {
+        "relative-datestamp": "1 year"
+      },
+      "extra": {
+        "index": {
+          "rank": 0
+        },
+        "parent": "dYInrOKdSyO_LYe8te7YEw",
+        "release_destinations": [
+          "https://ftp.mozilla.org/pub/vpn/releases/android/"
+        ]
+      },
+      "metadata": {
+        "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+        "name": "beetmover-android-armv7",
+        "owner": "9295855+mcleinman@users.noreply.github.com",
+        "source": "https://github.com/mozilla-mobile/mozilla-vpn-client/blob/824fe5d1558d7381fa96bcd72214f9093170b81b/taskcluster/ci/beetmover"
+      },
+      "payload": {
+        "build_number": 20230713155209,
+        "maxRunTime": 600,
+        "product": "vpn",
+        "version": ""
+      },
+      "priority": "highest",
+      "provisionerId": "scriptworker-k8s",
+      "routes": [
+        "checks"
+      ],
+      "scopes": [
+        "project:mozillavpn:releng:beetmover:bucket:release",
+        "project:mozillavpn:releng:beetmover:action:push-to-releases"
+      ],
+      "tags": {
+        "createdForUser": "9295855+mcleinman@users.noreply.github.com",
+        "kind": "beetmover",
+        "label": "beetmover-android-armv7",
+        "os": "scriptworker",
+        "worker-implementation": "scriptworker"
+      },
+      "workerType": "mozillavpn-3-beetmover"
+    },
+    "task_id": "JIuS4gZQS2aNIDL5F3B85g"
+  },
+  "L0cCVwO9R2ec6jgbNWIruA": {
+    "attributes": {
+      "always_target": false,
+      "kind": "release-notify",
+      "run_on_projects": [
+        "all"
+      ],
+      "run_on_tasks_for": [
+        "action"
+      ],
+      "shipping-phase": "ship-client",
+      "shipping_phase": null
+    },
+    "dependencies": {
+      "beetmover-android-arm64": "APOnLjA7SGGHzixkig4pSA",
+      "beetmover-android-armv7": "JIuS4gZQS2aNIDL5F3B85g",
+      "beetmover-android-x64": "MC-mzbdRTsKTy3mhvzJinQ",
+      "beetmover-android-x86": "D_Io6SGLTuu20bFjFUreCA",
+      "beetmover-macos": "THhHZZfdSBeXa5sfdM7qlA",
+      "beetmover-windows": "IBstIjndT_ajed__wxyr-w"
+    },
+    "description": "Sends notifications to #mozilla-vpn-release in Slack",
+    "if_dependencies": [
+      "beetmover-android-arm64",
+      "beetmover-android-armv7",
+      "beetmover-android-x86",
+      "beetmover-android-x64",
+      "beetmover-macos",
+      "beetmover-windows"
+    ],
+    "kind": "release-notify",
+    "label": "release-notify-ship-client",
+    "optimization": null,
+    "soft_dependencies": [],
+    "task": {
+      "created": {
+        "relative-datestamp": "0 seconds"
+      },
+      "deadline": {
+        "relative-datestamp": "1 day"
+      },
+      "dependencies": [
+        "APOnLjA7SGGHzixkig4pSA",
+        "D_Io6SGLTuu20bFjFUreCA",
+        "IBstIjndT_ajed__wxyr-w",
+        "JIuS4gZQS2aNIDL5F3B85g",
+        "MC-mzbdRTsKTy3mhvzJinQ",
+        "THhHZZfdSBeXa5sfdM7qlA"
+      ],
+      "expires": {
+        "relative-datestamp": "1 year"
+      },
+      "extra": {
+        "index": {
+          "rank": 0
+        },
+        "notify": {
+          "matrixBody": "mozilla-vpn-client 20230713155209 release phase ship-client is successful\n\nRevision: https://github.com/mozilla-mobile/mozilla-vpn-client/commit/824fe5d1558d7381fa96bcd72214f9093170b81b\nTask group: ${task.taskGroupId}\n",
+          "matrixFormat": "org.matrix.custom.html",
+          "matrixFormattedBody": "mozilla-vpn-client 20230713155209 release phase <a href=\"https://firefox-ci-tc.services.mozilla.com/tasks/groups/${task.taskGroupId}\">ship-client</a> is successful.\n<p>\nBuild Directory: \t<a href=\"https://ftp.mozilla.org/pub/vpn/releases/android/\">android</a>\t<a href=\"https://ftp.mozilla.org/pub/vpn/releases/mac/\">macos</a>\t<a href=\"https://ftp.mozilla.org/pub/vpn/releases/windows/\">windows</a>\n<p>\nRevision: <a href=\"https://github.com/mozilla-mobile/mozilla-vpn-client/commit/824fe5d1558d7381fa96bcd72214f9093170b81b\">824fe5d1558d7381fa96bcd72214f9093170b81b</a>\n",
+          "slackBlocks": [
+            {
+              "elements": [
+                {
+                  "alt_text": "notifications warning icon",
+                  "image_url": "https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/2714-fe0f.png",
+                  "type": "image"
+                },
+                {
+                  "text": "Release phase *<https://firefox-ci-tc.services.mozilla.com/tasks/groups/${task.taskGroupId}|ship-client>* is successful",
+                  "type": "mrkdwn"
+                }
+              ],
+              "type": "context"
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "elements": [
+                {
+                  "text": "Build Directory:",
+                  "type": "mrkdwn"
+                },
+                {
+                  "text": "<https://ftp.mozilla.org/pub/vpn/releases/android/|android>",
+                  "type": "mrkdwn"
+                },
+                {
+                  "text": "<https://ftp.mozilla.org/pub/vpn/releases/mac/|macos>",
+                  "type": "mrkdwn"
+                },
+                {
+                  "text": "<https://ftp.mozilla.org/pub/vpn/releases/windows/|windows>",
+                  "type": "mrkdwn"
+                }
+              ],
+              "type": "context"
+            },
+            {
+              "elements": [
+                {
+                  "text": "Revision:",
+                  "type": "mrkdwn"
+                },
+                {
+                  "text": "<https://github.com/mozilla-mobile/mozilla-vpn-client/commit/824fe5d1558d7381fa96bcd72214f9093170b81b|824fe5d1558d7381fa96bcd72214f9093170b81b>",
+                  "type": "mrkdwn"
+                }
+              ],
+              "type": "context"
+            }
+          ]
+        },
+        "parent": "dYInrOKdSyO_LYe8te7YEw"
+      },
+      "metadata": {
+        "description": "Sends notifications to #mozilla-vpn-release in Slack",
+        "name": "release-notify-ship-client",
+        "owner": "9295855+mcleinman@users.noreply.github.com",
+        "source": "https://github.com/mozilla-mobile/mozilla-vpn-client/blob/824fe5d1558d7381fa96bcd72214f9093170b81b/taskcluster/ci/release-notify"
+      },
+      "payload": {},
+      "priority": "highest",
+      "provisionerId": "built-in",
+      "routes": [
+        "notify.slack-channel.C01DCUKG95E.on-completed",
+        "notify.matrix-room.!tBWwNyfeKqGvkNpdDL:mozilla.org.on-completed",
+        "checks"
+      ],
+      "scopes": [],
+      "tags": {
+        "createdForUser": "9295855+mcleinman@users.noreply.github.com",
+        "kind": "release-notify",
+        "label": "release-notify-ship-client"
+      },
+      "workerType": "succeed"
+    },
+    "task_id": "L0cCVwO9R2ec6jgbNWIruA"
+  },
+  "MC-mzbdRTsKTy3mhvzJinQ": {
+    "attributes": {
+      "always_target": false,
+      "build-type": "android/x64",
+      "kind": "beetmover",
+      "release-artifacts": [
+        {
+          "name": "public/build/mozillavpn-x64-release.apk",
+          "path": "/builds/worker/artifacts/mozillavpn-x64-release.apk",
+          "type": "file"
+        }
+      ],
+      "run_on_projects": [
+        "all"
+      ],
+      "run_on_tasks_for": [
+        "action"
+      ],
+      "shipping-phase": "ship-client",
+      "shipping_phase": null
+    },
+    "dependencies": {},
+    "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+    "if_dependencies": [],
+    "kind": "beetmover",
+    "label": "beetmover-android-x64",
+    "optimization": null,
+    "soft_dependencies": [],
+    "task": {
+      "created": {
+        "relative-datestamp": "0 seconds"
+      },
+      "deadline": {
+        "relative-datestamp": "1 day"
+      },
+      "dependencies": [
+        "eGRqODX0RYS2qTkRzj6jHQ"
+      ],
+      "expires": {
+        "relative-datestamp": "1 year"
+      },
+      "extra": {
+        "index": {
+          "rank": 0
+        },
+        "parent": "dYInrOKdSyO_LYe8te7YEw",
+        "release_destinations": [
+          "https://ftp.mozilla.org/pub/vpn/releases/android/"
+        ]
+      },
+      "metadata": {
+        "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+        "name": "beetmover-android-x64",
+        "owner": "9295855+mcleinman@users.noreply.github.com",
+        "source": "https://github.com/mozilla-mobile/mozilla-vpn-client/blob/824fe5d1558d7381fa96bcd72214f9093170b81b/taskcluster/ci/beetmover"
+      },
+      "payload": {
+        "build_number": 20230713155209,
+        "maxRunTime": 600,
+        "product": "vpn",
+        "version": ""
+      },
+      "priority": "highest",
+      "provisionerId": "scriptworker-k8s",
+      "routes": [
+        "checks"
+      ],
+      "scopes": [
+        "project:mozillavpn:releng:beetmover:bucket:release",
+        "project:mozillavpn:releng:beetmover:action:push-to-releases"
+      ],
+      "tags": {
+        "createdForUser": "9295855+mcleinman@users.noreply.github.com",
+        "kind": "beetmover",
+        "label": "beetmover-android-x64",
+        "os": "scriptworker",
+        "worker-implementation": "scriptworker"
+      },
+      "workerType": "mozillavpn-3-beetmover"
+    },
+    "task_id": "MC-mzbdRTsKTy3mhvzJinQ"
+  },
+  "THhHZZfdSBeXa5sfdM7qlA": {
+    "attributes": {
+      "always_target": false,
+      "build-type": "macos/opt",
+      "kind": "beetmover",
+      "release-artifacts": [
+        {
+          "name": "public/build/MozillaVPN.pkg",
+          "path": "/builds/worker/artifacts/MozillaVPN.pkg",
+          "type": "file"
+        }
+      ],
+      "run_on_projects": [
+        "all"
+      ],
+      "run_on_tasks_for": [
+        "action"
+      ],
+      "shipping-phase": "ship-client",
+      "shipping_phase": null
+    },
+    "dependencies": {},
+    "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+    "if_dependencies": [],
+    "kind": "beetmover",
+    "label": "beetmover-macos",
+    "optimization": null,
+    "soft_dependencies": [],
+    "task": {
+      "created": {
+        "relative-datestamp": "0 seconds"
+      },
+      "deadline": {
+        "relative-datestamp": "1 day"
+      },
+      "dependencies": [
+        "M_Ad9OXMQfiGxpuWka7sUA"
+      ],
+      "expires": {
+        "relative-datestamp": "1 year"
+      },
+      "extra": {
+        "index": {
+          "rank": 0
+        },
+        "parent": "dYInrOKdSyO_LYe8te7YEw",
+        "release_destinations": [
+          "https://ftp.mozilla.org/pub/vpn/releases/mac/"
+        ]
+      },
+      "metadata": {
+        "description": "This beetmover task will copy build 20230713155209 from candidates to releases",
+        "name": "beetmover-macos",
+        "owner": "9295855+mcleinman@users.noreply.github.com",
+        "source": "https://github.com/mozilla-mobile/mozilla-vpn-client/blob/824fe5d1558d7381fa96bcd72214f9093170b81b/taskcluster/ci/beetmover"
+      },
+      "payload": {
+        "build_number": 20230713155209,
+        "maxRunTime": 600,
+        "product": "vpn",
+        "version": ""
+      },
+      "priority": "highest",
+      "provisionerId": "scriptworker-k8s",
+      "routes": [
+        "checks"
+      ],
+      "scopes": [
+        "project:mozillavpn:releng:beetmover:bucket:release",
+        "project:mozillavpn:releng:beetmover:action:push-to-releases"
+      ],
+      "tags": {
+        "createdForUser": "9295855+mcleinman@users.noreply.github.com",
+        "kind": "beetmover",
+        "label": "beetmover-macos",
+        "os": "scriptworker",
+        "worker-implementation": "scriptworker"
+      },
+      "workerType": "mozillavpn-3-beetmover"
+    },
+    "task_id": "THhHZZfdSBeXa5sfdM7qlA"
+  }
+}

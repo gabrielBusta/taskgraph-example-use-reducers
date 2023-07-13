@@ -1,0 +1,4646 @@
+{
+    "beetmover-addons-bundle": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "addons/opt",
+        "kind": "beetmover",
+        "release-artifacts": [
+          {
+            "name": "public/build/guide_01_how_to_vpn.rcc",
+            "path": "/builds/worker/artifacts/guide_01_how_to_vpn.rcc",
+            "type": "file"
+          },
+          {
+            "name": "public/build/guide_02_is_my_vpn_working_correctly.rcc",
+            "path": "/builds/worker/artifacts/guide_02_is_my_vpn_working_correctly.rcc",
+            "type": "file"
+          },
+          {
+            "name": "public/build/guide_03_adding_and_removing_devices.rcc",
+            "path": "/builds/worker/artifacts/guide_03_adding_and_removing_devices.rcc",
+            "type": "file"
+          },
+          {
+            "name": "public/build/guide_04_connecting_external_devices.rcc",
+            "path": "/builds/worker/artifacts/guide_04_connecting_external_devices.rcc",
+            "type": "file"
+          },
+          {
+            "name": "public/build/message_survey_28d_desktop.rcc",
+            "path": "/builds/worker/artifacts/message_survey_28d_desktop.rcc",
+            "type": "file"
+          },
+          {
+            "name": "public/build/message_survey_28d_mobile.rcc",
+            "path": "/builds/worker/artifacts/message_survey_28d_mobile.rcc",
+            "type": "file"
+          },
+          {
+            "name": "public/build/message_survey_staging_10s.rcc",
+            "path": "/builds/worker/artifacts/message_survey_staging_10s.rcc",
+            "type": "file"
+          },
+          {
+            "name": "public/build/message_survey_staging_4s.rcc",
+            "path": "/builds/worker/artifacts/message_survey_staging_4s.rcc",
+            "type": "file"
+          },
+          {
+            "name": "public/build/message_survey_staging_locale.rcc",
+            "path": "/builds/worker/artifacts/message_survey_staging_locale.rcc",
+            "type": "file"
+          },
+          {
+            "name": "public/build/tutorial_01_get_started.rcc",
+            "path": "/builds/worker/artifacts/tutorial_01_get_started.rcc",
+            "type": "file"
+          },
+          {
+            "name": "public/build/tutorial_02_connect_on_startup.rcc",
+            "path": "/builds/worker/artifacts/tutorial_02_connect_on_startup.rcc",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "github-push"
+        ]
+      },
+      "dependencies": {
+        "build": "build-addons-bundle"
+      },
+      "description": "This beetmover task will upload the addons-bundle to https://ftp.stage.mozaws.net/pub/vpn/addons/candidates/20220901144628/",
+      "if_dependencies": [],
+      "kind": "beetmover",
+      "label": "beetmover-addons-bundle",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 0
+          },
+          "parent": ""
+        },
+        "metadata": {
+          "description": "This beetmover task will upload the addons-bundle to https://ftp.stage.mozaws.net/pub/vpn/addons/candidates/20220901144628/",
+          "name": "beetmover-addons-bundle",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/beetmover"
+        },
+        "payload": {
+          "artifactMap": [
+            {
+              "locale": "multi",
+              "paths": {
+                "public/build/guide_01_how_to_vpn.rcc": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/guide_01_how_to_vpn.rcc"
+                  ]
+                },
+                "public/build/guide_02_is_my_vpn_working_correctly.rcc": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/guide_02_is_my_vpn_working_correctly.rcc"
+                  ]
+                },
+                "public/build/guide_03_adding_and_removing_devices.rcc": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/guide_03_adding_and_removing_devices.rcc"
+                  ]
+                },
+                "public/build/guide_04_connecting_external_devices.rcc": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/guide_04_connecting_external_devices.rcc"
+                  ]
+                },
+                "public/build/message_survey_28d_desktop.rcc": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/message_survey_28d_desktop.rcc"
+                  ]
+                },
+                "public/build/message_survey_28d_mobile.rcc": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/message_survey_28d_mobile.rcc"
+                  ]
+                },
+                "public/build/message_survey_staging_10s.rcc": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/message_survey_staging_10s.rcc"
+                  ]
+                },
+                "public/build/message_survey_staging_4s.rcc": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/message_survey_staging_4s.rcc"
+                  ]
+                },
+                "public/build/message_survey_staging_locale.rcc": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/message_survey_staging_locale.rcc"
+                  ]
+                },
+                "public/build/tutorial_01_get_started.rcc": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/tutorial_01_get_started.rcc"
+                  ]
+                },
+                "public/build/tutorial_02_connect_on_startup.rcc": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/tutorial_02_connect_on_startup.rcc"
+                  ]
+                }
+              },
+              "taskId": {
+                "task-reference": "<build>"
+              }
+            }
+          ],
+          "maxRunTime": 600,
+          "releaseProperties": {
+            "appName": "vpn",
+            "appVersion": "",
+            "branch": "refs/heads/releases/ahal/addons_signing",
+            "buildid": "20220901144628",
+            "hashType": "sha512",
+            "platform": "addons/opt"
+          },
+          "upload_date": 1662487657,
+          "upstreamArtifacts": [
+            {
+              "locale": "multi",
+              "paths": [
+                "public/build/guide_01_how_to_vpn.rcc",
+                "public/build/guide_02_is_my_vpn_working_correctly.rcc",
+                "public/build/guide_03_adding_and_removing_devices.rcc",
+                "public/build/guide_04_connecting_external_devices.rcc",
+                "public/build/message_survey_28d_desktop.rcc",
+                "public/build/message_survey_28d_mobile.rcc",
+                "public/build/message_survey_staging_10s.rcc",
+                "public/build/message_survey_staging_4s.rcc",
+                "public/build/message_survey_staging_locale.rcc",
+                "public/build/tutorial_01_get_started.rcc",
+                "public/build/tutorial_02_connect_on_startup.rcc"
+              ],
+              "taskId": {
+                "task-reference": "<build>"
+              },
+              "taskType": "build"
+            }
+          ]
+        },
+        "priority": "low",
+        "provisionerId": "scriptworker-k8s",
+        "routes": [
+          "checks"
+        ],
+        "scopes": [
+          "project:mozillavpn:releng:beetmover:bucket:dep",
+          "project:mozillavpn:releng:beetmover:action:push-to-candidates"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "beetmover",
+          "label": "beetmover-addons-bundle",
+          "os": "scriptworker",
+          "worker-implementation": "scriptworker"
+        },
+        "workerType": "mozillavpn-1-beetmover"
+      }
+    },
+    "beetmover-addons-manifest": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "addons/opt",
+        "kind": "beetmover",
+        "release-artifacts": [
+          {
+            "name": "public/build/manifest.json",
+            "path": "/builds/worker/artifacts/manifest.json",
+            "type": "file"
+          },
+          {
+            "name": "public/build/manifest.json.sig",
+            "path": "/builds/worker/artifacts/manifest.json.sig",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "github-push"
+        ]
+      },
+      "dependencies": {
+        "signing": "signing-addons-bundle"
+      },
+      "description": "This beetmover task will upload the addons-manifest to https://ftp.stage.mozaws.net/pub/vpn/addons/candidates/20220901144628/",
+      "if_dependencies": [],
+      "kind": "beetmover",
+      "label": "beetmover-addons-manifest",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 0
+          },
+          "parent": ""
+        },
+        "metadata": {
+          "description": "This beetmover task will upload the addons-manifest to https://ftp.stage.mozaws.net/pub/vpn/addons/candidates/20220901144628/",
+          "name": "beetmover-addons-manifest",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/beetmover"
+        },
+        "payload": {
+          "artifactMap": [
+            {
+              "locale": "multi",
+              "paths": {
+                "public/build/manifest.json": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/manifest.json"
+                  ]
+                },
+                "public/build/manifest.json.sig": {
+                  "checksums_path": "",
+                  "destinations": [
+                    "pub/vpn/addons/candidates/20220901144628/manifest.json.sig"
+                  ]
+                }
+              },
+              "taskId": {
+                "task-reference": "<signing>"
+              }
+            }
+          ],
+          "maxRunTime": 600,
+          "releaseProperties": {
+            "appName": "vpn",
+            "appVersion": "",
+            "branch": "refs/heads/releases/ahal/addons_signing",
+            "buildid": "20220901144628",
+            "hashType": "sha512",
+            "platform": "addons/opt"
+          },
+          "upload_date": 1662487657,
+          "upstreamArtifacts": [
+            {
+              "locale": "multi",
+              "paths": [
+                "public/build/manifest.json",
+                "public/build/manifest.json.sig"
+              ],
+              "taskId": {
+                "task-reference": "<signing>"
+              },
+              "taskType": "scriptworker"
+            }
+          ]
+        },
+        "priority": "low",
+        "provisionerId": "scriptworker-k8s",
+        "routes": [
+          "checks"
+        ],
+        "scopes": [
+          "project:mozillavpn:releng:beetmover:bucket:dep",
+          "project:mozillavpn:releng:beetmover:action:push-to-candidates"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "beetmover",
+          "label": "beetmover-addons-manifest",
+          "os": "scriptworker",
+          "worker-implementation": "scriptworker"
+        },
+        "workerType": "mozillavpn-1-beetmover"
+      }
+    },
+    "build-addons-bundle": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "addons/opt",
+        "kind": "build",
+        "release-artifacts": [
+          {
+            "name": "public/build/manifest.json",
+            "path": "/builds/worker/artifacts/manifest.json",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-wasm"
+      },
+      "description": "Addons Build",
+      "if_dependencies": [],
+      "kind": "build",
+      "label": "build-addons-bundle",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "chainOfTrust": {
+            "inputs": {
+              "docker-image": {
+                "task-reference": "<docker-image>"
+              }
+            }
+          },
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "all": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "addons"
+            },
+            "symbol": "A",
+            "tier": 1
+          },
+          "treeherder-platform": "addons/all"
+        },
+        "metadata": {
+          "description": "Addons Build ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-addons-bundle",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/build"
+        },
+        "payload": {
+          "artifacts": {
+            "public/build": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/builds/worker/artifacts",
+              "type": "directory"
+            },
+            "public/build/manifest.json": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/builds/worker/artifacts/manifest.json",
+              "type": "file"
+            }
+          },
+          "cache": {
+            "mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32": "/builds/worker/checkouts"
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--mozillavpn-checkout=/builds/worker/checkouts/vcs/",
+            "--task-cwd",
+            "/builds/worker/checkouts/vcs",
+            "--fetch-hgfingerprint",
+            "--",
+            "bash",
+            "-cx",
+            "./taskcluster/scripts/addons/build.sh"
+          ],
+          "env": {
+            "HG_STORE_PATH": "/builds/worker/checkouts/hg-store",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_CACHES": "/builds/worker/checkouts",
+            "TASKCLUSTER_UNTRUSTED_CACHES": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/checkouts",
+            "VCS_PATH": "/builds/worker/checkouts/vcs"
+          },
+          "features": {
+            "chainOfTrust": true,
+            "taskclusterProxy": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 3600,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "docker-worker:cache:mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "build",
+          "label": "build-addons-bundle",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "b-linux"
+      }
+    },
+    "build-android-arm64/debug": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "android-arm64/debug",
+        "kind": "build",
+        "release-artifacts": [
+          {
+            "name": "public/build/mozillavpn-arm64-v8a-debug.apk",
+            "path": "/builds/worker/artifacts/mozillavpn-arm64-v8a-debug.apk",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-android-build-arm64"
+      },
+      "description": "Android Debug (arm64-v8a)",
+      "if_dependencies": [],
+      "kind": "build",
+      "label": "build-android-arm64/debug",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "chainOfTrust": {
+            "inputs": {
+              "docker-image": {
+                "task-reference": "<docker-image>"
+              }
+            }
+          },
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "arm64-v8a": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "android"
+            },
+            "symbol": "BD",
+            "tier": 1
+          },
+          "treeherder-platform": "android/arm64-v8a"
+        },
+        "metadata": {
+          "description": "Android Debug (arm64-v8a) ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-android-arm64/debug",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/build"
+        },
+        "payload": {
+          "artifacts": {
+            "public/build/mozillavpn-arm64-v8a-debug.apk": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/builds/worker/artifacts/mozillavpn-arm64-v8a-debug.apk",
+              "type": "file"
+            }
+          },
+          "cache": {
+            "mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32": "/builds/worker/checkouts"
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--mozillavpn-checkout=/builds/worker/checkouts/vcs/",
+            "--task-cwd",
+            "/builds/worker/checkouts/vcs",
+            "--fetch-hgfingerprint",
+            "--",
+            "bash",
+            "-cx",
+            "./taskcluster/scripts/build/android_build_debug.sh arm64-v8a"
+          ],
+          "env": {
+            "HG_STORE_PATH": "/builds/worker/checkouts/hg-store",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_CACHES": "/builds/worker/checkouts",
+            "TASKCLUSTER_UNTRUSTED_CACHES": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/.cache;/builds/worker/checkouts",
+            "VCS_PATH": "/builds/worker/checkouts/vcs"
+          },
+          "features": {
+            "chainOfTrust": true,
+            "taskclusterProxy": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 3600,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "docker-worker:cache:mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "build",
+          "label": "build-android-arm64/debug",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "b-linux-large"
+      }
+    },
+    "build-android-armv7/debug": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "android-armv7/debug",
+        "kind": "build",
+        "release-artifacts": [
+          {
+            "name": "public/build/mozillavpn-armv7-debug.apk",
+            "path": "/builds/worker/artifacts/mozillavpn-armv7-debug.apk",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-android-build-armv7"
+      },
+      "description": "Android Debug (armv7)",
+      "if_dependencies": [],
+      "kind": "build",
+      "label": "build-android-armv7/debug",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "chainOfTrust": {
+            "inputs": {
+              "docker-image": {
+                "task-reference": "<docker-image>"
+              }
+            }
+          },
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "armv7": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "android"
+            },
+            "symbol": "BD",
+            "tier": 1
+          },
+          "treeherder-platform": "android/armv7"
+        },
+        "metadata": {
+          "description": "Android Debug (armv7) ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-android-armv7/debug",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/build"
+        },
+        "payload": {
+          "artifacts": {
+            "public/build/mozillavpn-armv7-debug.apk": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/builds/worker/artifacts/mozillavpn-armv7-debug.apk",
+              "type": "file"
+            }
+          },
+          "cache": {
+            "mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32": "/builds/worker/checkouts"
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--mozillavpn-checkout=/builds/worker/checkouts/vcs/",
+            "--task-cwd",
+            "/builds/worker/checkouts/vcs",
+            "--fetch-hgfingerprint",
+            "--",
+            "bash",
+            "-cx",
+            "./taskcluster/scripts/build/android_build_debug.sh armeabi-v7a"
+          ],
+          "env": {
+            "HG_STORE_PATH": "/builds/worker/checkouts/hg-store",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_CACHES": "/builds/worker/checkouts",
+            "TASKCLUSTER_UNTRUSTED_CACHES": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/.cache;/builds/worker/checkouts",
+            "VCS_PATH": "/builds/worker/checkouts/vcs"
+          },
+          "features": {
+            "chainOfTrust": true,
+            "taskclusterProxy": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 3600,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "docker-worker:cache:mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "build",
+          "label": "build-android-armv7/debug",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "b-linux-large"
+      }
+    },
+    "build-android-x64/debug": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "android-x64/debug",
+        "kind": "build",
+        "release-artifacts": [
+          {
+            "name": "public/build/mozillavpn-x86_64-debug.apk",
+            "path": "/builds/worker/artifacts/mozillavpn-x86_64-debug.apk",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-android-build-x64"
+      },
+      "description": "Android Debug (x86_64)",
+      "if_dependencies": [],
+      "kind": "build",
+      "label": "build-android-x64/debug",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "chainOfTrust": {
+            "inputs": {
+              "docker-image": {
+                "task-reference": "<docker-image>"
+              }
+            }
+          },
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "x86_64": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "android"
+            },
+            "symbol": "BD",
+            "tier": 1
+          },
+          "treeherder-platform": "android/x86_64"
+        },
+        "metadata": {
+          "description": "Android Debug (x86_64) ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-android-x64/debug",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/build"
+        },
+        "payload": {
+          "artifacts": {
+            "public/build/mozillavpn-x86_64-debug.apk": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/builds/worker/artifacts/mozillavpn-x86_64-debug.apk",
+              "type": "file"
+            }
+          },
+          "cache": {
+            "mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32": "/builds/worker/checkouts"
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--mozillavpn-checkout=/builds/worker/checkouts/vcs/",
+            "--task-cwd",
+            "/builds/worker/checkouts/vcs",
+            "--fetch-hgfingerprint",
+            "--",
+            "bash",
+            "-cx",
+            "./taskcluster/scripts/build/android_build_debug.sh x86_64"
+          ],
+          "env": {
+            "HG_STORE_PATH": "/builds/worker/checkouts/hg-store",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_CACHES": "/builds/worker/checkouts",
+            "TASKCLUSTER_UNTRUSTED_CACHES": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/.cache;/builds/worker/checkouts",
+            "VCS_PATH": "/builds/worker/checkouts/vcs"
+          },
+          "features": {
+            "chainOfTrust": true,
+            "taskclusterProxy": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 3600,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "docker-worker:cache:mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "build",
+          "label": "build-android-x64/debug",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "b-linux-large"
+      }
+    },
+    "build-android-x86/debug": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "android-x86/debug",
+        "kind": "build",
+        "release-artifacts": [
+          {
+            "name": "public/build/mozillavpn-x86-debug.apk",
+            "path": "/builds/worker/artifacts/mozillavpn-x86-debug.apk",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-android-build-x86"
+      },
+      "description": "Android Debug (x86)",
+      "if_dependencies": [],
+      "kind": "build",
+      "label": "build-android-x86/debug",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "chainOfTrust": {
+            "inputs": {
+              "docker-image": {
+                "task-reference": "<docker-image>"
+              }
+            }
+          },
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "x86": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "android"
+            },
+            "symbol": "BD",
+            "tier": 1
+          },
+          "treeherder-platform": "android/x86"
+        },
+        "metadata": {
+          "description": "Android Debug (x86) ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-android-x86/debug",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/build"
+        },
+        "payload": {
+          "artifacts": {
+            "public/build/mozillavpn-x86-debug.apk": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/builds/worker/artifacts/mozillavpn-x86-debug.apk",
+              "type": "file"
+            }
+          },
+          "cache": {
+            "mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32": "/builds/worker/checkouts"
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--mozillavpn-checkout=/builds/worker/checkouts/vcs/",
+            "--task-cwd",
+            "/builds/worker/checkouts/vcs",
+            "--fetch-hgfingerprint",
+            "--",
+            "bash",
+            "-cx",
+            "./taskcluster/scripts/build/android_build_debug.sh x86"
+          ],
+          "env": {
+            "HG_STORE_PATH": "/builds/worker/checkouts/hg-store",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_CACHES": "/builds/worker/checkouts",
+            "TASKCLUSTER_UNTRUSTED_CACHES": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/.cache;/builds/worker/checkouts",
+            "VCS_PATH": "/builds/worker/checkouts/vcs"
+          },
+          "features": {
+            "chainOfTrust": true,
+            "taskclusterProxy": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 3600,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "docker-worker:cache:mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "build",
+          "label": "build-android-x86/debug",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "b-linux-large"
+      }
+    },
+    "build-docker-image-android-build-arm64": {
+      "attributes": {
+        "always_target": false,
+        "artifact_prefix": "public",
+        "cached_task": {
+          "digest": "ac71f4554ee7048c600b9e6a846093cccbf24c4dddfc875c2acda5cf92f1368a",
+          "name": "android-build-arm64",
+          "type": "docker-images.v2"
+        },
+        "image_name": "android-build-arm64",
+        "kind": "docker-image",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "parent": "build-docker-image-base"
+      },
+      "description": "Build the docker image android-build-arm64 for use by dependent tasks",
+      "if_dependencies": [],
+      "kind": "docker-image",
+      "label": "build-docker-image-android-build-arm64",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.docker-images.v2.android-build-arm64.hash.ac71f4554ee7048c600b9e6a846093cccbf24c4dddfc875c2acda5cf92f1368a",
+          "mozillavpn.v2.mozillavpn.cache.level-2.docker-images.v2.android-build-arm64.hash.ac71f4554ee7048c600b9e6a846093cccbf24c4dddfc875c2acda5cf92f1368a",
+          "mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-arm64.hash.ac71f4554ee7048c600b9e6a846093cccbf24c4dddfc875c2acda5cf92f1368a"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Docker images",
+            "groupSymbol": "I",
+            "jobKind": "other",
+            "machine": {
+              "platform": "taskcluster-images"
+            },
+            "symbol": "android-arm64-v8a",
+            "tier": 1
+          },
+          "treeherder-platform": "taskcluster-images/opt"
+        },
+        "metadata": {
+          "description": "Build the docker image android-build-arm64 for use by dependent tasks ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-docker-image-android-build-arm64",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/docker-image"
+        },
+        "payload": {
+          "artifacts": {
+            "public/image.tar.zst": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/workspace/image.tar.zst",
+              "type": "file"
+            }
+          },
+          "env": {
+            "CONTEXT_PATH": "public/docker-contexts/android-build-arm64.tar.gz",
+            "CONTEXT_TASK_ID": {
+              "task-reference": "<decision>"
+            },
+            "DOCKER_BUILD_ARGS": {
+              "task-reference": "{\"ANDROID_ARCH\": \"android_arm64_v8a\", \"QT_VERSION\": \"6.2.4\", \"DOCKER_IMAGE_PACKAGES\": \"\"}"
+            },
+            "DOCKER_IMAGE_ZSTD_LEVEL": "3",
+            "HASH": "45676cf37375e4b42981e351d6e937276aa7353e08b8d92c9d7dad13b0dfaf8c",
+            "IMAGE_NAME": "android-build-arm64",
+            "MOZ_AUTOMATION": "1",
+            "PARENT_TASK_ID": {
+              "task-reference": "<parent>"
+            },
+            "PROJECT": "staging-mozilla-vpn-client",
+            "SCCACHE_DISABLE": "1",
+            "VCS_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "VCS_REPOSITORY_TYPE": "git"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": "taskcluster/image_builder:4.0.0@sha256:866c304445334703b68653e1390816012c9e6bdabfbd1906842b5b229e8ed044",
+          "maxRunTime": 7200,
+          "onExitStatus": {}
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-arm64.hash.ac71f4554ee7048c600b9e6a846093cccbf24c4dddfc875c2acda5cf92f1368a",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-arm64.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-arm64.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "docker-image",
+          "label": "build-docker-image-android-build-arm64"
+        },
+        "workerType": "images"
+      }
+    },
+    "build-docker-image-android-build-armv7": {
+      "attributes": {
+        "always_target": false,
+        "artifact_prefix": "public",
+        "cached_task": {
+          "digest": "d8c4217570e58c41bb47e9dfa9a7d8258afbd5033a8260fd355fa124425d77b3",
+          "name": "android-build-armv7",
+          "type": "docker-images.v2"
+        },
+        "image_name": "android-build-armv7",
+        "kind": "docker-image",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "parent": "build-docker-image-base"
+      },
+      "description": "Build the docker image android-build-armv7 for use by dependent tasks",
+      "if_dependencies": [],
+      "kind": "docker-image",
+      "label": "build-docker-image-android-build-armv7",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.docker-images.v2.android-build-armv7.hash.d8c4217570e58c41bb47e9dfa9a7d8258afbd5033a8260fd355fa124425d77b3",
+          "mozillavpn.v2.mozillavpn.cache.level-2.docker-images.v2.android-build-armv7.hash.d8c4217570e58c41bb47e9dfa9a7d8258afbd5033a8260fd355fa124425d77b3",
+          "mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-armv7.hash.d8c4217570e58c41bb47e9dfa9a7d8258afbd5033a8260fd355fa124425d77b3"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Docker images",
+            "groupSymbol": "I",
+            "jobKind": "other",
+            "machine": {
+              "platform": "taskcluster-images"
+            },
+            "symbol": "android_armv7",
+            "tier": 1
+          },
+          "treeherder-platform": "taskcluster-images/opt"
+        },
+        "metadata": {
+          "description": "Build the docker image android-build-armv7 for use by dependent tasks ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-docker-image-android-build-armv7",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/docker-image"
+        },
+        "payload": {
+          "artifacts": {
+            "public/image.tar.zst": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/workspace/image.tar.zst",
+              "type": "file"
+            }
+          },
+          "env": {
+            "CONTEXT_PATH": "public/docker-contexts/android-build-armv7.tar.gz",
+            "CONTEXT_TASK_ID": {
+              "task-reference": "<decision>"
+            },
+            "DOCKER_BUILD_ARGS": {
+              "task-reference": "{\"ANDROID_ARCH\": \"android_armv7\", \"QT_VERSION\": \"6.2.4\", \"DOCKER_IMAGE_PACKAGES\": \"\"}"
+            },
+            "DOCKER_IMAGE_ZSTD_LEVEL": "3",
+            "HASH": "45676cf37375e4b42981e351d6e937276aa7353e08b8d92c9d7dad13b0dfaf8c",
+            "IMAGE_NAME": "android-build-armv7",
+            "MOZ_AUTOMATION": "1",
+            "PARENT_TASK_ID": {
+              "task-reference": "<parent>"
+            },
+            "PROJECT": "staging-mozilla-vpn-client",
+            "SCCACHE_DISABLE": "1",
+            "VCS_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "VCS_REPOSITORY_TYPE": "git"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": "taskcluster/image_builder:4.0.0@sha256:866c304445334703b68653e1390816012c9e6bdabfbd1906842b5b229e8ed044",
+          "maxRunTime": 7200,
+          "onExitStatus": {}
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-armv7.hash.d8c4217570e58c41bb47e9dfa9a7d8258afbd5033a8260fd355fa124425d77b3",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-armv7.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-armv7.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "docker-image",
+          "label": "build-docker-image-android-build-armv7"
+        },
+        "workerType": "images"
+      }
+    },
+    "build-docker-image-android-build-x64": {
+      "attributes": {
+        "always_target": false,
+        "artifact_prefix": "public",
+        "cached_task": {
+          "digest": "9611852b75ae3923ec61addd69a6a2db55644f288eeaec7cd4a7625a747415da",
+          "name": "android-build-x64",
+          "type": "docker-images.v2"
+        },
+        "image_name": "android-build-x64",
+        "kind": "docker-image",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "parent": "build-docker-image-base"
+      },
+      "description": "Build the docker image android-build-x64 for use by dependent tasks",
+      "if_dependencies": [],
+      "kind": "docker-image",
+      "label": "build-docker-image-android-build-x64",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.docker-images.v2.android-build-x64.hash.9611852b75ae3923ec61addd69a6a2db55644f288eeaec7cd4a7625a747415da",
+          "mozillavpn.v2.mozillavpn.cache.level-2.docker-images.v2.android-build-x64.hash.9611852b75ae3923ec61addd69a6a2db55644f288eeaec7cd4a7625a747415da",
+          "mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-x64.hash.9611852b75ae3923ec61addd69a6a2db55644f288eeaec7cd4a7625a747415da"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Docker images",
+            "groupSymbol": "I",
+            "jobKind": "other",
+            "machine": {
+              "platform": "taskcluster-images"
+            },
+            "symbol": "android_x86_64",
+            "tier": 1
+          },
+          "treeherder-platform": "taskcluster-images/opt"
+        },
+        "metadata": {
+          "description": "Build the docker image android-build-x64 for use by dependent tasks ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-docker-image-android-build-x64",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/docker-image"
+        },
+        "payload": {
+          "artifacts": {
+            "public/image.tar.zst": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/workspace/image.tar.zst",
+              "type": "file"
+            }
+          },
+          "env": {
+            "CONTEXT_PATH": "public/docker-contexts/android-build-x64.tar.gz",
+            "CONTEXT_TASK_ID": {
+              "task-reference": "<decision>"
+            },
+            "DOCKER_BUILD_ARGS": {
+              "task-reference": "{\"ANDROID_ARCH\": \"android_x86_64\", \"QT_VERSION\": \"6.2.4\", \"DOCKER_IMAGE_PACKAGES\": \"\"}"
+            },
+            "DOCKER_IMAGE_ZSTD_LEVEL": "3",
+            "HASH": "45676cf37375e4b42981e351d6e937276aa7353e08b8d92c9d7dad13b0dfaf8c",
+            "IMAGE_NAME": "android-build-x64",
+            "MOZ_AUTOMATION": "1",
+            "PARENT_TASK_ID": {
+              "task-reference": "<parent>"
+            },
+            "PROJECT": "staging-mozilla-vpn-client",
+            "SCCACHE_DISABLE": "1",
+            "VCS_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "VCS_REPOSITORY_TYPE": "git"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": "taskcluster/image_builder:4.0.0@sha256:866c304445334703b68653e1390816012c9e6bdabfbd1906842b5b229e8ed044",
+          "maxRunTime": 7200,
+          "onExitStatus": {}
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-x64.hash.9611852b75ae3923ec61addd69a6a2db55644f288eeaec7cd4a7625a747415da",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-x64.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-x64.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "docker-image",
+          "label": "build-docker-image-android-build-x64"
+        },
+        "workerType": "images"
+      }
+    },
+    "build-docker-image-android-build-x86": {
+      "attributes": {
+        "always_target": false,
+        "artifact_prefix": "public",
+        "cached_task": {
+          "digest": "d3cb9138d71f40de0f9659fdbf7394a9904931ffb956866e3bf8e3032a717730",
+          "name": "android-build-x86",
+          "type": "docker-images.v2"
+        },
+        "image_name": "android-build-x86",
+        "kind": "docker-image",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "parent": "build-docker-image-base"
+      },
+      "description": "Build the docker image android-build-x86 for use by dependent tasks",
+      "if_dependencies": [],
+      "kind": "docker-image",
+      "label": "build-docker-image-android-build-x86",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.docker-images.v2.android-build-x86.hash.d3cb9138d71f40de0f9659fdbf7394a9904931ffb956866e3bf8e3032a717730",
+          "mozillavpn.v2.mozillavpn.cache.level-2.docker-images.v2.android-build-x86.hash.d3cb9138d71f40de0f9659fdbf7394a9904931ffb956866e3bf8e3032a717730",
+          "mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-x86.hash.d3cb9138d71f40de0f9659fdbf7394a9904931ffb956866e3bf8e3032a717730"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Docker images",
+            "groupSymbol": "I",
+            "jobKind": "other",
+            "machine": {
+              "platform": "taskcluster-images"
+            },
+            "symbol": "android_x86",
+            "tier": 1
+          },
+          "treeherder-platform": "taskcluster-images/opt"
+        },
+        "metadata": {
+          "description": "Build the docker image android-build-x86 for use by dependent tasks ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-docker-image-android-build-x86",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/docker-image"
+        },
+        "payload": {
+          "artifacts": {
+            "public/image.tar.zst": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/workspace/image.tar.zst",
+              "type": "file"
+            }
+          },
+          "env": {
+            "CONTEXT_PATH": "public/docker-contexts/android-build-x86.tar.gz",
+            "CONTEXT_TASK_ID": {
+              "task-reference": "<decision>"
+            },
+            "DOCKER_BUILD_ARGS": {
+              "task-reference": "{\"ANDROID_ARCH\": \"android_x86\", \"QT_VERSION\": \"6.2.4\", \"DOCKER_IMAGE_PACKAGES\": \"\"}"
+            },
+            "DOCKER_IMAGE_ZSTD_LEVEL": "3",
+            "HASH": "45676cf37375e4b42981e351d6e937276aa7353e08b8d92c9d7dad13b0dfaf8c",
+            "IMAGE_NAME": "android-build-x86",
+            "MOZ_AUTOMATION": "1",
+            "PARENT_TASK_ID": {
+              "task-reference": "<parent>"
+            },
+            "PROJECT": "staging-mozilla-vpn-client",
+            "SCCACHE_DISABLE": "1",
+            "VCS_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "VCS_REPOSITORY_TYPE": "git"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": "taskcluster/image_builder:4.0.0@sha256:866c304445334703b68653e1390816012c9e6bdabfbd1906842b5b229e8ed044",
+          "maxRunTime": 7200,
+          "onExitStatus": {}
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-x86.hash.d3cb9138d71f40de0f9659fdbf7394a9904931ffb956866e3bf8e3032a717730",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-x86.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.android-build-x86.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "docker-image",
+          "label": "build-docker-image-android-build-x86"
+        },
+        "workerType": "images"
+      }
+    },
+    "build-docker-image-base": {
+      "attributes": {
+        "always_target": false,
+        "artifact_prefix": "public",
+        "cached_task": {
+          "digest": "75fdbcb5c8127b0a141b32e2513f78c53d238faf94273b95119619af7208fcbf",
+          "name": "base",
+          "type": "docker-images.v2"
+        },
+        "image_name": "base",
+        "kind": "docker-image",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {},
+      "description": "Build the docker image base for use by dependent tasks",
+      "if_dependencies": [],
+      "kind": "docker-image",
+      "label": "build-docker-image-base",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.docker-images.v2.base.hash.75fdbcb5c8127b0a141b32e2513f78c53d238faf94273b95119619af7208fcbf",
+          "mozillavpn.v2.mozillavpn.cache.level-2.docker-images.v2.base.hash.75fdbcb5c8127b0a141b32e2513f78c53d238faf94273b95119619af7208fcbf",
+          "mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.base.hash.75fdbcb5c8127b0a141b32e2513f78c53d238faf94273b95119619af7208fcbf"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Docker images",
+            "groupSymbol": "I",
+            "jobKind": "other",
+            "machine": {
+              "platform": "taskcluster-images"
+            },
+            "symbol": "base",
+            "tier": 1
+          },
+          "treeherder-platform": "taskcluster-images/opt"
+        },
+        "metadata": {
+          "description": "Build the docker image base for use by dependent tasks ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-docker-image-base",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/docker-image"
+        },
+        "payload": {
+          "artifacts": {
+            "public/image.tar.zst": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/workspace/image.tar.zst",
+              "type": "file"
+            }
+          },
+          "env": {
+            "CONTEXT_PATH": "public/docker-contexts/base.tar.gz",
+            "CONTEXT_TASK_ID": {
+              "task-reference": "<decision>"
+            },
+            "DOCKER_BUILD_ARGS": {
+              "task-reference": "{\"DOCKER_IMAGE_PACKAGES\": \"\"}"
+            },
+            "DOCKER_IMAGE_ZSTD_LEVEL": "3",
+            "HASH": "1f68362dfdb63074b178395bbf92bf8b1e5078ff73ecc4e7d27481347fa1589e",
+            "IMAGE_NAME": "base",
+            "MOZ_AUTOMATION": "1",
+            "PROJECT": "staging-mozilla-vpn-client",
+            "SCCACHE_DISABLE": "1",
+            "VCS_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "VCS_REPOSITORY_TYPE": "git"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": "taskcluster/image_builder:4.0.0@sha256:866c304445334703b68653e1390816012c9e6bdabfbd1906842b5b229e8ed044",
+          "maxRunTime": 7200,
+          "onExitStatus": {}
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.base.hash.75fdbcb5c8127b0a141b32e2513f78c53d238faf94273b95119619af7208fcbf",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.base.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.base.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "docker-image",
+          "label": "build-docker-image-base"
+        },
+        "workerType": "images"
+      }
+    },
+    "build-docker-image-build": {
+      "attributes": {
+        "always_target": false,
+        "artifact_prefix": "public",
+        "cached_task": {
+          "digest": "cde5b097a6b20e6963867b88619a6804875c89d2e60a90f0a789c20fd5d24035",
+          "name": "build",
+          "type": "docker-images.v2"
+        },
+        "image_name": "build",
+        "kind": "docker-image",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "parent": "build-docker-image-base"
+      },
+      "description": "Build the docker image build for use by dependent tasks",
+      "if_dependencies": [],
+      "kind": "docker-image",
+      "label": "build-docker-image-build",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.docker-images.v2.build.hash.cde5b097a6b20e6963867b88619a6804875c89d2e60a90f0a789c20fd5d24035",
+          "mozillavpn.v2.mozillavpn.cache.level-2.docker-images.v2.build.hash.cde5b097a6b20e6963867b88619a6804875c89d2e60a90f0a789c20fd5d24035",
+          "mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.build.hash.cde5b097a6b20e6963867b88619a6804875c89d2e60a90f0a789c20fd5d24035"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Docker images",
+            "groupSymbol": "I",
+            "jobKind": "other",
+            "machine": {
+              "platform": "taskcluster-images"
+            },
+            "symbol": "build",
+            "tier": 1
+          },
+          "treeherder-platform": "taskcluster-images/opt"
+        },
+        "metadata": {
+          "description": "Build the docker image build for use by dependent tasks ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-docker-image-build",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/docker-image"
+        },
+        "payload": {
+          "artifacts": {
+            "public/image.tar.zst": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/workspace/image.tar.zst",
+              "type": "file"
+            }
+          },
+          "env": {
+            "CONTEXT_PATH": "public/docker-contexts/build.tar.gz",
+            "CONTEXT_TASK_ID": {
+              "task-reference": "<decision>"
+            },
+            "DOCKER_BUILD_ARGS": {
+              "task-reference": "{\"DOCKER_IMAGE_PACKAGES\": \"\"}"
+            },
+            "DOCKER_IMAGE_ZSTD_LEVEL": "3",
+            "HASH": "88afc529b35b2bdd4e9b7879ae76b047d8889befc9e0f5f064f00a1425f88289",
+            "IMAGE_NAME": "build",
+            "MOZ_AUTOMATION": "1",
+            "PARENT_TASK_ID": {
+              "task-reference": "<parent>"
+            },
+            "PROJECT": "staging-mozilla-vpn-client",
+            "SCCACHE_DISABLE": "1",
+            "VCS_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "VCS_REPOSITORY_TYPE": "git"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": "taskcluster/image_builder:4.0.0@sha256:866c304445334703b68653e1390816012c9e6bdabfbd1906842b5b229e8ed044",
+          "maxRunTime": 7200,
+          "onExitStatus": {}
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.build.hash.cde5b097a6b20e6963867b88619a6804875c89d2e60a90f0a789c20fd5d24035",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.build.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.build.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "docker-image",
+          "label": "build-docker-image-build"
+        },
+        "workerType": "images"
+      }
+    },
+    "build-docker-image-lint": {
+      "attributes": {
+        "always_target": false,
+        "artifact_prefix": "public",
+        "cached_task": {
+          "digest": "58720151b4a51e4de522049f598c254668264790d791335cf2cf108fe194cc3f",
+          "name": "lint",
+          "type": "docker-images.v2"
+        },
+        "image_name": "lint",
+        "kind": "docker-image",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "parent": "build-docker-image-base"
+      },
+      "description": "Build the docker image lint for use by dependent tasks",
+      "if_dependencies": [],
+      "kind": "docker-image",
+      "label": "build-docker-image-lint",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.docker-images.v2.lint.hash.58720151b4a51e4de522049f598c254668264790d791335cf2cf108fe194cc3f",
+          "mozillavpn.v2.mozillavpn.cache.level-2.docker-images.v2.lint.hash.58720151b4a51e4de522049f598c254668264790d791335cf2cf108fe194cc3f",
+          "mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.lint.hash.58720151b4a51e4de522049f598c254668264790d791335cf2cf108fe194cc3f"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Docker images",
+            "groupSymbol": "I",
+            "jobKind": "other",
+            "machine": {
+              "platform": "taskcluster-images"
+            },
+            "symbol": "lint",
+            "tier": 1
+          },
+          "treeherder-platform": "taskcluster-images/opt"
+        },
+        "metadata": {
+          "description": "Build the docker image lint for use by dependent tasks ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-docker-image-lint",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/docker-image"
+        },
+        "payload": {
+          "artifacts": {
+            "public/image.tar.zst": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/workspace/image.tar.zst",
+              "type": "file"
+            }
+          },
+          "env": {
+            "CONTEXT_PATH": "public/docker-contexts/lint.tar.gz",
+            "CONTEXT_TASK_ID": {
+              "task-reference": "<decision>"
+            },
+            "DOCKER_BUILD_ARGS": {
+              "task-reference": "{\"DOCKER_IMAGE_PACKAGES\": \"\"}"
+            },
+            "DOCKER_IMAGE_ZSTD_LEVEL": "3",
+            "HASH": "441a2f48890efef8a3b8f42552e24a3cce957b1eec7f54c0a387d480187815be",
+            "IMAGE_NAME": "lint",
+            "MOZ_AUTOMATION": "1",
+            "PARENT_TASK_ID": {
+              "task-reference": "<parent>"
+            },
+            "PROJECT": "staging-mozilla-vpn-client",
+            "SCCACHE_DISABLE": "1",
+            "VCS_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "VCS_REPOSITORY_TYPE": "git"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": "taskcluster/image_builder:4.0.0@sha256:866c304445334703b68653e1390816012c9e6bdabfbd1906842b5b229e8ed044",
+          "maxRunTime": 7200,
+          "onExitStatus": {}
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.lint.hash.58720151b4a51e4de522049f598c254668264790d791335cf2cf108fe194cc3f",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.lint.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.lint.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "docker-image",
+          "label": "build-docker-image-lint"
+        },
+        "workerType": "images"
+      }
+    },
+    "build-docker-image-wasm": {
+      "attributes": {
+        "always_target": false,
+        "artifact_prefix": "public",
+        "cached_task": {
+          "digest": "678cc536a3747718482502d638c9ed5fa9ec54aa64cebc1f279b8254c920f905",
+          "name": "wasm",
+          "type": "docker-images.v2"
+        },
+        "image_name": "wasm",
+        "kind": "docker-image",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "parent": "build-docker-image-base"
+      },
+      "description": "Build the docker image wasm for use by dependent tasks",
+      "if_dependencies": [],
+      "kind": "docker-image",
+      "label": "build-docker-image-wasm",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.docker-images.v2.wasm.hash.678cc536a3747718482502d638c9ed5fa9ec54aa64cebc1f279b8254c920f905",
+          "mozillavpn.v2.mozillavpn.cache.level-2.docker-images.v2.wasm.hash.678cc536a3747718482502d638c9ed5fa9ec54aa64cebc1f279b8254c920f905",
+          "mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.wasm.hash.678cc536a3747718482502d638c9ed5fa9ec54aa64cebc1f279b8254c920f905"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Docker images",
+            "groupSymbol": "I",
+            "jobKind": "other",
+            "machine": {
+              "platform": "taskcluster-images"
+            },
+            "symbol": "wasm",
+            "tier": 1
+          },
+          "treeherder-platform": "taskcluster-images/opt"
+        },
+        "metadata": {
+          "description": "Build the docker image wasm for use by dependent tasks ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-docker-image-wasm",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/docker-image"
+        },
+        "payload": {
+          "artifacts": {
+            "public/image.tar.zst": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/workspace/image.tar.zst",
+              "type": "file"
+            }
+          },
+          "env": {
+            "CONTEXT_PATH": "public/docker-contexts/wasm.tar.gz",
+            "CONTEXT_TASK_ID": {
+              "task-reference": "<decision>"
+            },
+            "DOCKER_BUILD_ARGS": {
+              "task-reference": "{\"QT_VERSION\": \"6.2.4\", \"DOCKER_IMAGE_PACKAGES\": \"\"}"
+            },
+            "DOCKER_IMAGE_ZSTD_LEVEL": "3",
+            "HASH": "e7efdb3704214ee3efea37834bd86a3079539855de12b31b3ed21bef5a7631f2",
+            "IMAGE_NAME": "wasm",
+            "MOZ_AUTOMATION": "1",
+            "PARENT_TASK_ID": {
+              "task-reference": "<parent>"
+            },
+            "PROJECT": "staging-mozilla-vpn-client",
+            "SCCACHE_DISABLE": "1",
+            "VCS_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "VCS_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "VCS_REPOSITORY_TYPE": "git"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": "taskcluster/image_builder:4.0.0@sha256:866c304445334703b68653e1390816012c9e6bdabfbd1906842b5b229e8ed044",
+          "maxRunTime": 7200,
+          "onExitStatus": {}
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.wasm.hash.678cc536a3747718482502d638c9ed5fa9ec54aa64cebc1f279b8254c920f905",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.wasm.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.docker-images.v2.wasm.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "docker-image",
+          "label": "build-docker-image-wasm"
+        },
+        "workerType": "images"
+      }
+    },
+    "build-ios/debug": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "ios/debug",
+        "kind": "build",
+        "release-artifacts": [
+          {
+            "name": "public/build/MozillaVPN.tar.gz",
+            "path": "artifacts/MozillaVPN.tar.gz",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "toolchain-qt-ios": "toolchain-qt-ios"
+      },
+      "description": "IOS Debug Build",
+      "if_dependencies": [],
+      "kind": "build",
+      "label": "build-ios/debug",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "debug": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "ios"
+            },
+            "symbol": "B",
+            "tier": 1
+          },
+          "treeherder-platform": "ios/debug"
+        },
+        "metadata": {
+          "description": "IOS Debug Build ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-ios/debug",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/build"
+        },
+        "payload": {
+          "artifacts": [
+            {
+              "name": "public/build/MozillaVPN.tar.gz",
+              "path": "artifacts/MozillaVPN.tar.gz",
+              "type": "file"
+            }
+          ],
+          "command": [
+            [
+              "chmod",
+              "+x",
+              "run-task"
+            ],
+            [
+              "/tools/python36/bin/python3",
+              "run-task",
+              "--mozillavpn-checkout=./checkouts/vcs/",
+              "--task-cwd",
+              "checkouts/vcs",
+              "--",
+              "bash",
+              "-cx",
+              "./taskcluster/scripts/build/ios_build_no_adjust.sh"
+            ]
+          ],
+          "env": {
+            "HG_STORE_PATH": "./checkouts/hg-shared",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_FETCHES": {
+              "task-reference": "[{\"artifact\": \"public/build/qt6_ios.zip\", \"extract\": true, \"task\": \"<toolchain-qt-ios>\"}]"
+            },
+            "MOZ_FETCHES_DIR": "fetches",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "VCS_PATH": "./checkouts/vcs"
+          },
+          "features": {
+            "chainOfTrust": true,
+            "taskclusterProxy": true
+          },
+          "maxRunTime": 3600,
+          "mounts": [
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/run-task"
+              },
+              "file": "./run-task"
+            },
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/fetch-content"
+              },
+              "file": "./fetch-content"
+            }
+          ]
+        },
+        "priority": "low",
+        "provisionerId": "releng-hardware",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "build",
+          "label": "build-ios/debug",
+          "os": "macosx",
+          "worker-implementation": "generic-worker"
+        },
+        "workerType": "mozillavpn-b-1-osx"
+      }
+    },
+    "build-linux/opt": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "linux/opt",
+        "kind": "build",
+        "release-artifacts": [
+          {
+            "name": "public/build/target.tar.gz",
+            "path": "/builds/worker/artifacts/target.tar.gz",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-build"
+      },
+      "description": "Linux Build",
+      "if_dependencies": [],
+      "kind": "build",
+      "label": "build-linux/opt",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "chainOfTrust": {
+            "inputs": {
+              "docker-image": {
+                "task-reference": "<docker-image>"
+              }
+            }
+          },
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "linux"
+            },
+            "symbol": "B",
+            "tier": 1
+          },
+          "treeherder-platform": "linux/opt"
+        },
+        "metadata": {
+          "description": "Linux Build ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-linux/opt",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/build"
+        },
+        "payload": {
+          "artifacts": {
+            "public/build/target.tar.gz": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/builds/worker/artifacts/target.tar.gz",
+              "type": "file"
+            }
+          },
+          "cache": {
+            "mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32": "/builds/worker/checkouts"
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--mozillavpn-checkout=/builds/worker/checkouts/vcs/",
+            "--task-cwd",
+            "/builds/worker/checkouts/vcs",
+            "--fetch-hgfingerprint",
+            "--",
+            "bash",
+            "-cx",
+            "./taskcluster/scripts/build/linux.sh"
+          ],
+          "env": {
+            "HG_STORE_PATH": "/builds/worker/checkouts/hg-store",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_CACHES": "/builds/worker/checkouts",
+            "TASKCLUSTER_UNTRUSTED_CACHES": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/.cache;/builds/worker/checkouts",
+            "VCS_PATH": "/builds/worker/checkouts/vcs"
+          },
+          "features": {
+            "chainOfTrust": true,
+            "taskclusterProxy": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 3600,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "docker-worker:cache:mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "build",
+          "label": "build-linux/opt",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "b-linux"
+      }
+    },
+    "build-macos/opt": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "macos/opt",
+        "kind": "build",
+        "release-artifacts": [
+          {
+            "name": "public/build/MozillaVPN.tar.gz",
+            "path": "artifacts/MozillaVPN.tar.gz",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "toolchain-qt-mac": "toolchain-qt-mac"
+      },
+      "description": "Mac Build",
+      "if_dependencies": [],
+      "kind": "build",
+      "label": "build-macos/opt",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "macos"
+            },
+            "symbol": "B",
+            "tier": 1
+          },
+          "treeherder-platform": "macos/opt"
+        },
+        "metadata": {
+          "description": "Mac Build ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-macos/opt",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/build"
+        },
+        "payload": {
+          "artifacts": [
+            {
+              "name": "public/build/MozillaVPN.tar.gz",
+              "path": "artifacts/MozillaVPN.tar.gz",
+              "type": "file"
+            }
+          ],
+          "command": [
+            [
+              "chmod",
+              "+x",
+              "run-task"
+            ],
+            [
+              "/tools/python36/bin/python3",
+              "run-task",
+              "--mozillavpn-checkout=./checkouts/vcs/",
+              "--task-cwd",
+              "checkouts/vcs",
+              "--",
+              "bash",
+              "-cx",
+              "./taskcluster/scripts/build/macos_build.sh"
+            ]
+          ],
+          "env": {
+            "HG_STORE_PATH": "./checkouts/hg-shared",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_FETCHES": {
+              "task-reference": "[{\"artifact\": \"public/build/qt6_mac.zip\", \"extract\": true, \"task\": \"<toolchain-qt-mac>\"}]"
+            },
+            "MOZ_FETCHES_DIR": "fetches",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "VCS_PATH": "./checkouts/vcs"
+          },
+          "features": {
+            "chainOfTrust": true,
+            "taskclusterProxy": true
+          },
+          "maxRunTime": 3600,
+          "mounts": [
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/run-task"
+              },
+              "file": "./run-task"
+            },
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/fetch-content"
+              },
+              "file": "./fetch-content"
+            }
+          ]
+        },
+        "priority": "low",
+        "provisionerId": "releng-hardware",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "project:releng:services/tooltool/api/download/public",
+          "project:releng:services/tooltool/api/download/internal"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "build",
+          "label": "build-macos/opt",
+          "os": "macosx",
+          "worker-implementation": "generic-worker"
+        },
+        "workerType": "mozillavpn-b-1-osx"
+      }
+    },
+    "build-wasm/opt": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "wasm/opt",
+        "kind": "build",
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-wasm"
+      },
+      "description": "Wasm Build",
+      "if_dependencies": [],
+      "kind": "build",
+      "label": "build-wasm/opt",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "web"
+            },
+            "symbol": "B",
+            "tier": 1
+          },
+          "treeherder-platform": "web/opt"
+        },
+        "metadata": {
+          "description": "Wasm Build ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-wasm/opt",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/build"
+        },
+        "payload": {
+          "artifacts": {
+            "public/build": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/builds/worker/artifacts",
+              "type": "directory"
+            }
+          },
+          "cache": {
+            "mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32": "/builds/worker/checkouts"
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--mozillavpn-checkout=/builds/worker/checkouts/vcs/",
+            "--task-cwd",
+            "/builds/worker/checkouts/vcs",
+            "--fetch-hgfingerprint",
+            "--",
+            "bash",
+            "-cx",
+            "./taskcluster/scripts/build/wasm.sh"
+          ],
+          "env": {
+            "HG_STORE_PATH": "/builds/worker/checkouts/hg-store",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_CACHES": "/builds/worker/checkouts",
+            "TASKCLUSTER_UNTRUSTED_CACHES": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/checkouts",
+            "VCS_PATH": "/builds/worker/checkouts/vcs"
+          },
+          "features": {
+            "taskclusterProxy": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 3600,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "docker-worker:cache:mozillavpn-level-1-checkouts-hg58-v3-c1418fd100cffee49e32"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "build",
+          "label": "build-wasm/opt",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "b-linux"
+      }
+    },
+    "build-windows/opt": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "windows/opt",
+        "kind": "build",
+        "release-artifacts": [
+          {
+            "name": "public/build/unsigned.zip",
+            "path": "artifacts/unsigned.zip",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "fetch-win-dev-env": "fetch-win-dev-env",
+        "fetch-win-go": "fetch-win-go",
+        "fetch-win-perl": "fetch-win-perl",
+        "fetch-win-rustup": "fetch-win-rustup",
+        "toolchain-qt-win": "toolchain-qt-win"
+      },
+      "description": "Windows Build",
+      "if_dependencies": [],
+      "kind": "build",
+      "label": "build-windows/opt",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "x64": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "windows"
+            },
+            "symbol": "B",
+            "tier": 1
+          },
+          "treeherder-platform": "windows/x64"
+        },
+        "metadata": {
+          "description": "Windows Build ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "build-windows/opt",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/build"
+        },
+        "payload": {
+          "artifacts": [
+            {
+              "name": "public/build/MozillaVPN.msi",
+              "path": "artifacts/MozillaVPN.msi",
+              "type": "file"
+            },
+            {
+              "name": "public/build/Mozilla VPN.pdb",
+              "path": "artifacts/Mozilla VPN.pdb",
+              "type": "file"
+            },
+            {
+              "name": "public/build/unsigned.zip",
+              "path": "artifacts/unsigned.zip",
+              "type": "file"
+            }
+          ],
+          "command": [
+            "C:/mozilla-build/python3/python3.exe run-task --mozillavpn-checkout=./build/src/ --task-cwd build/src -- powershell.exe -ExecutionPolicy Bypass \"taskcluster/scripts/build/windows.ps1\""
+          ],
+          "env": {
+            "HG_STORE_PATH": "y:/hg-shared",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_FETCHES": {
+              "task-reference": "[{\"artifact\": \"public/vs_studio_sdk.zip\", \"extract\": true, \"task\": \"<fetch-win-dev-env>\"}, {\"artifact\": \"public/rustup-init.exe\", \"extract\": true, \"task\": \"<fetch-win-rustup>\"}, {\"artifact\": \"public/go1.17beta1-windows_amd64_2021-06-11.zip\", \"extract\": true, \"task\": \"<fetch-win-go>\"}, {\"artifact\": \"public/strawberry-perl.zip\", \"extract\": true, \"task\": \"<fetch-win-perl>\"}, {\"artifact\": \"public/build/qt6_win.zip\", \"extract\": true, \"task\": \"<toolchain-qt-win>\"}]"
+            },
+            "MOZ_FETCHES_DIR": "fetches",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "VCS_PATH": "./build/src"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "maxRunTime": 3600,
+          "mounts": [
+            {
+              "cacheName": "mozillavpn-level-1-checkouts",
+              "directory": "./build"
+            },
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/run-task"
+              },
+              "file": "./run-task"
+            },
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/fetch-content"
+              },
+              "file": "./fetch-content"
+            }
+          ],
+          "onExitStatus": {
+            "retry": [
+              1073807364,
+              3221225786
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "generic-worker:cache:mozillavpn-level-1-checkouts"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "build",
+          "label": "build-windows/opt",
+          "os": "windows",
+          "worker-implementation": "generic-worker"
+        },
+        "workerType": "b-win2012"
+      }
+    },
+    "fetch-win-dev-env": {
+      "attributes": {
+        "always_target": false,
+        "cached_task": {
+          "digest": "acfbb8dae3f280d887d9088a2dee18199ff17a72eb2ff91481cca2db772c92e6",
+          "name": "win-dev-env",
+          "type": "content.v1"
+        },
+        "fetch-alias": "win-dev-env",
+        "fetch-artifact": "public/vs_studio_sdk.zip",
+        "kind": "fetch",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-base"
+      },
+      "description": "Windows Dev-Enviroment",
+      "if_dependencies": [],
+      "kind": "fetch",
+      "label": "fetch-win-dev-env",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.content.v1.win-dev-env.hash.acfbb8dae3f280d887d9088a2dee18199ff17a72eb2ff91481cca2db772c92e6",
+          "mozillavpn.v2.mozillavpn.cache.level-2.content.v1.win-dev-env.hash.acfbb8dae3f280d887d9088a2dee18199ff17a72eb2ff91481cca2db772c92e6",
+          "mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-dev-env.hash.acfbb8dae3f280d887d9088a2dee18199ff17a72eb2ff91481cca2db772c92e6"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "28 days"
+        },
+        "extra": {
+          "chainOfTrust": {
+            "inputs": {
+              "docker-image": {
+                "task-reference": "<docker-image>"
+              }
+            }
+          },
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Fetching Tasks",
+            "groupSymbol": "Fetch",
+            "jobKind": "build",
+            "machine": {
+              "platform": "fetch"
+            },
+            "symbol": "win-dev-env",
+            "tier": 1
+          },
+          "treeherder-platform": "fetch/opt"
+        },
+        "metadata": {
+          "description": "Windows Dev-Enviroment ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "fetch-win-dev-env",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/fetch"
+        },
+        "payload": {
+          "artifacts": {
+            "public": {
+              "expires": {
+                "relative-datestamp": "28 days"
+              },
+              "path": "/builds/worker/artifacts",
+              "type": "directory"
+            }
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--fetch-hgfingerprint",
+            "--",
+            "fetch-content",
+            "static-url",
+            "--sha256",
+            "56ad52e56f61db57446ca2c1a3752b4d33bb7aadc4637eedbf67cfcaece25914",
+            "--size",
+            "1514372704",
+            "https://s3.nl-ams.scw.cloud/basti.data/vs_studio_sdk.zip",
+            "/builds/worker/artifacts/vs_studio_sdk.zip"
+          ],
+          "env": {
+            "MOZ_AUTOMATION": "1",
+            "MOZ_SCM_LEVEL": "1",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/.cache;/builds/worker/checkouts",
+            "UPLOAD_DIR": "/builds/worker/artifacts"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 900,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-dev-env.hash.acfbb8dae3f280d887d9088a2dee18199ff17a72eb2ff91481cca2db772c92e6",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-dev-env.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-dev-env.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "fetch",
+          "label": "fetch-win-dev-env",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "images"
+      }
+    },
+    "fetch-win-go": {
+      "attributes": {
+        "always_target": false,
+        "cached_task": {
+          "digest": "2e6c5a873569c9ed7cc22dffb9ead8229bc48ba209b4e8516f94bfe15b793920",
+          "name": "win-go",
+          "type": "content.v1"
+        },
+        "fetch-artifact": "public/go1.17beta1-windows_amd64_2021-06-11.zip",
+        "kind": "fetch",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-base"
+      },
+      "description": "go1.17beta1",
+      "if_dependencies": [],
+      "kind": "fetch",
+      "label": "fetch-win-go",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.content.v1.win-go.hash.2e6c5a873569c9ed7cc22dffb9ead8229bc48ba209b4e8516f94bfe15b793920",
+          "mozillavpn.v2.mozillavpn.cache.level-2.content.v1.win-go.hash.2e6c5a873569c9ed7cc22dffb9ead8229bc48ba209b4e8516f94bfe15b793920",
+          "mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-go.hash.2e6c5a873569c9ed7cc22dffb9ead8229bc48ba209b4e8516f94bfe15b793920"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "28 days"
+        },
+        "extra": {
+          "chainOfTrust": {
+            "inputs": {
+              "docker-image": {
+                "task-reference": "<docker-image>"
+              }
+            }
+          },
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Fetching Tasks",
+            "groupSymbol": "Fetch",
+            "jobKind": "build",
+            "machine": {
+              "platform": "fetch"
+            },
+            "symbol": "win-go",
+            "tier": 1
+          },
+          "treeherder-platform": "fetch/opt"
+        },
+        "metadata": {
+          "description": "go1.17beta1 ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "fetch-win-go",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/fetch"
+        },
+        "payload": {
+          "artifacts": {
+            "public": {
+              "expires": {
+                "relative-datestamp": "28 days"
+              },
+              "path": "/builds/worker/artifacts",
+              "type": "directory"
+            }
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--fetch-hgfingerprint",
+            "--",
+            "fetch-content",
+            "static-url",
+            "--sha256",
+            "09601956a35ee4c2fa199da301c4b210fd365a46d286a7160388a1cdc07b7a6d",
+            "--size",
+            "83720417",
+            "https://download.wireguard.com/windows-toolchain/distfiles/go1.17beta1-windows_amd64_2021-06-11.zip",
+            "/builds/worker/artifacts/go1.17beta1-windows_amd64_2021-06-11.zip"
+          ],
+          "env": {
+            "MOZ_AUTOMATION": "1",
+            "MOZ_SCM_LEVEL": "1",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/.cache;/builds/worker/checkouts",
+            "UPLOAD_DIR": "/builds/worker/artifacts"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 900,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-go.hash.2e6c5a873569c9ed7cc22dffb9ead8229bc48ba209b4e8516f94bfe15b793920",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-go.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-go.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "fetch",
+          "label": "fetch-win-go",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "images"
+      }
+    },
+    "fetch-win-perl": {
+      "attributes": {
+        "always_target": false,
+        "cached_task": {
+          "digest": "a6398a09e27ee8722b927833c9114c7a2f0edb6ba2316b0c00a2486ca284fc92",
+          "name": "win-perl",
+          "type": "content.v1"
+        },
+        "fetch-alias": "win-perl",
+        "fetch-artifact": "public/strawberry-perl.zip",
+        "kind": "fetch",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-base"
+      },
+      "description": "Strawberry Perl",
+      "if_dependencies": [],
+      "kind": "fetch",
+      "label": "fetch-win-perl",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.content.v1.win-perl.hash.a6398a09e27ee8722b927833c9114c7a2f0edb6ba2316b0c00a2486ca284fc92",
+          "mozillavpn.v2.mozillavpn.cache.level-2.content.v1.win-perl.hash.a6398a09e27ee8722b927833c9114c7a2f0edb6ba2316b0c00a2486ca284fc92",
+          "mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-perl.hash.a6398a09e27ee8722b927833c9114c7a2f0edb6ba2316b0c00a2486ca284fc92"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "28 days"
+        },
+        "extra": {
+          "chainOfTrust": {
+            "inputs": {
+              "docker-image": {
+                "task-reference": "<docker-image>"
+              }
+            }
+          },
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Fetching Tasks",
+            "groupSymbol": "Fetch",
+            "jobKind": "build",
+            "machine": {
+              "platform": "fetch"
+            },
+            "symbol": "win-perl",
+            "tier": 1
+          },
+          "treeherder-platform": "fetch/opt"
+        },
+        "metadata": {
+          "description": "Strawberry Perl ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "fetch-win-perl",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/fetch"
+        },
+        "payload": {
+          "artifacts": {
+            "public": {
+              "expires": {
+                "relative-datestamp": "28 days"
+              },
+              "path": "/builds/worker/artifacts",
+              "type": "directory"
+            }
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--fetch-hgfingerprint",
+            "--",
+            "fetch-content",
+            "static-url",
+            "--sha256",
+            "aeb973da474f14210d3e1a1f942dcf779e2ae7e71e4c535e6c53ebabe632cc98",
+            "--size",
+            "158837368",
+            "https://strawberryperl.com/download/5.32.1.1/strawberry-perl-5.32.1.1-64bit.zip",
+            "/builds/worker/artifacts/strawberry-perl.zip"
+          ],
+          "env": {
+            "MOZ_AUTOMATION": "1",
+            "MOZ_SCM_LEVEL": "1",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/.cache;/builds/worker/checkouts",
+            "UPLOAD_DIR": "/builds/worker/artifacts"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 900,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-perl.hash.a6398a09e27ee8722b927833c9114c7a2f0edb6ba2316b0c00a2486ca284fc92",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-perl.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-perl.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "fetch",
+          "label": "fetch-win-perl",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "images"
+      }
+    },
+    "fetch-win-rustup": {
+      "attributes": {
+        "always_target": false,
+        "cached_task": {
+          "digest": "25006408f77dae1d1f66b4923af23efb2e9eacaca69fbc0659142910f588c328",
+          "name": "win-rustup",
+          "type": "content.v1"
+        },
+        "fetch-artifact": "public/rustup-init.exe",
+        "kind": "fetch",
+        "run_on_projects": [],
+        "run_on_tasks_for": [
+          "all"
+        ]
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-base"
+      },
+      "description": "Rustup for Windows v1.59.0",
+      "if_dependencies": [],
+      "kind": "fetch",
+      "label": "fetch-win-rustup",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.content.v1.win-rustup.hash.25006408f77dae1d1f66b4923af23efb2e9eacaca69fbc0659142910f588c328",
+          "mozillavpn.v2.mozillavpn.cache.level-2.content.v1.win-rustup.hash.25006408f77dae1d1f66b4923af23efb2e9eacaca69fbc0659142910f588c328",
+          "mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-rustup.hash.25006408f77dae1d1f66b4923af23efb2e9eacaca69fbc0659142910f588c328"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "28 days"
+        },
+        "extra": {
+          "chainOfTrust": {
+            "inputs": {
+              "docker-image": {
+                "task-reference": "<docker-image>"
+              }
+            }
+          },
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Fetching Tasks",
+            "groupSymbol": "Fetch",
+            "jobKind": "build",
+            "machine": {
+              "platform": "fetch"
+            },
+            "symbol": "win-rustup",
+            "tier": 1
+          },
+          "treeherder-platform": "fetch/opt"
+        },
+        "metadata": {
+          "description": "Rustup for Windows v1.59.0 ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "fetch-win-rustup",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/fetch"
+        },
+        "payload": {
+          "artifacts": {
+            "public": {
+              "expires": {
+                "relative-datestamp": "28 days"
+              },
+              "path": "/builds/worker/artifacts",
+              "type": "directory"
+            }
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--fetch-hgfingerprint",
+            "--",
+            "fetch-content",
+            "static-url",
+            "--sha256",
+            "2220ddb49fea0e0945b1b5913e33d66bd223a67f19fd1c116be0318de7ed9d9c",
+            "--size",
+            "10077696",
+            "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
+            "/builds/worker/artifacts/rustup-init.exe"
+          ],
+          "env": {
+            "MOZ_AUTOMATION": "1",
+            "MOZ_SCM_LEVEL": "1",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/.cache;/builds/worker/checkouts",
+            "UPLOAD_DIR": "/builds/worker/artifacts"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 900,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-rustup.hash.25006408f77dae1d1f66b4923af23efb2e9eacaca69fbc0659142910f588c328",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-rustup.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.content.v1.win-rustup.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "fetch",
+          "label": "fetch-win-rustup",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "images"
+      }
+    },
+    "repackage-msi": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "windows/opt",
+        "kind": "repackage",
+        "release-artifacts": [
+          {
+            "name": "public/build/MozillaVPN.msi",
+            "path": "artifacts/MozillaVPN.msi",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "github-push",
+          "github-release"
+        ]
+      },
+      "dependencies": {
+        "signing": "signing-windows/opt"
+      },
+      "description": "repackage mozillavpn msi",
+      "if_dependencies": [
+        "signing-windows/opt"
+      ],
+      "kind": "repackage",
+      "label": "repackage-msi",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "x86_64": true
+            },
+            "groupName": "Re-Package Tasks",
+            "groupSymbol": "rpk",
+            "jobKind": "build",
+            "machine": {
+              "platform": "windows"
+            },
+            "symbol": "msi",
+            "tier": 1
+          },
+          "treeherder-platform": "windows/x86_64"
+        },
+        "metadata": {
+          "description": "repackage mozillavpn msi ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "repackage-msi",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/repackage"
+        },
+        "payload": {
+          "artifacts": [
+            {
+              "name": "public/build/MozillaVPN.msi",
+              "path": "artifacts/MozillaVPN.msi",
+              "type": "file"
+            }
+          ],
+          "command": [
+            "C:/mozilla-build/python3/python3.exe run-task --mozillavpn-checkout=./build/src/ --task-cwd build/src/windows/installer -- cmd.exe /c build_prod.cmd"
+          ],
+          "env": {
+            "HG_STORE_PATH": "y:/hg-shared",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_FETCHES": {
+              "task-reference": "[{\"artifact\": \"public/build/unsigned.zip\", \"extract\": false, \"task\": \"<signing>\"}]"
+            },
+            "MOZ_FETCHES_DIR": "fetches",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "VCS_PATH": "./build/src"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "maxRunTime": 3600,
+          "mounts": [
+            {
+              "cacheName": "mozillavpn-level-1-checkouts",
+              "directory": "./build"
+            },
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/run-task"
+              },
+              "file": "./run-task"
+            },
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/fetch-content"
+              },
+              "file": "./fetch-content"
+            }
+          ],
+          "onExitStatus": {
+            "retry": [
+              1073807364,
+              3221225786
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "generic-worker:cache:mozillavpn-level-1-checkouts"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "repackage",
+          "label": "repackage-msi",
+          "os": "windows",
+          "worker-implementation": "generic-worker"
+        },
+        "workerType": "b-win2012"
+      }
+    },
+    "repackage-signing-msi": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "windows/opt",
+        "kind": "repackage-signing",
+        "release-artifacts": [
+          {
+            "name": "public/build/MozillaVPN.msi",
+            "path": "artifacts/MozillaVPN.msi",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "github-push"
+        ],
+        "signed": true
+      },
+      "dependencies": {
+        "repackage": "repackage-msi"
+      },
+      "description": "repackage mozillavpn msi",
+      "if_dependencies": [],
+      "kind": "repackage-signing",
+      "label": "repackage-signing-msi",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "x86_64": true
+            },
+            "groupName": "Re-Package Tasks",
+            "groupSymbol": "rpk",
+            "jobKind": "build",
+            "machine": {
+              "platform": "windows"
+            },
+            "symbol": "Bs",
+            "tier": 1
+          },
+          "treeherder-platform": "windows/x86_64"
+        },
+        "metadata": {
+          "description": "repackage mozillavpn msi ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "repackage-signing-msi",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/repackage-signing"
+        },
+        "payload": {
+          "maxRunTime": 600,
+          "upstreamArtifacts": [
+            {
+              "formats": [
+                "autograph_authenticode"
+              ],
+              "paths": [
+                "public/build/MozillaVPN.msi"
+              ],
+              "taskId": {
+                "task-reference": "<repackage>"
+              },
+              "taskType": "repackage"
+            }
+          ]
+        },
+        "priority": "low",
+        "provisionerId": "scriptworker-k8s",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "project:mozillavpn:releng:signing:cert:dep-signing",
+          "project:mozillavpn:releng:signing:format:autograph_authenticode"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "repackage-signing",
+          "label": "repackage-signing-msi",
+          "os": "scriptworker",
+          "worker-implementation": "scriptworker"
+        },
+        "workerType": "mozillavpn-t-signing"
+      }
+    },
+    "signing-addons-bundle": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "addons/opt",
+        "kind": "signing",
+        "release-artifacts": [
+          {
+            "name": "public/build/manifest.json",
+            "path": "/builds/worker/artifacts/manifest.json",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [],
+        "signed": true
+      },
+      "dependencies": {
+        "build": "build-addons-bundle"
+      },
+      "description": "sign mozillavpn",
+      "if_dependencies": [],
+      "kind": "signing",
+      "label": "signing-addons-bundle",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "addons"
+            },
+            "symbol": "Bs",
+            "tier": 1
+          },
+          "treeherder-platform": "addons/opt"
+        },
+        "metadata": {
+          "description": "sign mozillavpn ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "signing-addons-bundle",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/signing"
+        },
+        "payload": {
+          "maxRunTime": 600,
+          "upstreamArtifacts": [
+            {
+              "formats": [
+                "autograph_rsa"
+              ],
+              "paths": [
+                "public/build/manifest.json"
+              ],
+              "taskId": {
+                "task-reference": "<build>"
+              },
+              "taskType": "build"
+            }
+          ]
+        },
+        "priority": "low",
+        "provisionerId": "scriptworker-k8s",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "project:mozillavpn:releng:signing:cert:dep-signing",
+          "project:mozillavpn:releng:signing:format:autograph_rsa"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "signing",
+          "label": "signing-addons-bundle",
+          "os": "scriptworker",
+          "worker-implementation": "scriptworker"
+        },
+        "workerType": "mozillavpn-t-signing"
+      }
+    },
+    "signing-linux/opt": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "linux/opt",
+        "kind": "signing",
+        "release-artifacts": [
+          {
+            "name": "public/build/target.tar.gz",
+            "path": "/builds/worker/artifacts/target.tar.gz",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "github-push"
+        ],
+        "signed": true
+      },
+      "dependencies": {
+        "build": "build-linux/opt"
+      },
+      "description": "sign mozillavpn",
+      "if_dependencies": [],
+      "kind": "signing",
+      "label": "signing-linux/opt",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "linux"
+            },
+            "symbol": "Bs",
+            "tier": 1
+          },
+          "treeherder-platform": "linux/opt"
+        },
+        "metadata": {
+          "description": "sign mozillavpn ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "signing-linux/opt",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/signing"
+        },
+        "payload": {
+          "maxRunTime": 600,
+          "upstreamArtifacts": [
+            {
+              "formats": [
+                "autograph_debsign"
+              ],
+              "paths": [
+                "public/build/target.tar.gz"
+              ],
+              "taskId": {
+                "task-reference": "<build>"
+              },
+              "taskType": "build"
+            }
+          ]
+        },
+        "priority": "low",
+        "provisionerId": "scriptworker-k8s",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "project:mozillavpn:releng:signing:cert:dep-signing",
+          "project:mozillavpn:releng:signing:format:autograph_debsign"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "signing",
+          "label": "signing-linux/opt",
+          "os": "scriptworker",
+          "worker-implementation": "scriptworker"
+        },
+        "workerType": "mozillavpn-t-signing"
+      }
+    },
+    "signing-macos/opt": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "macos/opt",
+        "kind": "signing",
+        "release-artifacts": [
+          {
+            "name": "public/build/MozillaVPN.tar.gz",
+            "path": "artifacts/MozillaVPN.tar.gz",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "github-push"
+        ],
+        "signed": true
+      },
+      "dependencies": {
+        "build": "build-macos/opt"
+      },
+      "description": "sign mozillavpn",
+      "if_dependencies": [],
+      "kind": "signing",
+      "label": "signing-macos/opt",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "macos"
+            },
+            "symbol": "Bs",
+            "tier": 1
+          },
+          "treeherder-platform": "macos/opt"
+        },
+        "metadata": {
+          "description": "sign mozillavpn ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "signing-macos/opt",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/signing"
+        },
+        "payload": {
+          "behavior": "mac_notarize_vpn",
+          "entitlementsUrl": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/raw/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/scripts/signing/entitlements.xml",
+          "loginItemsEntitlementsUrl": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/raw/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/scripts/signing/loginItems-entitlements.xml",
+          "maxRunTime": 600,
+          "upstreamArtifacts": [
+            {
+              "formats": [
+                "macapp"
+              ],
+              "paths": [
+                "public/build/MozillaVPN.tar.gz"
+              ],
+              "taskId": {
+                "task-reference": "<build>"
+              },
+              "taskType": "build"
+            }
+          ]
+        },
+        "priority": "low",
+        "provisionerId": "scriptworker-prov-v1",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "project:mozillavpn:releng:signing:cert:dep-signing",
+          "project:mozillavpn:releng:signing:format:macapp"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "signing",
+          "label": "signing-macos/opt",
+          "os": "macosx",
+          "worker-implementation": "scriptworker"
+        },
+        "workerType": "vpn-depsigning-mac-v1"
+      }
+    },
+    "signing-windows/opt": {
+      "attributes": {
+        "always_target": false,
+        "build-type": "windows/opt",
+        "kind": "signing",
+        "release-artifacts": [
+          {
+            "name": "public/build/unsigned.zip",
+            "path": "artifacts/unsigned.zip",
+            "type": "file"
+          }
+        ],
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "github-push"
+        ],
+        "signed": true
+      },
+      "dependencies": {
+        "build": "build-windows/opt"
+      },
+      "description": "sign mozillavpn",
+      "if_dependencies": [],
+      "kind": "signing",
+      "label": "signing-windows/opt",
+      "optimization": null,
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "x86_64": true
+            },
+            "jobKind": "build",
+            "machine": {
+              "platform": "windows"
+            },
+            "symbol": "Bs-internals",
+            "tier": 1
+          },
+          "treeherder-platform": "windows/x86_64"
+        },
+        "metadata": {
+          "description": "sign mozillavpn ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "signing-windows/opt",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/signing"
+        },
+        "payload": {
+          "maxRunTime": 600,
+          "upstreamArtifacts": [
+            {
+              "formats": [
+                "autograph_authenticode"
+              ],
+              "paths": [
+                "public/build/unsigned.zip"
+              ],
+              "taskId": {
+                "task-reference": "<build>"
+              },
+              "taskType": "build"
+            }
+          ]
+        },
+        "priority": "low",
+        "provisionerId": "scriptworker-k8s",
+        "routes": [
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "project:mozillavpn:releng:signing:cert:dep-signing",
+          "project:mozillavpn:releng:signing:format:autograph_authenticode"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "signing",
+          "label": "signing-windows/opt",
+          "os": "scriptworker",
+          "worker-implementation": "scriptworker"
+        },
+        "workerType": "mozillavpn-t-signing"
+      }
+    },
+    "toolchain-openssl-win": {
+      "attributes": {
+        "always_target": false,
+        "cached_task": {
+          "digest": "d12e5c86734fa6490f53029f225972cf00c89194400c115196cb81ec243f9807",
+          "name": "win",
+          "type": "toolchains.v3"
+        },
+        "kind": "toolchain-openssl",
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ],
+        "toolchain-artifact": "public/build/open_ssl_win.zip"
+      },
+      "dependencies": {
+        "fetch-win-dev-env": "fetch-win-dev-env",
+        "fetch-win-perl": "fetch-win-perl"
+      },
+      "description": "Windows OpenSSL compile task",
+      "if_dependencies": [],
+      "kind": "toolchain-openssl",
+      "label": "toolchain-openssl-win",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.toolchains.v3.win.hash.d12e5c86734fa6490f53029f225972cf00c89194400c115196cb81ec243f9807",
+          "mozillavpn.v2.mozillavpn.cache.level-2.toolchains.v3.win.hash.d12e5c86734fa6490f53029f225972cf00c89194400c115196cb81ec243f9807",
+          "mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.win.hash.d12e5c86734fa6490f53029f225972cf00c89194400c115196cb81ec243f9807"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "win": true
+            },
+            "groupName": "Toolchain Tasks",
+            "groupSymbol": "TL",
+            "jobKind": "build",
+            "machine": {
+              "platform": "toolchains"
+            },
+            "symbol": "SSL",
+            "tier": 1
+          },
+          "treeherder-platform": "toolchains/win"
+        },
+        "metadata": {
+          "description": "Windows OpenSSL compile task ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "toolchain-openssl-win",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/toolchain-openssl"
+        },
+        "payload": {
+          "artifacts": [
+            {
+              "name": "public/build",
+              "path": "public/build",
+              "type": "directory"
+            }
+          ],
+          "command": [
+            "C:/mozilla-build/python3/python3.exe run-task --mozillavpn-checkout=./build/src/ --mozillavpn-sparse-profile=build/sparse-profiles/toolchain-build --task-cwd build -- powershell.exe -ExecutionPolicy Bypass \"src/taskcluster/scripts/toolchain/compile_openssl.ps1\""
+          ],
+          "env": {
+            "HG_STORE_PATH": "y:/hg-shared",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_BUILD_DATE": "20220901144628",
+            "MOZ_FETCHES": {
+              "task-reference": "[{\"artifact\": \"public/vs_studio_sdk.zip\", \"extract\": true, \"task\": \"<fetch-win-dev-env>\"}, {\"artifact\": \"public/strawberry-perl.zip\", \"extract\": true, \"task\": \"<fetch-win-perl>\"}]"
+            },
+            "MOZ_FETCHES_DIR": "fetches",
+            "MOZ_SCM_LEVEL": "1",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "VCS_PATH": "./build/src"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "maxRunTime": 14400,
+          "mounts": [
+            {
+              "cacheName": "mozillavpn-level-1-checkouts-sparse",
+              "directory": "./build"
+            },
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/run-task"
+              },
+              "file": "./run-task"
+            },
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/fetch-content"
+              },
+              "file": "./fetch-content"
+            }
+          ],
+          "onExitStatus": {
+            "retry": [
+              1073807364,
+              3221225786
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.win.hash.d12e5c86734fa6490f53029f225972cf00c89194400c115196cb81ec243f9807",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.win.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.win.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "generic-worker:cache:mozillavpn-level-1-checkouts-sparse"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "toolchain-openssl",
+          "label": "toolchain-openssl-win",
+          "os": "windows",
+          "worker-implementation": "generic-worker"
+        },
+        "workerType": "b-win2012"
+      }
+    },
+    "toolchain-qt-ios": {
+      "attributes": {
+        "always_target": false,
+        "cached_task": {
+          "digest": "ff30f15e1e48118e4865903bb757d93cf0539dac762f230b6a0e6e81a47fddaf",
+          "name": "qt-ios",
+          "type": "toolchains.v3"
+        },
+        "kind": "toolchain",
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ],
+        "toolchain-alias": "qt-ios",
+        "toolchain-artifact": "public/build/qt6_ios.zip"
+      },
+      "dependencies": {
+        "docker-image": "build-docker-image-base"
+      },
+      "description": "QT ios bundle Task",
+      "if_dependencies": [],
+      "kind": "toolchain",
+      "label": "toolchain-qt-ios",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.toolchains.v3.qt-ios.hash.ff30f15e1e48118e4865903bb757d93cf0539dac762f230b6a0e6e81a47fddaf",
+          "mozillavpn.v2.mozillavpn.cache.level-2.toolchains.v3.qt-ios.hash.ff30f15e1e48118e4865903bb757d93cf0539dac762f230b6a0e6e81a47fddaf",
+          "mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-ios.hash.ff30f15e1e48118e4865903bb757d93cf0539dac762f230b6a0e6e81a47fddaf"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "chainOfTrust": {
+            "inputs": {
+              "docker-image": {
+                "task-reference": "<docker-image>"
+              }
+            }
+          },
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Toolchain Tasks",
+            "groupSymbol": "TL",
+            "jobKind": "build",
+            "machine": {
+              "platform": "toolchains"
+            },
+            "symbol": "qt-ios",
+            "tier": 1
+          },
+          "treeherder-platform": "toolchains/opt"
+        },
+        "metadata": {
+          "description": "QT ios bundle Task ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "toolchain-qt-ios",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/toolchain"
+        },
+        "payload": {
+          "artifacts": {
+            "public/build": {
+              "expires": {
+                "relative-datestamp": "1 year"
+              },
+              "path": "/builds/worker/artifacts/",
+              "type": "directory"
+            }
+          },
+          "cache": {
+            "mozillavpn-level-1-checkouts-sparse-hg58-v3-c1418fd100cffee49e32": "/builds/worker/checkouts"
+          },
+          "command": [
+            "/usr/local/bin/run-task",
+            "--mozillavpn-checkout=/builds/worker/checkouts/vcs/",
+            "--mozillavpn-sparse-profile=build/sparse-profiles/toolchain-build",
+            "--task-cwd",
+            "/builds/worker/checkouts",
+            "--fetch-hgfingerprint",
+            "--",
+            "vcs/taskcluster/scripts/toolchain/bundle_qt_ios.sh"
+          ],
+          "env": {
+            "HG_STORE_PATH": "/builds/worker/checkouts/hg-store",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_BUILD_DATE": "20220901144628",
+            "MOZ_SCM_LEVEL": "1",
+            "QT_MAJOR": "6.2",
+            "QT_VERSION": "6.2.4",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "TASKCLUSTER_CACHES": "/builds/worker/checkouts",
+            "TASKCLUSTER_UNTRUSTED_CACHES": "1",
+            "TASKCLUSTER_VOLUMES": "/builds/worker/.cache;/builds/worker/checkouts",
+            "UPLOAD_DIR": "/builds/worker/artifacts/",
+            "VCS_PATH": "/builds/worker/checkouts/vcs"
+          },
+          "features": {
+            "chainOfTrust": true,
+            "taskclusterProxy": true
+          },
+          "image": {
+            "path": "public/image.tar.zst",
+            "taskId": {
+              "task-reference": "<docker-image>"
+            },
+            "type": "task-image"
+          },
+          "maxRunTime": 14400,
+          "onExitStatus": {
+            "purgeCaches": [
+              72
+            ],
+            "retry": [
+              72
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-ios.hash.ff30f15e1e48118e4865903bb757d93cf0539dac762f230b6a0e6e81a47fddaf",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-ios.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-ios.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "docker-worker:cache:mozillavpn-level-1-checkouts-sparse-hg58-v3-c1418fd100cffee49e32"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "toolchain",
+          "label": "toolchain-qt-ios",
+          "os": "linux",
+          "worker-implementation": "docker-worker"
+        },
+        "workerType": "b-linux"
+      }
+    },
+    "toolchain-qt-mac": {
+      "attributes": {
+        "always_target": false,
+        "cached_task": {
+          "digest": "a6ffa864a08c32e0933be625e1828d228815cc958caa307b1086f21c46f9f018",
+          "name": "qt-mac",
+          "type": "toolchains.v3"
+        },
+        "kind": "toolchain",
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ],
+        "toolchain-alias": "qt-mac",
+        "toolchain-artifact": "public/build/qt6_mac.zip"
+      },
+      "dependencies": {},
+      "description": "Mac QT compile Task",
+      "if_dependencies": [],
+      "kind": "toolchain",
+      "label": "toolchain-qt-mac",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.toolchains.v3.qt-mac.hash.a6ffa864a08c32e0933be625e1828d228815cc958caa307b1086f21c46f9f018",
+          "mozillavpn.v2.mozillavpn.cache.level-2.toolchains.v3.qt-mac.hash.a6ffa864a08c32e0933be625e1828d228815cc958caa307b1086f21c46f9f018",
+          "mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-mac.hash.a6ffa864a08c32e0933be625e1828d228815cc958caa307b1086f21c46f9f018"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Toolchain Tasks",
+            "groupSymbol": "TL",
+            "jobKind": "build",
+            "machine": {
+              "platform": "toolchains"
+            },
+            "symbol": "qt-mac",
+            "tier": 1
+          },
+          "treeherder-platform": "toolchains/opt"
+        },
+        "metadata": {
+          "description": "Mac QT compile Task ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "toolchain-qt-mac",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/toolchain"
+        },
+        "payload": {
+          "artifacts": [
+            {
+              "name": "public/build",
+              "path": "public/build",
+              "type": "directory"
+            }
+          ],
+          "command": [
+            [
+              "chmod",
+              "+x",
+              "run-task"
+            ],
+            [
+              "/tools/python36/bin/python3",
+              "run-task",
+              "--mozillavpn-checkout=./checkouts/vcs/",
+              "--mozillavpn-sparse-profile=build/sparse-profiles/toolchain-build",
+              "--task-cwd",
+              "checkouts",
+              "--",
+              "bash",
+              "-cx",
+              "vcs/taskcluster/scripts/toolchain/compile_qt_6_mac.sh"
+            ]
+          ],
+          "env": {
+            "HG_STORE_PATH": "./checkouts/hg-shared",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_BUILD_DATE": "20220901144628",
+            "MOZ_SCM_LEVEL": "1",
+            "QT_MAJOR": "6.2",
+            "QT_VERSION": "6.2.4",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "VCS_PATH": "./checkouts/vcs"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "maxRunTime": 14400,
+          "mounts": [
+            {
+              "cacheName": "mozillavpn-level-1-checkouts-sparse",
+              "directory": "./checkouts"
+            },
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/run-task"
+              },
+              "file": "./run-task"
+            }
+          ]
+        },
+        "priority": "low",
+        "provisionerId": "releng-hardware",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-mac.hash.a6ffa864a08c32e0933be625e1828d228815cc958caa307b1086f21c46f9f018",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-mac.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-mac.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "generic-worker:cache:mozillavpn-level-1-checkouts-sparse"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "toolchain",
+          "label": "toolchain-qt-mac",
+          "os": "macosx",
+          "worker-implementation": "generic-worker"
+        },
+        "workerType": "mozillavpn-b-1-osx"
+      }
+    },
+    "toolchain-qt-win": {
+      "attributes": {
+        "always_target": false,
+        "cached_task": {
+          "digest": "c78881a0ab644dd7b7b76876d5460b6d548116a5bb45bb969809285609c2d008",
+          "name": "qt-win",
+          "type": "toolchains.v3"
+        },
+        "kind": "toolchain",
+        "run_on_projects": [
+          "all"
+        ],
+        "run_on_tasks_for": [
+          "all"
+        ],
+        "toolchain-alias": "qt-win",
+        "toolchain-artifact": "public/build/qt6_win.zip"
+      },
+      "dependencies": {
+        "fetch-win-dev-env": "fetch-win-dev-env",
+        "openssl": "toolchain-openssl-win"
+      },
+      "description": "Windows QT compile Task",
+      "if_dependencies": [],
+      "kind": "toolchain",
+      "label": "toolchain-qt-win",
+      "optimization": {
+        "index-search": [
+          "mozillavpn.v2.mozillavpn.cache.level-3.toolchains.v3.qt-win.hash.c78881a0ab644dd7b7b76876d5460b6d548116a5bb45bb969809285609c2d008",
+          "mozillavpn.v2.mozillavpn.cache.level-2.toolchains.v3.qt-win.hash.c78881a0ab644dd7b7b76876d5460b6d548116a5bb45bb969809285609c2d008",
+          "mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-win.hash.c78881a0ab644dd7b7b76876d5460b6d548116a5bb45bb969809285609c2d008"
+        ]
+      },
+      "soft_dependencies": [],
+      "task": {
+        "created": {
+          "relative-datestamp": "0 seconds"
+        },
+        "deadline": {
+          "relative-datestamp": "1 day"
+        },
+        "expires": {
+          "relative-datestamp": "1 year"
+        },
+        "extra": {
+          "index": {
+            "rank": 1662043588
+          },
+          "parent": "",
+          "treeherder": {
+            "collection": {
+              "opt": true
+            },
+            "groupName": "Toolchain Tasks",
+            "groupSymbol": "TL",
+            "jobKind": "build",
+            "machine": {
+              "platform": "toolchains"
+            },
+            "symbol": "qt-win",
+            "tier": 1
+          },
+          "treeherder-platform": "toolchains/opt"
+        },
+        "metadata": {
+          "description": "Windows QT compile Task ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=staging-mozilla-vpn-client&revision=5ea38196a2b4abe44d19d7009c79151d15796ef1))",
+          "name": "toolchain-qt-win",
+          "owner": "ahal@pm.me",
+          "source": "https://github.com/mozilla-releng/staging-mozilla-vpn-client/blob/5ea38196a2b4abe44d19d7009c79151d15796ef1/taskcluster/ci/toolchain"
+        },
+        "payload": {
+          "artifacts": [
+            {
+              "name": "public/build",
+              "path": "public/build",
+              "type": "directory"
+            }
+          ],
+          "command": [
+            "C:/mozilla-build/python3/python3.exe run-task --mozillavpn-checkout=./build/src/ --mozillavpn-sparse-profile=build/sparse-profiles/toolchain-build --task-cwd build -- powershell.exe -ExecutionPolicy Bypass \"src/taskcluster/scripts/toolchain/compile_qt_6.ps1\""
+          ],
+          "env": {
+            "HG_STORE_PATH": "y:/hg-shared",
+            "MOZILLAVPN_BASE_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REF": "refs/heads/releases/ahal/addons_signing",
+            "MOZILLAVPN_HEAD_REPOSITORY": "https://github.com/mozilla-releng/staging-mozilla-vpn-client",
+            "MOZILLAVPN_HEAD_REV": "5ea38196a2b4abe44d19d7009c79151d15796ef1",
+            "MOZILLAVPN_REPOSITORY_TYPE": "git",
+            "MOZ_AUTOMATION": "1",
+            "MOZ_BUILD_DATE": "20220901144628",
+            "MOZ_FETCHES": {
+              "task-reference": "[{\"artifact\": \"public/vs_studio_sdk.zip\", \"extract\": true, \"task\": \"<fetch-win-dev-env>\"}, {\"artifact\": \"public/build/open_ssl_win.zip\", \"extract\": false, \"task\": \"<openssl>\"}]"
+            },
+            "MOZ_FETCHES_DIR": "fetches",
+            "MOZ_SCM_LEVEL": "1",
+            "QT_MAJOR": "6.2",
+            "QT_VERSION": "6.2.4",
+            "REPOSITORIES": "{\"mozillavpn\": \"MozillaVPN\"}",
+            "SCCACHE_DISABLE": "1",
+            "VCS_PATH": "./build/src"
+          },
+          "features": {
+            "chainOfTrust": true
+          },
+          "maxRunTime": 14400,
+          "mounts": [
+            {
+              "cacheName": "mozillavpn-level-1-checkouts-sparse",
+              "directory": "./build"
+            },
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/run-task"
+              },
+              "file": "./run-task"
+            },
+            {
+              "content": {
+                "url": "https://firefox-ci-tc.services.mozilla.com/api/queue/v1/task/<TASK_ID>/artifacts/public/fetch-content"
+              },
+              "file": "./fetch-content"
+            }
+          ],
+          "onExitStatus": {
+            "retry": [
+              1073807364,
+              3221225786
+            ]
+          }
+        },
+        "priority": "low",
+        "provisionerId": "mozillavpn-1",
+        "routes": [
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-win.hash.c78881a0ab644dd7b7b76876d5460b6d548116a5bb45bb969809285609c2d008",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-win.latest",
+          "index.mozillavpn.v2.mozillavpn.cache.level-1.toolchains.v3.qt-win.pushdate.2022.09.01.20220901144628",
+          "tc-treeherder.v2.staging-mozilla-vpn-client.5ea38196a2b4abe44d19d7009c79151d15796ef1.0",
+          "checks"
+        ],
+        "scopes": [
+          "generic-worker:cache:mozillavpn-level-1-checkouts-sparse"
+        ],
+        "tags": {
+          "createdForUser": "ahal@pm.me",
+          "kind": "toolchain",
+          "label": "toolchain-qt-win",
+          "os": "windows",
+          "worker-implementation": "generic-worker"
+        },
+        "workerType": "b-win2012"
+      }
+    }
+  }
+  
