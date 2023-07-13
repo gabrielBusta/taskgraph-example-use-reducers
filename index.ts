@@ -22,9 +22,6 @@ const searchSuggestions = document.getElementById(
 const graph = new Graph();
 graph.import(data);
 const renderer = new Sigma(graph, container);
-// const settings = forceAtlas2.inferSettings(graph);
-// const fa2Layout = new FA2Layout(graph, { settings });
-// fa2Layout.start();
 
 // Type and declare internal state:
 interface State {
