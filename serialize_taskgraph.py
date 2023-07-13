@@ -1,7 +1,7 @@
 import json
 import networkx as nx
 
-TASKGRAPH_NAME = "ship-mozilla-vpn-client"
+TASKGRAPH_NAME = "nss-try-push"
 LAYOUT_NAME = "multipartite-layout"
 
 
