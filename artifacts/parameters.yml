@@ -1,0 +1,94 @@
+base_ref: origin/main
+base_repository: https://github.com/mozilla-releng/staging-firefox-translations-training
+base_rev: 95053c4ce9a14872e35e2803930761c14e1565a1
+build_date: 1687547826
+build_number: 1
+do_not_optimize: []
+enable_always_target: true
+existing_tasks: {}
+filters:
+- target_tasks_method
+head_ref: refs/heads/dev-followup
+head_repository: https://github.com/mozilla-releng/staging-firefox-translations-training
+head_rev: 7617f2fbd37aa68fb81f90a58d9cb92bc1cb0cc9
+head_tag: ''
+level: '1'
+moz_build_date: '20230623191706'
+next_version: null
+optimize_strategies: null
+optimize_target_tasks: true
+owner: ben@mozilla.com
+project: staging-firefox-translations-training
+pushdate: 0
+pushlog_id: '0'
+repository_type: git
+target_tasks_method: train-target-tasks
+tasks_for: action
+training_config:
+  datasets:
+    devtest:
+    - flores_dev
+    - sacrebleu_wmt14
+    mono-src:
+    - news-crawl_news.2020
+    mono-trg:
+    - news-crawl_news.2020
+    test:
+    - flores_devtest
+    - sacrebleu_wmt15
+    train:
+    - opus_wikimedia/v20210402
+    - opus_Tatoeba/v2022-03-03
+    - mtdata_Statmt-commoncrawl_wmt13-1-fra-eng
+  experiment:
+    backward-model: NOT-YET-SUPPORTED
+    best-model: chrf
+    bicleaner:
+      dataset-thresholds:
+        mtdata_Neulab-tedtalks_train-1-eng-rus: 0.6
+        opus_ada83/v1: 0
+      default-threshold: 0.4
+    mono-max-sentences-src: 100000
+    mono-max-sentences-trg: 200000
+    name: training pipeline test config
+    split-length: 100000
+    spm-sample-size: 100000
+    src: fr
+    teacher-ensemble: 2
+    trg: en
+    vocab: NOT-YET-SUPPORTED
+  marian-args:
+    decoding-backward:
+      mini-batch-words: '2000'
+    decoding-teacher:
+      mini-batch-words: '1000'
+      precision: float16
+    training-backward:
+      after: 500u
+      disp-freq: '10'
+      save-freq: '100'
+      valid-freq: '100'
+    training-student:
+      after: 500u
+      disp-freq: '10'
+      save-freq: '100'
+      valid-freq: '100'
+    training-student-finetuned:
+      after: 500u
+      disp-freq: '10'
+      save-freq: '100'
+      valid-freq: '100'
+    training-teacher-base:
+      after: 500u
+      disp-freq: '10'
+      save-freq: '100'
+      valid-freq: '100'
+    training-teacher-finetuned:
+      after: 500u
+      disp-freq: '10'
+      save-freq: '100'
+      valid-freq: '100'
+  target-stage: all
+  taskcluster:
+    split-chunks: 10
+version: null

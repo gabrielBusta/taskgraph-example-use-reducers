@@ -1,0 +1,7 @@
+{
+  "files": ["index.ts"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+}

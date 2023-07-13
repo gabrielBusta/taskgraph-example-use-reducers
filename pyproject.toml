@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "graph"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Bustamante <gbustamante@mozilla.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+networkx = "^3.1"
+numpy = "^1.25.1"
+scipy = "^1.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

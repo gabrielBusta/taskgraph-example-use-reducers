@@ -1,0 +1,16 @@
+{
+  "name": "taskgraph-example-use-reducers",
+  "description": "This example shows how to use sigma reducers to dynamically change node and edge appearance on a taskgraph.",
+  "scripts": {
+    "start": "kotatsu serve --typescript index.ts --public / ./public",
+    "build": "kotatsu build client --production --typescript index.ts --public / ./public"
+  },
+  "dependencies": {
+    "graphology": "^0.25.1",
+    "sigma": "^3.0.0-alpha3"
+  },
+  "devDependencies": {
+    "kotatsu": "^0.23.1",
+    "typescript": "^5.1.6"
+  }
+}
