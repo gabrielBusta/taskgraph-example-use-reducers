@@ -10,7 +10,8 @@ import { DirectedGraph as Graph } from "graphology";
 // import data from "./mr-onpush-geckoview-serialized-taskgraph-multipartite-layout.json";
 // import data from "./ship-mozilla-vpn-client-serialized-taskgraph-multipartite-layout.json";
 // import data from "./main-onpush-mozilla-vpn-client-serialized-taskgraph-multipartite-layout.json";
-import data from "./nss-try-push-serialized-taskgraph-multipartite-layout.json";
+// import data from "./nss-try-push-serialized-taskgraph-multipartite-layout.json";
+import data from "./firefox-translations-training-fr-en-serialized-taskgraph-multipartite-layout.json";
 
 // Retrieve some useful DOM elements:
 const container = document.getElementById("sigma-container") as HTMLElement;
