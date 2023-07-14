@@ -1,8 +1,9 @@
 import json
 import networkx as nx
 
-TASKGRAPH_NAME = "nss-try-push"
+TASKGRAPH_NAME = "ship-firefox-115.0"
 LAYOUT_NAME = "multipartite-layout"
+LAYOUT_ALIGNMENT = "horizontal"
 
 
 def load_taskgraph():
@@ -29,15 +30,13 @@ def build_digraph(taskgraph):
 
 
 def layout_digraph(digraph):
-    if LAYOUT_NAME == "kamada-kawai-layout":
-        return nx.kamada_kawai_layout(digraph)
     for layer, nodes in enumerate(nx.topological_generations(digraph)):
         # `multipartite_layout` expects the layer as a node attribute, so add the
         # numeric layer value as a node attribute
         for node in nodes:
             digraph.nodes[node]["layer"] = layer
     # Compute the multipartite_layout using the "layer" node attribute
-    pos = nx.multipartite_layout(digraph, subset_key="layer")
+    pos = nx.multipartite_layout(digraph, subset_key="layer", align=LAYOUT_ALIGNMENT)
     return pos
 
 
@@ -51,8 +50,8 @@ def serialize_taskgraph(taskgraph, pos):
                 "attributes": {
                     "color": "#B30000",
                     "label": taskgraph[tasknode]["label"],
-                    "size": 5,
-                    # "size": .5,
+                    # "size": 5,
+                    "size": .5,
                     "x": pos[tasknode][0],
                     "y": pos[tasknode][1],
                 },
@@ -66,8 +65,8 @@ def serialize_taskgraph(taskgraph, pos):
                         "source": taskgraph[tasknode]["dependencies"][dependency],
                         "target": tasknode,
                         "attributes": {
-                            "size": 2.5,
-                            # "size": .25,
+                            # "size": 2.5,
+                            "size": .25,
                             "type": "arrow",
                             "kind": taskgraph[tasknode]["attributes"]["kind"],
                         },
@@ -82,7 +81,7 @@ def main():
     digraph = build_digraph(taskgraph)
     pos = layout_digraph(digraph)
     serialized_taskgraph = serialize_taskgraph(taskgraph, pos)
-    with open(f"./{TASKGRAPH_NAME}-serialized-taskgraph-{LAYOUT_NAME}.json", "w") as f:
+    with open(f"./{TASKGRAPH_NAME}-serialized-taskgraph-{LAYOUT_NAME}-{LAYOUT_ALIGNMENT}.json", "w") as f:
         f.write(json.dumps(serialized_taskgraph, indent=2))
 
 

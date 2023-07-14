@@ -11,7 +11,9 @@ import { DirectedGraph as Graph } from "graphology";
 // import data from "./ship-mozilla-vpn-client-serialized-taskgraph-multipartite-layout.json";
 // import data from "./main-onpush-mozilla-vpn-client-serialized-taskgraph-multipartite-layout.json";
 // import data from "./nss-try-push-serialized-taskgraph-multipartite-layout.json";
-import data from "./firefox-translations-training-fr-en-serialized-taskgraph-multipartite-layout.json";
+// import data from "./firefox-translations-training-fr-en-serialized-taskgraph-multipartite-layout.json";
+// import data from "./firefox-translations-training-fr-en-serialized-taskgraph-multipartite-layout-horizontal.json";
+import data from "./ship-firefox-115.0-serialized-taskgraph-multipartite-layout-horizontal.json";
 
 // Retrieve some useful DOM elements:
 const container = document.getElementById("sigma-container") as HTMLElement;
