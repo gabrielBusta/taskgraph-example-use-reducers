@@ -1,5 +1,6 @@
 ### Demos
 
+- [firefox-release-pipeline-kinds](https://gabrielbusta.github.io/taskgraph-example-use-reducers/firefox-release-pipeline-kinds/)
 - [firefox-translations-training-fr-en](https://gabrielbusta.github.io/taskgraph-example-use-reducers/firefox-translations-training-fr-en/)
 - [firefox-translations-training-fr-en-horizontal](https://gabrielbusta.github.io/taskgraph-example-use-reducers/firefox-translations-training-fr-en-horizontal/)
 - [main-onpush-mozilla-vpn-client](https://gabrielbusta.github.io/taskgraph-example-use-reducers/main-onpush-mozilla-vpn-client/)
