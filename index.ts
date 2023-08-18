@@ -209,6 +209,11 @@ renderer.on("clickNode", ({ node }) => {
   renderer.refresh();
 });
 
+renderer.setSetting("defaultEdgeColor", "black");
+renderer.setSetting("defaultNodeColor", "#054096");
+renderer.setSetting("labelDensity", 0.5);
+renderer.setSetting("labelGridCellSize", 60);
+
 renderer.setSetting("nodeReducer", (node, data) => {
   const res: Partial<NodeDisplayData> = { ...data };
 

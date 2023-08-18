@@ -3,7 +3,7 @@
     {
       "key": "system-symbols",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "system-symbols",
         "size": 5,
         "x": -0.509933774834437,
@@ -13,7 +13,7 @@
     {
       "key": "fetch",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "fetch",
         "size": 5,
         "x": -0.6357615894039735,
@@ -23,7 +23,7 @@
     {
       "key": "toolchain",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "toolchain",
         "size": 5,
         "x": -0.5728476821192053,
@@ -33,7 +33,7 @@
     {
       "key": "spidermonkey",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "spidermonkey",
         "size": 5,
         "x": -0.509933774834437,
@@ -43,7 +43,7 @@
     {
       "key": "release-notify-ship",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-notify-ship",
         "size": 5,
         "x": 1.0,
@@ -53,7 +53,7 @@
     {
       "key": "release-mark-as-shipped",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-mark-as-shipped",
         "size": 5,
         "x": 0.9370860927152318,
@@ -63,7 +63,7 @@
     {
       "key": "release-bouncer-aliases",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-bouncer-aliases",
         "size": 5,
         "x": 0.8741721854304636,
@@ -73,7 +73,7 @@
     {
       "key": "release-version-bump",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-version-bump",
         "size": 5,
         "x": 0.8112582781456954,
@@ -83,7 +83,7 @@
     {
       "key": "release-balrog-scheduling",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-balrog-scheduling",
         "size": 5,
         "x": 0.8741721854304636,
@@ -93,7 +93,7 @@
     {
       "key": "release-generate-checksums",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-generate-checksums",
         "size": 5,
         "x": 0.5596026490066226,
@@ -103,7 +103,7 @@
     {
       "key": "post-beetmover-checksums-dummy",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "post-beetmover-checksums-dummy",
         "size": 5,
         "x": 0.49668874172185434,
@@ -113,7 +113,7 @@
     {
       "key": "beetmover-source",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "beetmover-source",
         "size": 5,
         "x": -0.3841059602649006,
@@ -123,7 +123,7 @@
     {
       "key": "release-beetmover-signed-langpacks",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-beetmover-signed-langpacks",
         "size": 5,
         "x": -0.006622516556291384,
@@ -133,7 +133,7 @@
     {
       "key": "release-secondary-update-verify",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-secondary-update-verify",
         "size": 5,
         "x": 0.49668874172185434,
@@ -143,7 +143,7 @@
     {
       "key": "release-secondary-update-verify-config",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-secondary-update-verify-config",
         "size": 5,
         "x": -0.6357615894039735,
@@ -153,7 +153,7 @@
     {
       "key": "post-balrog-dummy",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "post-balrog-dummy",
         "size": 5,
         "x": 0.43377483443708614,
@@ -163,7 +163,7 @@
     {
       "key": "post-beetmover-dummy",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "post-beetmover-dummy",
         "size": 5,
         "x": 0.43377483443708614,
@@ -173,7 +173,7 @@
     {
       "key": "release-secondary-balrog-submit-toplevel",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-secondary-balrog-submit-toplevel",
         "size": 5,
         "x": -0.6357615894039735,
@@ -183,7 +183,7 @@
     {
       "key": "beetmover-repackage",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "beetmover-repackage",
         "size": 5,
         "x": 0.3079470198675497,
@@ -193,7 +193,7 @@
     {
       "key": "repackage-signing-l10n",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage-signing-l10n",
         "size": 5,
         "x": 0.11920529801324505,
@@ -203,7 +203,7 @@
     {
       "key": "repackage-deb-l10n",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage-deb-l10n",
         "size": 5,
         "x": -0.006622516556291384,
@@ -213,7 +213,7 @@
     {
       "key": "build-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "build-signing",
         "size": 5,
         "x": -0.2582781456953642,
@@ -223,7 +223,7 @@
     {
       "key": "shippable-l10n-mac-notarization",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "shippable-l10n-mac-notarization",
         "size": 5,
         "x": -0.006622516556291384,
@@ -233,7 +233,7 @@
     {
       "key": "mar-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "mar-signing",
         "size": 5,
         "x": -0.13245033112582782,
@@ -243,7 +243,7 @@
     {
       "key": "mar-signing-l10n",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "mar-signing-l10n",
         "size": 5,
         "x": 0.11920529801324505,
@@ -253,7 +253,7 @@
     {
       "key": "repackage-l10n",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage-l10n",
         "size": 5,
         "x": 0.05629139072847683,
@@ -263,7 +263,7 @@
     {
       "key": "partials",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "partials",
         "size": 5,
         "x": 0.11920529801324505,
@@ -273,7 +273,7 @@
     {
       "key": "repackage-deb",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage-deb",
         "size": 5,
         "x": -0.19536423841059603,
@@ -283,7 +283,7 @@
     {
       "key": "attribution",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "attribution",
         "size": 5,
         "x": -0.0695364238410596,
@@ -293,7 +293,7 @@
     {
       "key": "repackage-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage-signing",
         "size": 5,
         "x": -0.13245033112582782,
@@ -303,7 +303,7 @@
     {
       "key": "shippable-l10n-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "shippable-l10n-signing",
         "size": 5,
         "x": -0.0695364238410596,
@@ -313,7 +313,7 @@
     {
       "key": "repackage-signing-msi",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage-signing-msi",
         "size": 5,
         "x": 0.24503311258278146,
@@ -323,7 +323,7 @@
     {
       "key": "shippable-l10n",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "shippable-l10n",
         "size": 5,
         "x": -0.13245033112582782,
@@ -333,7 +333,7 @@
     {
       "key": "partials-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "partials-signing",
         "size": 5,
         "x": 0.18211920529801326,
@@ -343,7 +343,7 @@
     {
       "key": "build-mac-notarization",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "build-mac-notarization",
         "size": 5,
         "x": -0.2582781456953642,
@@ -353,7 +353,7 @@
     {
       "key": "attribution-l10n",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "attribution-l10n",
         "size": 5,
         "x": 0.18211920529801326,
@@ -363,7 +363,7 @@
     {
       "key": "build-mac-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "build-mac-signing",
         "size": 5,
         "x": -0.3211920529801324,
@@ -373,7 +373,7 @@
     {
       "key": "repackage-signing-shippable-l10n-msix",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage-signing-shippable-l10n-msix",
         "size": 5,
         "x": 0.05629139072847683,
@@ -383,7 +383,7 @@
     {
       "key": "repackage",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage",
         "size": 5,
         "x": -0.19536423841059603,
@@ -393,7 +393,7 @@
     {
       "key": "build",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "build",
         "size": 5,
         "x": -0.3841059602649006,
@@ -403,7 +403,7 @@
     {
       "key": "shippable-l10n-mac-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "shippable-l10n-mac-signing",
         "size": 5,
         "x": -0.0695364238410596,
@@ -413,7 +413,7 @@
     {
       "key": "release-eme-free-repack-beetmover-checksums",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-eme-free-repack-beetmover-checksums",
         "size": 5,
         "x": 0.43377483443708614,
@@ -423,7 +423,7 @@
     {
       "key": "release-beetmover-source-checksums",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-beetmover-source-checksums",
         "size": 5,
         "x": -0.2582781456953642,
@@ -433,7 +433,7 @@
     {
       "key": "release-beetmover-signed-langpacks-checksums",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-beetmover-signed-langpacks-checksums",
         "size": 5,
         "x": 0.05629139072847683,
@@ -443,7 +443,7 @@
     {
       "key": "beetmover-checksums",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "beetmover-checksums",
         "size": 5,
         "x": 0.37086092715231794,
@@ -453,7 +453,7 @@
     {
       "key": "release-update-verify-next",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-update-verify-next",
         "size": 5,
         "x": 0.49668874172185434,
@@ -463,7 +463,7 @@
     {
       "key": "release-update-verify-config-next",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-update-verify-config-next",
         "size": 5,
         "x": -0.6357615894039735,
@@ -473,7 +473,7 @@
     {
       "key": "release-balrog-submit-toplevel",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-balrog-submit-toplevel",
         "size": 5,
         "x": -0.6357615894039735,
@@ -483,7 +483,7 @@
     {
       "key": "balrog",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "balrog",
         "size": 5,
         "x": 0.37086092715231794,
@@ -493,7 +493,7 @@
     {
       "key": "startup-test",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "startup-test",
         "size": 5,
         "x": -0.0695364238410596,
@@ -503,7 +503,7 @@
     {
       "key": "repackage-msi",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage-msi",
         "size": 5,
         "x": 0.18211920529801326,
@@ -513,7 +513,7 @@
     {
       "key": "release-eme-free-repack-repackage",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-eme-free-repack-repackage",
         "size": 5,
         "x": 0.24503311258278146,
@@ -523,7 +523,7 @@
     {
       "key": "release-eme-free-repack",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-eme-free-repack",
         "size": 5,
         "x": 0.05629139072847683,
@@ -533,7 +533,7 @@
     {
       "key": "release-eme-free-repack-mac-notarization",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-eme-free-repack-mac-notarization",
         "size": 5,
         "x": 0.18211920529801326,
@@ -543,7 +543,7 @@
     {
       "key": "release-eme-free-repack-mac-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-eme-free-repack-mac-signing",
         "size": 5,
         "x": 0.11920529801324505,
@@ -553,7 +553,7 @@
     {
       "key": "fuzzing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "fuzzing",
         "size": 5,
         "x": -0.3211920529801324,
@@ -563,7 +563,7 @@
     {
       "key": "repackage-shippable-l10n-msix",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage-shippable-l10n-msix",
         "size": 5,
         "x": -0.006622516556291384,
@@ -573,7 +573,7 @@
     {
       "key": "repackage-msix",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage-msix",
         "size": 5,
         "x": -0.19536423841059603,
@@ -583,7 +583,7 @@
     {
       "key": "release-snap-repackage",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-snap-repackage",
         "size": 5,
         "x": 0.49668874172185434,
@@ -593,7 +593,7 @@
     {
       "key": "post-langpack-dummy",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "post-langpack-dummy",
         "size": 5,
         "x": 0.05629139072847683,
@@ -603,7 +603,7 @@
     {
       "key": "release-partner-repack",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-partner-repack",
         "size": 5,
         "x": 0.05629139072847683,
@@ -613,7 +613,7 @@
     {
       "key": "release-beetmover-push-to-release",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-beetmover-push-to-release",
         "size": 5,
         "x": 0.7483443708609272,
@@ -623,7 +623,7 @@
     {
       "key": "release-generate-checksums-beetmover",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-generate-checksums-beetmover",
         "size": 5,
         "x": 0.685430463576159,
@@ -633,7 +633,7 @@
     {
       "key": "post-update-verify-dummy",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "post-update-verify-dummy",
         "size": 5,
         "x": 0.5596026490066226,
@@ -643,7 +643,7 @@
     {
       "key": "packages",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "packages",
         "size": 5,
         "x": -0.6357615894039735,
@@ -653,7 +653,7 @@
     {
       "key": "build-fat-aar",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "build-fat-aar",
         "size": 5,
         "x": -0.3211920529801324,
@@ -663,7 +663,7 @@
     {
       "key": "upload-generated-sources",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "upload-generated-sources",
         "size": 5,
         "x": -0.3211920529801324,
@@ -673,7 +673,7 @@
     {
       "key": "upload-generated-sources-dummy",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "upload-generated-sources-dummy",
         "size": 5,
         "x": -0.2582781456953642,
@@ -683,7 +683,7 @@
     {
       "key": "diffoscope",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "diffoscope",
         "size": 5,
         "x": -0.3211920529801324,
@@ -693,7 +693,7 @@
     {
       "key": "github-sync",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "github-sync",
         "size": 5,
         "x": -0.3211920529801324,
@@ -703,7 +703,7 @@
     {
       "key": "condprof",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "condprof",
         "size": 5,
         "x": -0.3211920529801324,
@@ -713,7 +713,7 @@
     {
       "key": "release-bouncer-check",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-bouncer-check",
         "size": 5,
         "x": 0.8112582781456954,
@@ -723,7 +723,7 @@
     {
       "key": "artifact-build",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "artifact-build",
         "size": 5,
         "x": -0.509933774834437,
@@ -733,7 +733,7 @@
     {
       "key": "release-eme-free-repack-beetmover",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-eme-free-repack-beetmover",
         "size": 5,
         "x": 0.37086092715231794,
@@ -743,7 +743,7 @@
     {
       "key": "release-eme-free-repack-repackage-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-eme-free-repack-repackage-signing",
         "size": 5,
         "x": 0.3079470198675497,
@@ -753,7 +753,7 @@
     {
       "key": "release-final-verify",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-final-verify",
         "size": 5,
         "x": 0.8741721854304636,
@@ -763,7 +763,7 @@
     {
       "key": "release-update-verify-config",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-update-verify-config",
         "size": 5,
         "x": -0.6357615894039735,
@@ -773,7 +773,7 @@
     {
       "key": "release-update-verify",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-update-verify",
         "size": 5,
         "x": 0.49668874172185434,
@@ -783,7 +783,7 @@
     {
       "key": "release-partner-repack-repackage",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-partner-repack-repackage",
         "size": 5,
         "x": 0.24503311258278146,
@@ -793,7 +793,7 @@
     {
       "key": "release-partner-repack-mac-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-partner-repack-mac-signing",
         "size": 5,
         "x": 0.11920529801324505,
@@ -803,7 +803,7 @@
     {
       "key": "release-partner-repack-mac-notarization",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-partner-repack-mac-notarization",
         "size": 5,
         "x": 0.18211920529801326,
@@ -813,7 +813,7 @@
     {
       "key": "release-notify-promote",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-notify-promote",
         "size": 5,
         "x": 0.7483443708609272,
@@ -823,7 +823,7 @@
     {
       "key": "release-bouncer-sub",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-bouncer-sub",
         "size": 5,
         "x": -0.6357615894039735,
@@ -833,7 +833,7 @@
     {
       "key": "l10n",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "l10n",
         "size": 5,
         "x": -0.13245033112582782,
@@ -843,7 +843,7 @@
     {
       "key": "upload-symbols-dummy",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "upload-symbols-dummy",
         "size": 5,
         "x": -0.2582781456953642,
@@ -853,7 +853,7 @@
     {
       "key": "upload-symbols",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "upload-symbols",
         "size": 5,
         "x": -0.3211920529801324,
@@ -863,7 +863,7 @@
     {
       "key": "geckodriver-mac-notarization",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "geckodriver-mac-notarization",
         "size": 5,
         "x": -0.4470198675496689,
@@ -873,7 +873,7 @@
     {
       "key": "geckodriver-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "geckodriver-signing",
         "size": 5,
         "x": -0.509933774834437,
@@ -883,7 +883,7 @@
     {
       "key": "release-secondary-final-verify",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-secondary-final-verify",
         "size": 5,
         "x": 0.49668874172185434,
@@ -893,7 +893,7 @@
     {
       "key": "source-test",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "source-test",
         "size": 5,
         "x": -0.3211920529801324,
@@ -903,7 +903,7 @@
     {
       "key": "generate-profile",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "generate-profile",
         "size": 5,
         "x": -0.4470198675496689,
@@ -913,7 +913,7 @@
     {
       "key": "are-we-esmified-yet",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "are-we-esmified-yet",
         "size": 5,
         "x": -0.509933774834437,
@@ -923,7 +923,7 @@
     {
       "key": "instrumented-build",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "instrumented-build",
         "size": 5,
         "x": -0.509933774834437,
@@ -933,7 +933,7 @@
     {
       "key": "valgrind",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "valgrind",
         "size": 5,
         "x": -0.509933774834437,
@@ -943,7 +943,7 @@
     {
       "key": "webrender",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "webrender",
         "size": 5,
         "x": -0.3211920529801324,
@@ -953,7 +953,7 @@
     {
       "key": "release-generate-checksums-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-generate-checksums-signing",
         "size": 5,
         "x": 0.6225165562913908,
@@ -963,7 +963,7 @@
     {
       "key": "bootstrap",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "bootstrap",
         "size": 5,
         "x": -0.509933774834437,
@@ -973,7 +973,7 @@
     {
       "key": "snap-upstream-build",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "snap-upstream-build",
         "size": 5,
         "x": -0.509933774834437,
@@ -983,7 +983,7 @@
     {
       "key": "release-flatpak-repackage",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-flatpak-repackage",
         "size": 5,
         "x": 0.49668874172185434,
@@ -993,7 +993,7 @@
     {
       "key": "release-partner-attribution",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-partner-attribution",
         "size": 5,
         "x": 0.18211920529801326,
@@ -1003,7 +1003,7 @@
     {
       "key": "searchfox",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "searchfox",
         "size": 5,
         "x": -0.509933774834437,
@@ -1013,7 +1013,7 @@
     {
       "key": "release-secondary-flatpak-push",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-secondary-flatpak-push",
         "size": 5,
         "x": 0.5596026490066226,
@@ -1023,7 +1023,7 @@
     {
       "key": "release-partner-repack-repackage-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-partner-repack-repackage-signing",
         "size": 5,
         "x": 0.3079470198675497,
@@ -1033,7 +1033,7 @@
     {
       "key": "release-partner-repack-chunking-dummy",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-partner-repack-chunking-dummy",
         "size": 5,
         "x": 0.11920529801324505,
@@ -1043,7 +1043,7 @@
     {
       "key": "release-notify-push",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-notify-push",
         "size": 5,
         "x": 0.8112582781456954,
@@ -1053,7 +1053,7 @@
     {
       "key": "release-source-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-source-signing",
         "size": 5,
         "x": -0.4470198675496689,
@@ -1063,7 +1063,7 @@
     {
       "key": "fxrecord",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "fxrecord",
         "size": 5,
         "x": -0.3211920529801324,
@@ -1073,7 +1073,7 @@
     {
       "key": "test",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "test",
         "size": 5,
         "x": 0.11920529801324505,
@@ -1083,7 +1083,7 @@
     {
       "key": "repackage-signing-msix",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "repackage-signing-msix",
         "size": 5,
         "x": -0.13245033112582782,
@@ -1093,7 +1093,7 @@
     {
       "key": "release-partner-attribution-beetmover",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-partner-attribution-beetmover",
         "size": 5,
         "x": 0.24503311258278146,
@@ -1103,7 +1103,7 @@
     {
       "key": "mar-signing-autograph-stage",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "mar-signing-autograph-stage",
         "size": 5,
         "x": -0.13245033112582782,
@@ -1113,7 +1113,7 @@
     {
       "key": "release-source",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-source",
         "size": 5,
         "x": -0.509933774834437,
@@ -1123,7 +1123,7 @@
     {
       "key": "code-review",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "code-review",
         "size": 5,
         "x": -0.2582781456953642,
@@ -1133,7 +1133,7 @@
     {
       "key": "updatebot",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "updatebot",
         "size": 5,
         "x": -0.509933774834437,
@@ -1143,7 +1143,7 @@
     {
       "key": "release-source-checksums-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-source-checksums-signing",
         "size": 5,
         "x": -0.3211920529801324,
@@ -1153,7 +1153,7 @@
     {
       "key": "release-notify-av-announce",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-notify-av-announce",
         "size": 5,
         "x": 0.49668874172185434,
@@ -1163,7 +1163,7 @@
     {
       "key": "release-secondary-notify-ship",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-secondary-notify-ship",
         "size": 5,
         "x": 0.5596026490066226,
@@ -1173,7 +1173,7 @@
     {
       "key": "release-secondary-balrog-scheduling",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-secondary-balrog-scheduling",
         "size": 5,
         "x": 0.49668874172185434,
@@ -1183,7 +1183,7 @@
     {
       "key": "static-analysis-autotest",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "static-analysis-autotest",
         "size": 5,
         "x": -0.509933774834437,
@@ -1193,7 +1193,7 @@
     {
       "key": "bouncer-locations",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "bouncer-locations",
         "size": 5,
         "x": 0.49668874172185434,
@@ -1203,7 +1203,7 @@
     {
       "key": "beetmover-geckoview",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "beetmover-geckoview",
         "size": 5,
         "x": -0.19536423841059603,
@@ -1213,7 +1213,7 @@
     {
       "key": "release-flatpak-push",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-flatpak-push",
         "size": 5,
         "x": 0.5596026490066226,
@@ -1223,7 +1223,7 @@
     {
       "key": "release-push-langpacks",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-push-langpacks",
         "size": 5,
         "x": -0.0695364238410596,
@@ -1233,7 +1233,7 @@
     {
       "key": "release-partner-repack-beetmover",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-partner-repack-beetmover",
         "size": 5,
         "x": 0.37086092715231794,
@@ -1243,7 +1243,7 @@
     {
       "key": "hazard",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "hazard",
         "size": 5,
         "x": -0.509933774834437,
@@ -1253,7 +1253,7 @@
     {
       "key": "openh264-signing",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "openh264-signing",
         "size": 5,
         "x": -0.4470198675496689,
@@ -1263,7 +1263,7 @@
     {
       "key": "openh264-plugin",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "openh264-plugin",
         "size": 5,
         "x": -0.509933774834437,
@@ -1273,7 +1273,7 @@
     {
       "key": "beetmover-apt",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "beetmover-apt",
         "size": 5,
         "x": 0.37086092715231794,
@@ -1283,7 +1283,7 @@
     {
       "key": "system-symbols-reprocess",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "system-symbols-reprocess",
         "size": 5,
         "x": -0.3841059602649006,
@@ -1293,7 +1293,7 @@
     {
       "key": "system-symbols-upload",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "system-symbols-upload",
         "size": 5,
         "x": -0.4470198675496689,
@@ -1303,7 +1303,7 @@
     {
       "key": "docker-image",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "docker-image",
         "size": 5,
         "x": -0.5728476821192053,
@@ -1313,7 +1313,7 @@
     {
       "key": "perftest",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "perftest",
         "size": 5,
         "x": -0.3211920529801324,
@@ -1323,7 +1323,7 @@
     {
       "key": "release-msix-push",
       "attributes": {
-        "color": "#B30000",
+        "color": "#054096",
         "label": "release-msix-push",
         "size": 5,
         "x": 0.05629139072847683,

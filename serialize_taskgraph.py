@@ -54,7 +54,7 @@ def serialize_kinds(kinds, pos):
             {
                 "key": kind,
                 "attributes": {
-                    "color": "#B30000",
+                    "color": "#054096",
                     "label": kind,
                     "size": 5,
                     # "size": .5,
@@ -136,8 +136,6 @@ def main():
     # digraph = build_digraph(taskgraph)
     pos = layout_digraph(digraph)
     serialized_kinds = serialize_kinds(digraph, pos)
-    breakpoint()
-    exit(0)
     with open(f"./ser-ff-release-kinds.json", "w") as f:
         f.write(json.dumps(serialized_kinds, indent=2))
     # serialized_taskgraph = serialize_taskgraph(taskgraph, pos)
