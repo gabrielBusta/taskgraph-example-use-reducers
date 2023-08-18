@@ -155,19 +155,56 @@ renderer.on("clickNode", ({ node }) => {
     graph.neighbors(node).forEach((neighbor) => state.viewSet.add(neighbor));
   }
 
-  // Zoom and Attraction logic here
+  // Compute the bounding box of the viewSet
+  let minX = Infinity,
+    maxX = -Infinity,
+    minY = Infinity,
+    maxY = -Infinity;
+
+  state.viewSet.forEach((viewNode) => {
+    const position = renderer.getNodeDisplayData(viewNode) as Coordinates;
+    minX = Math.min(minX, position.x);
+    maxX = Math.max(maxX, position.x);
+    minY = Math.min(minY, position.y);
+    maxY = Math.max(maxY, position.y);
+  });
+
   const nodePosition = renderer.getNodeDisplayData(node) as Coordinates;
 
+  // Compute the center of the bounding box
+  const boundingBoxCenterX = (minX + maxX) / 2;
+  const boundingBoxCenterY = (minY + maxY) / 2;
+
+  // Determine the offset of the clicked node from the center of the bounding box
+  const offsetX = nodePosition.x - boundingBoxCenterX;
+  const offsetY = nodePosition.y - boundingBoxCenterY;
+
+  // Adjust the center coordinates by the offset
+  const adjustedCenterX = boundingBoxCenterX + offsetX;
+  const adjustedCenterY = boundingBoxCenterY + offsetY;
+
+  // Compute the width and height of the bounding box
+  const width = maxX - minX;
+  const height = maxY - minY;
+
+  // Use the maximum of width and height to determine the zoom ratio
+  const maxDimension = Math.max(width, height);
+  const dimensions = renderer.getDimensions();
+  const screenDimension = Math.min(dimensions.width, dimensions.height); 
+  const desiredZoom = (screenDimension / (maxDimension + 20)) * .08; // Add some margin
+
+  // Animate the camera to the new position and zoom
   renderer.getCamera().animate(
     {
-      x: nodePosition.x,
-      y: nodePosition.y,
-      ratio: .25, // Adjust this value for desired zoom level
+      x: adjustedCenterX,
+      y: adjustedCenterY,
+      ratio: 1 / desiredZoom,
     },
     {
       duration: 500,
     }
   );
+
 
   renderer.refresh();
 });
@@ -184,76 +221,14 @@ renderer.setSetting("nodeReducer", (node, data) => {
     (state.pinnedSet.size && !state.viewSet.has(node))
   ) {
     res.hidden = true;
+  } else if (
+    state.viewSet.has(node)
+  ) {
+    res.forceLabel = true;
   }
+
   return res;
 });
-
-function drawLabel(context, data, settings) {
-  if (!data.label) return;
-
-  const size = settings.labelSize,
-    font = settings.labelFont,
-    weight = settings.labelWeight;
-
-  context.font = `${weight} ${size}px ${font}`;
-  const width = context.measureText(data.label).width + 8;
-
-  // Center the label's background inside the node
-  context.fillStyle = "#ffffffcc";
-  context.fillRect(
-    data.x - width / 2, // Adjust for centering
-    data.y - size / 2, // Adjust for centering
-    width,
-    size
-  );
-
-  context.fillStyle = "#000";
-  context.textAlign = "center";
-  context.textBaseline = "middle";
-  context.fillText(data.label, data.x, data.y);
-}
-
-function drawHover(context, data, settings) {
-  // const size = settings.labelSize,
-  //   font = settings.labelFont,
-  //   weight = settings.labelWeight;
-
-  // context.font = `${weight} ${size}px ${font}`;
-
-  // // Then we draw the label background
-  // context.fillStyle = "#FFF";
-
-  // const PADDING = 2;
-
-  // if (typeof data.label === "string") {
-  //   const textWidth = context.measureText(data.label).width,
-  //     boxWidth = Math.round(textWidth + 5),
-  //     boxHeight = Math.round(size + 2 * PADDING),
-  //     radius = Math.max(data.size, size / 2) + PADDING;
-
-  //   const angleRadian = Math.asin(boxHeight / 2 / radius);
-  //   const xDeltaCoord = data.x - Math.sqrt(Math.abs(Math.pow(radius, 2) - Math.pow(boxHeight / 2, 2)));
-
-  //   context.beginPath();
-  //   context.moveTo(xDeltaCoord - boxWidth / 2, data.y + boxHeight / 2);
-  //   context.lineTo(xDeltaCoord + boxWidth / 2, data.y + boxHeight / 2);
-  //   context.lineTo(xDeltaCoord + boxWidth / 2, data.y - boxHeight / 2);
-  //   context.lineTo(xDeltaCoord - boxWidth / 2, data.y - boxHeight / 2);
-  //   context.arc(data.x, data.y, radius, angleRadian, -angleRadian);
-  //   context.closePath();
-  //   context.fill();
-  // } else {
-  //   context.beginPath();
-  //   context.arc(data.x, data.y, data.size + PADDING, 0, Math.PI * 2);
-  //   context.closePath();
-  //   context.fill();
-  // }
-
-  // drawLabel(context, data, settings);
-}
-
-renderer.setSetting("hoverRenderer", drawHover);
-renderer.setSetting("labelRenderer", drawLabel);
 
 renderer.setSetting("edgeReducer", (edge, data) => {
   const res: Partial<EdgeDisplayData> = { ...data };
