@@ -1,0 +1,1546 @@
+{
+  "nodes": [
+    {
+      "key": "finetune-student",
+      "attributes": {
+        "color": "#B30000",
+        "label": "finetune-student",
+        "size": 5,
+        "x": 0.7545454545454545,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "cefilter",
+      "attributes": {
+        "color": "#B30000",
+        "label": "cefilter",
+        "size": 5,
+        "x": 0.5090909090909091,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "alignments",
+      "attributes": {
+        "color": "#B30000",
+        "label": "alignments",
+        "size": 5,
+        "x": 0.5909090909090909,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "train-vocab",
+      "attributes": {
+        "color": "#B30000",
+        "label": "train-vocab",
+        "size": 5,
+        "x": -0.4727272727272727,
+        "y": 0.04090909090909091
+      }
+    },
+    {
+      "key": "merge-devset",
+      "attributes": {
+        "color": "#B30000",
+        "label": "merge-devset",
+        "size": 5,
+        "x": -0.5545454545454546,
+        "y": 0.12272727272727273
+      }
+    },
+    {
+      "key": "toolchain",
+      "attributes": {
+        "color": "#B30000",
+        "label": "toolchain",
+        "size": 5,
+        "x": -0.7181818181818183,
+        "y": 0.08181818181818182
+      }
+    },
+    {
+      "key": "train-student",
+      "attributes": {
+        "color": "#B30000",
+        "label": "train-student",
+        "size": 5,
+        "x": 0.6727272727272726,
+        "y": 0.04090909090909091
+      }
+    },
+    {
+      "key": "collect-mono-src",
+      "attributes": {
+        "color": "#B30000",
+        "label": "collect-mono-src",
+        "size": 5,
+        "x": 0.18181818181818182,
+        "y": 0.04090909090909091
+      }
+    },
+    {
+      "key": "merge-mono",
+      "attributes": {
+        "color": "#B30000",
+        "label": "merge-mono",
+        "size": 5,
+        "x": -0.6363636363636364,
+        "y": 0.04090909090909091
+      }
+    },
+    {
+      "key": "translate-mono-src",
+      "attributes": {
+        "color": "#B30000",
+        "label": "translate-mono-src",
+        "size": 5,
+        "x": 0.1,
+        "y": 0.04090909090909091
+      }
+    },
+    {
+      "key": "score",
+      "attributes": {
+        "color": "#B30000",
+        "label": "score",
+        "size": 5,
+        "x": 0.4272727272727273,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "merge-translated",
+      "attributes": {
+        "color": "#B30000",
+        "label": "merge-translated",
+        "size": 5,
+        "x": 0.34545454545454546,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "evaluate-quantized",
+      "attributes": {
+        "color": "#B30000",
+        "label": "evaluate-quantized",
+        "size": 5,
+        "x": 0.9181818181818181,
+        "y": 0.04090909090909091
+      }
+    },
+    {
+      "key": "dataset",
+      "attributes": {
+        "color": "#B30000",
+        "label": "dataset",
+        "size": 5,
+        "x": -0.8,
+        "y": 0.04090909090909091
+      }
+    },
+    {
+      "key": "quantize",
+      "attributes": {
+        "color": "#B30000",
+        "label": "quantize",
+        "size": 5,
+        "x": 0.8363636363636363,
+        "y": 0.04090909090909091
+      }
+    },
+    {
+      "key": "train-backwards",
+      "attributes": {
+        "color": "#B30000",
+        "label": "train-backwards",
+        "size": 5,
+        "x": -0.3909090909090909,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "merge-corpus",
+      "attributes": {
+        "color": "#B30000",
+        "label": "merge-corpus",
+        "size": 5,
+        "x": -0.5545454545454546,
+        "y": 0.04090909090909091
+      }
+    },
+    {
+      "key": "translate-corpus",
+      "attributes": {
+        "color": "#B30000",
+        "label": "translate-corpus",
+        "size": 5,
+        "x": 0.1,
+        "y": -0.04090909090909091
+      }
+    },
+    {
+      "key": "split-corpus",
+      "attributes": {
+        "color": "#B30000",
+        "label": "split-corpus",
+        "size": 5,
+        "x": -0.4727272727272727,
+        "y": -0.04090909090909091
+      }
+    },
+    {
+      "key": "finetune-teacher",
+      "attributes": {
+        "color": "#B30000",
+        "label": "finetune-teacher",
+        "size": 5,
+        "x": 0.01818181818181819,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "collect-corpus",
+      "attributes": {
+        "color": "#B30000",
+        "label": "collect-corpus",
+        "size": 5,
+        "x": 0.26363636363636367,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "split-mono-src",
+      "attributes": {
+        "color": "#B30000",
+        "label": "split-mono-src",
+        "size": 5,
+        "x": -0.5545454545454546,
+        "y": -0.04090909090909091
+      }
+    },
+    {
+      "key": "evaluate",
+      "attributes": {
+        "color": "#B30000",
+        "label": "evaluate",
+        "size": 5,
+        "x": 0.8363636363636363,
+        "y": -0.04090909090909091
+      }
+    },
+    {
+      "key": "train-teacher",
+      "attributes": {
+        "color": "#B30000",
+        "label": "train-teacher",
+        "size": 5,
+        "x": -0.06363636363636363,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "export",
+      "attributes": {
+        "color": "#B30000",
+        "label": "export",
+        "size": 5,
+        "x": 0.9181818181818181,
+        "y": -0.04090909090909091
+      }
+    },
+    {
+      "key": "clean-corpus",
+      "attributes": {
+        "color": "#B30000",
+        "label": "clean-corpus",
+        "size": 5,
+        "x": -0.7181818181818183,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "bicleaner",
+      "attributes": {
+        "color": "#B30000",
+        "label": "bicleaner",
+        "size": 5,
+        "x": -0.6363636363636364,
+        "y": -0.04090909090909091
+      }
+    },
+    {
+      "key": "fetch",
+      "attributes": {
+        "color": "#B30000",
+        "label": "fetch",
+        "size": 5,
+        "x": -0.8,
+        "y": -0.04090909090909091
+      }
+    },
+    {
+      "key": "clean-mono",
+      "attributes": {
+        "color": "#B30000",
+        "label": "clean-mono",
+        "size": 5,
+        "x": -0.7181818181818183,
+        "y": -0.08181818181818182
+      }
+    },
+    {
+      "key": "all",
+      "attributes": {
+        "color": "#B30000",
+        "label": "all",
+        "size": 5,
+        "x": 0.9999999999999999,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "evaluate-teacher-ensemble",
+      "attributes": {
+        "color": "#B30000",
+        "label": "evaluate-teacher-ensemble",
+        "size": 5,
+        "x": 0.6727272727272726,
+        "y": -0.04090909090909091
+      }
+    },
+    {
+      "key": "merge-augmented",
+      "attributes": {
+        "color": "#B30000",
+        "label": "merge-augmented",
+        "size": 5,
+        "x": -0.14545454545454545,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "collect-mono-trg",
+      "attributes": {
+        "color": "#B30000",
+        "label": "collect-mono-trg",
+        "size": 5,
+        "x": -0.22727272727272727,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "translate-mono-trg",
+      "attributes": {
+        "color": "#B30000",
+        "label": "translate-mono-trg",
+        "size": 5,
+        "x": -0.3090909090909091,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "split-mono-trg",
+      "attributes": {
+        "color": "#B30000",
+        "label": "split-mono-trg",
+        "size": 5,
+        "x": -0.5545454545454546,
+        "y": -0.12272727272727273
+      }
+    },
+    {
+      "key": "extract-best",
+      "attributes": {
+        "color": "#B30000",
+        "label": "extract-best",
+        "size": 5,
+        "x": 0.18181818181818182,
+        "y": -0.04090909090909091
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "0",
+      "source": "cefilter",
+      "target": "finetune-student",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "finetune-student"
+      }
+    },
+    {
+      "key": "1",
+      "source": "alignments",
+      "target": "finetune-student",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "finetune-student"
+      }
+    },
+    {
+      "key": "2",
+      "source": "train-vocab",
+      "target": "finetune-student",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "finetune-student"
+      }
+    },
+    {
+      "key": "3",
+      "source": "merge-devset",
+      "target": "finetune-student",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "finetune-student"
+      }
+    },
+    {
+      "key": "4",
+      "source": "toolchain",
+      "target": "finetune-student",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "finetune-student"
+      }
+    },
+    {
+      "key": "5",
+      "source": "train-student",
+      "target": "finetune-student",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "finetune-student"
+      }
+    },
+    {
+      "key": "6",
+      "source": "score",
+      "target": "cefilter",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "cefilter"
+      }
+    },
+    {
+      "key": "7",
+      "source": "toolchain",
+      "target": "cefilter",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "cefilter"
+      }
+    },
+    {
+      "key": "8",
+      "source": "merge-translated",
+      "target": "cefilter",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "cefilter"
+      }
+    },
+    {
+      "key": "9",
+      "source": "train-vocab",
+      "target": "alignments",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "alignments"
+      }
+    },
+    {
+      "key": "10",
+      "source": "toolchain",
+      "target": "alignments",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "alignments"
+      }
+    },
+    {
+      "key": "11",
+      "source": "cefilter",
+      "target": "alignments",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "alignments"
+      }
+    },
+    {
+      "key": "12",
+      "source": "merge-corpus",
+      "target": "train-vocab",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-vocab"
+      }
+    },
+    {
+      "key": "13",
+      "source": "toolchain",
+      "target": "train-vocab",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-vocab"
+      }
+    },
+    {
+      "key": "14",
+      "source": "dataset",
+      "target": "merge-devset",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-devset"
+      }
+    },
+    {
+      "key": "15",
+      "source": "clean-corpus",
+      "target": "merge-devset",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-devset"
+      }
+    },
+    {
+      "key": "16",
+      "source": "bicleaner",
+      "target": "merge-devset",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-devset"
+      }
+    },
+    {
+      "key": "17",
+      "source": "toolchain",
+      "target": "merge-devset",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-devset"
+      }
+    },
+    {
+      "key": "18",
+      "source": "fetch",
+      "target": "toolchain",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "toolchain"
+      }
+    },
+    {
+      "key": "19",
+      "source": "cefilter",
+      "target": "train-student",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-student"
+      }
+    },
+    {
+      "key": "20",
+      "source": "alignments",
+      "target": "train-student",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-student"
+      }
+    },
+    {
+      "key": "21",
+      "source": "train-vocab",
+      "target": "train-student",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-student"
+      }
+    },
+    {
+      "key": "22",
+      "source": "merge-devset",
+      "target": "train-student",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-student"
+      }
+    },
+    {
+      "key": "23",
+      "source": "toolchain",
+      "target": "train-student",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-student"
+      }
+    },
+    {
+      "key": "24",
+      "source": "merge-mono",
+      "target": "collect-mono-src",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "collect-mono-src"
+      }
+    },
+    {
+      "key": "25",
+      "source": "translate-mono-src",
+      "target": "collect-mono-src",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "collect-mono-src"
+      }
+    },
+    {
+      "key": "26",
+      "source": "toolchain",
+      "target": "merge-mono",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-mono"
+      }
+    },
+    {
+      "key": "27",
+      "source": "clean-mono",
+      "target": "merge-mono",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-mono"
+      }
+    },
+    {
+      "key": "28",
+      "source": "finetune-teacher",
+      "target": "translate-mono-src",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-mono-src"
+      }
+    },
+    {
+      "key": "29",
+      "source": "toolchain",
+      "target": "translate-mono-src",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-mono-src"
+      }
+    },
+    {
+      "key": "30",
+      "source": "train-vocab",
+      "target": "translate-mono-src",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-mono-src"
+      }
+    },
+    {
+      "key": "31",
+      "source": "split-mono-src",
+      "target": "translate-mono-src",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-mono-src"
+      }
+    },
+    {
+      "key": "32",
+      "source": "train-vocab",
+      "target": "score",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "score"
+      }
+    },
+    {
+      "key": "33",
+      "source": "toolchain",
+      "target": "score",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "score"
+      }
+    },
+    {
+      "key": "34",
+      "source": "merge-translated",
+      "target": "score",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "score"
+      }
+    },
+    {
+      "key": "35",
+      "source": "train-backwards",
+      "target": "score",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "score"
+      }
+    },
+    {
+      "key": "36",
+      "source": "collect-mono-src",
+      "target": "merge-translated",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-translated"
+      }
+    },
+    {
+      "key": "37",
+      "source": "merge-mono",
+      "target": "merge-translated",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-translated"
+      }
+    },
+    {
+      "key": "38",
+      "source": "collect-corpus",
+      "target": "merge-translated",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-translated"
+      }
+    },
+    {
+      "key": "39",
+      "source": "merge-corpus",
+      "target": "merge-translated",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-translated"
+      }
+    },
+    {
+      "key": "40",
+      "source": "toolchain",
+      "target": "merge-translated",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-translated"
+      }
+    },
+    {
+      "key": "41",
+      "source": "dataset",
+      "target": "evaluate-quantized",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-quantized"
+      }
+    },
+    {
+      "key": "42",
+      "source": "alignments",
+      "target": "evaluate-quantized",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-quantized"
+      }
+    },
+    {
+      "key": "43",
+      "source": "train-vocab",
+      "target": "evaluate-quantized",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-quantized"
+      }
+    },
+    {
+      "key": "44",
+      "source": "quantize",
+      "target": "evaluate-quantized",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-quantized"
+      }
+    },
+    {
+      "key": "45",
+      "source": "toolchain",
+      "target": "evaluate-quantized",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-quantized"
+      }
+    },
+    {
+      "key": "46",
+      "source": "alignments",
+      "target": "quantize",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "quantize"
+      }
+    },
+    {
+      "key": "47",
+      "source": "train-vocab",
+      "target": "quantize",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "quantize"
+      }
+    },
+    {
+      "key": "48",
+      "source": "merge-devset",
+      "target": "quantize",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "quantize"
+      }
+    },
+    {
+      "key": "49",
+      "source": "toolchain",
+      "target": "quantize",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "quantize"
+      }
+    },
+    {
+      "key": "50",
+      "source": "finetune-student",
+      "target": "quantize",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "quantize"
+      }
+    },
+    {
+      "key": "51",
+      "source": "merge-corpus",
+      "target": "train-backwards",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-backwards"
+      }
+    },
+    {
+      "key": "52",
+      "source": "train-vocab",
+      "target": "train-backwards",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-backwards"
+      }
+    },
+    {
+      "key": "53",
+      "source": "toolchain",
+      "target": "train-backwards",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-backwards"
+      }
+    },
+    {
+      "key": "54",
+      "source": "merge-devset",
+      "target": "train-backwards",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-backwards"
+      }
+    },
+    {
+      "key": "55",
+      "source": "dataset",
+      "target": "merge-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-corpus"
+      }
+    },
+    {
+      "key": "56",
+      "source": "clean-corpus",
+      "target": "merge-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-corpus"
+      }
+    },
+    {
+      "key": "57",
+      "source": "bicleaner",
+      "target": "merge-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-corpus"
+      }
+    },
+    {
+      "key": "58",
+      "source": "toolchain",
+      "target": "merge-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-corpus"
+      }
+    },
+    {
+      "key": "59",
+      "source": "split-corpus",
+      "target": "translate-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-corpus"
+      }
+    },
+    {
+      "key": "60",
+      "source": "train-vocab",
+      "target": "translate-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-corpus"
+      }
+    },
+    {
+      "key": "61",
+      "source": "toolchain",
+      "target": "translate-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-corpus"
+      }
+    },
+    {
+      "key": "62",
+      "source": "finetune-teacher",
+      "target": "translate-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-corpus"
+      }
+    },
+    {
+      "key": "63",
+      "source": "merge-corpus",
+      "target": "split-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "split-corpus"
+      }
+    },
+    {
+      "key": "64",
+      "source": "train-vocab",
+      "target": "finetune-teacher",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "finetune-teacher"
+      }
+    },
+    {
+      "key": "65",
+      "source": "merge-devset",
+      "target": "finetune-teacher",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "finetune-teacher"
+      }
+    },
+    {
+      "key": "66",
+      "source": "train-teacher",
+      "target": "finetune-teacher",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "finetune-teacher"
+      }
+    },
+    {
+      "key": "67",
+      "source": "merge-corpus",
+      "target": "finetune-teacher",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "finetune-teacher"
+      }
+    },
+    {
+      "key": "68",
+      "source": "toolchain",
+      "target": "finetune-teacher",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "finetune-teacher"
+      }
+    },
+    {
+      "key": "69",
+      "source": "merge-corpus",
+      "target": "collect-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "collect-corpus"
+      }
+    },
+    {
+      "key": "70",
+      "source": "extract-best",
+      "target": "collect-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "collect-corpus"
+      }
+    },
+    {
+      "key": "71",
+      "source": "merge-mono",
+      "target": "split-mono-src",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "split-mono-src"
+      }
+    },
+    {
+      "key": "72",
+      "source": "toolchain",
+      "target": "split-mono-src",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "split-mono-src"
+      }
+    },
+    {
+      "key": "73",
+      "source": "train-backwards",
+      "target": "evaluate",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate"
+      }
+    },
+    {
+      "key": "74",
+      "source": "dataset",
+      "target": "evaluate",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate"
+      }
+    },
+    {
+      "key": "75",
+      "source": "alignments",
+      "target": "evaluate",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate"
+      }
+    },
+    {
+      "key": "76",
+      "source": "train-vocab",
+      "target": "evaluate",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate"
+      }
+    },
+    {
+      "key": "77",
+      "source": "train-teacher",
+      "target": "evaluate",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate"
+      }
+    },
+    {
+      "key": "78",
+      "source": "toolchain",
+      "target": "evaluate",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate"
+      }
+    },
+    {
+      "key": "79",
+      "source": "finetune-teacher",
+      "target": "evaluate",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate"
+      }
+    },
+    {
+      "key": "80",
+      "source": "finetune-student",
+      "target": "evaluate",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate"
+      }
+    },
+    {
+      "key": "81",
+      "source": "train-student",
+      "target": "evaluate",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate"
+      }
+    },
+    {
+      "key": "82",
+      "source": "train-vocab",
+      "target": "train-teacher",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-teacher"
+      }
+    },
+    {
+      "key": "83",
+      "source": "merge-devset",
+      "target": "train-teacher",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-teacher"
+      }
+    },
+    {
+      "key": "84",
+      "source": "toolchain",
+      "target": "train-teacher",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-teacher"
+      }
+    },
+    {
+      "key": "85",
+      "source": "merge-augmented",
+      "target": "train-teacher",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "train-teacher"
+      }
+    },
+    {
+      "key": "86",
+      "source": "alignments",
+      "target": "export",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "export"
+      }
+    },
+    {
+      "key": "87",
+      "source": "train-vocab",
+      "target": "export",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "export"
+      }
+    },
+    {
+      "key": "88",
+      "source": "toolchain",
+      "target": "export",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "export"
+      }
+    },
+    {
+      "key": "89",
+      "source": "quantize",
+      "target": "export",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "export"
+      }
+    },
+    {
+      "key": "90",
+      "source": "dataset",
+      "target": "clean-corpus",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "clean-corpus"
+      }
+    },
+    {
+      "key": "91",
+      "source": "fetch",
+      "target": "bicleaner",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "bicleaner"
+      }
+    },
+    {
+      "key": "92",
+      "source": "toolchain",
+      "target": "bicleaner",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "bicleaner"
+      }
+    },
+    {
+      "key": "93",
+      "source": "clean-corpus",
+      "target": "bicleaner",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "bicleaner"
+      }
+    },
+    {
+      "key": "94",
+      "source": "dataset",
+      "target": "clean-mono",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "clean-mono"
+      }
+    },
+    {
+      "key": "95",
+      "source": "evaluate",
+      "target": "all",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "all"
+      }
+    },
+    {
+      "key": "96",
+      "source": "evaluate-teacher-ensemble",
+      "target": "all",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "all"
+      }
+    },
+    {
+      "key": "97",
+      "source": "evaluate-quantized",
+      "target": "all",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "all"
+      }
+    },
+    {
+      "key": "98",
+      "source": "export",
+      "target": "all",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "all"
+      }
+    },
+    {
+      "key": "99",
+      "source": "dataset",
+      "target": "evaluate-teacher-ensemble",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-teacher-ensemble"
+      }
+    },
+    {
+      "key": "100",
+      "source": "alignments",
+      "target": "evaluate-teacher-ensemble",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-teacher-ensemble"
+      }
+    },
+    {
+      "key": "101",
+      "source": "train-vocab",
+      "target": "evaluate-teacher-ensemble",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-teacher-ensemble"
+      }
+    },
+    {
+      "key": "102",
+      "source": "toolchain",
+      "target": "evaluate-teacher-ensemble",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-teacher-ensemble"
+      }
+    },
+    {
+      "key": "103",
+      "source": "finetune-teacher",
+      "target": "evaluate-teacher-ensemble",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-teacher-ensemble"
+      }
+    },
+    {
+      "key": "104",
+      "source": "collect-mono-trg",
+      "target": "merge-augmented",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-augmented"
+      }
+    },
+    {
+      "key": "105",
+      "source": "merge-corpus",
+      "target": "merge-augmented",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-augmented"
+      }
+    },
+    {
+      "key": "106",
+      "source": "merge-mono",
+      "target": "merge-augmented",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-augmented"
+      }
+    },
+    {
+      "key": "107",
+      "source": "toolchain",
+      "target": "merge-augmented",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-augmented"
+      }
+    },
+    {
+      "key": "108",
+      "source": "translate-mono-trg",
+      "target": "collect-mono-trg",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "collect-mono-trg"
+      }
+    },
+    {
+      "key": "109",
+      "source": "merge-mono",
+      "target": "collect-mono-trg",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "collect-mono-trg"
+      }
+    },
+    {
+      "key": "110",
+      "source": "split-mono-trg",
+      "target": "translate-mono-trg",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-mono-trg"
+      }
+    },
+    {
+      "key": "111",
+      "source": "train-vocab",
+      "target": "translate-mono-trg",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-mono-trg"
+      }
+    },
+    {
+      "key": "112",
+      "source": "toolchain",
+      "target": "translate-mono-trg",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-mono-trg"
+      }
+    },
+    {
+      "key": "113",
+      "source": "train-backwards",
+      "target": "translate-mono-trg",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-mono-trg"
+      }
+    },
+    {
+      "key": "114",
+      "source": "merge-mono",
+      "target": "split-mono-trg",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "split-mono-trg"
+      }
+    },
+    {
+      "key": "115",
+      "source": "toolchain",
+      "target": "split-mono-trg",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "split-mono-trg"
+      }
+    },
+    {
+      "key": "116",
+      "source": "split-corpus",
+      "target": "extract-best",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "extract-best"
+      }
+    },
+    {
+      "key": "117",
+      "source": "translate-corpus",
+      "target": "extract-best",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "extract-best"
+      }
+    }
+  ]
+}

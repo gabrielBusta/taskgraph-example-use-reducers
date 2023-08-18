@@ -1,0 +1,507 @@
+{
+  "release-partner-repack": [
+    "build-mac-signing",
+    "shippable-l10n-signing",
+    "build-mac-notarization",
+    "shippable-l10n-mac-signing",
+    "build-signing",
+    "shippable-l10n-mac-notarization"
+  ],
+  "release-update-verify-next": [
+    "post-balrog-dummy",
+    "release-balrog-submit-toplevel",
+    "release-update-verify-config-next",
+    "post-beetmover-dummy"
+  ],
+  "geckodriver-signing": [
+    "toolchain"
+  ],
+  "post-beetmover-checksums-dummy": [
+    "release-eme-free-repack-beetmover-checksums",
+    "release-beetmover-source-checksums",
+    "beetmover-checksums",
+    "release-beetmover-signed-langpacks-checksums"
+  ],
+  "l10n": [
+    "fetch",
+    "toolchain",
+    "repackage",
+    "build-signing",
+    "build"
+  ],
+  "fuzzing": [
+    "toolchain",
+    "fetch",
+    "build"
+  ],
+  "release-beetmover-push-to-release": [
+    "post-update-verify-dummy",
+    "release-generate-checksums-beetmover"
+  ],
+  "release-mark-as-shipped": [
+    "release-version-bump",
+    "release-balrog-scheduling",
+    "release-bouncer-aliases"
+  ],
+  "release-eme-free-repack": [
+    "build-mac-signing",
+    "shippable-l10n-signing",
+    "build-mac-notarization",
+    "shippable-l10n-mac-signing",
+    "build-signing",
+    "shippable-l10n-mac-notarization"
+  ],
+  "repackage-msi": [
+    "repackage-signing",
+    "fetch",
+    "repackage-signing-l10n"
+  ],
+  "release-push-langpacks": [
+    "shippable-l10n",
+    "build"
+  ],
+  "repackage": [
+    "build-mac-signing",
+    "toolchain",
+    "build-signing",
+    "build-mac-notarization"
+  ],
+  "beetmover-repackage": [
+    "repackage",
+    "repackage-signing-l10n",
+    "repackage-deb",
+    "attribution",
+    "repackage-l10n",
+    "repackage-signing-msi",
+    "partials",
+    "shippable-l10n-mac-signing",
+    "build",
+    "shippable-l10n-signing",
+    "shippable-l10n-mac-notarization",
+    "repackage-signing",
+    "mar-signing-l10n",
+    "attribution-l10n",
+    "repackage-signing-shippable-l10n-msix",
+    "build-mac-signing",
+    "repackage-deb-l10n",
+    "build-mac-notarization",
+    "build-signing",
+    "shippable-l10n",
+    "partials-signing",
+    "mar-signing"
+  ],
+  "upload-symbols-dummy": [
+    "upload-symbols",
+    "build"
+  ],
+  "release-snap-repackage": [
+    "post-langpack-dummy",
+    "post-beetmover-dummy"
+  ],
+  "openh264-signing": [
+    "openh264-plugin"
+  ],
+  "release-notify-promote": [
+    "release-generate-checksums-beetmover",
+    "release-bouncer-sub",
+    "post-beetmover-dummy"
+  ],
+  "repackage-deb": [
+    "toolchain",
+    "build-signing"
+  ],
+  "release-eme-free-repack-repackage": [
+    "release-eme-free-repack-mac-notarization",
+    "release-eme-free-repack-mac-signing",
+    "toolchain",
+    "release-eme-free-repack"
+  ],
+  "release-partner-repack-repackage": [
+    "release-partner-repack",
+    "toolchain",
+    "release-partner-repack-mac-signing",
+    "release-partner-repack-mac-notarization"
+  ],
+  "snap-upstream-build": [
+    "toolchain",
+    "fetch"
+  ],
+  "build": [
+    "toolchain",
+    "generate-profile",
+    "fetch"
+  ],
+  "release-flatpak-push": [
+    "release-flatpak-repackage"
+  ],
+  "webrender": [
+    "toolchain",
+    "build"
+  ],
+  "startup-test": [
+    "repackage",
+    "build-signing",
+    "repackage-signing"
+  ],
+  "shippable-l10n": [
+    "fetch",
+    "toolchain",
+    "repackage",
+    "build-signing",
+    "build"
+  ],
+  "condprof": [
+    "toolchain",
+    "build"
+  ],
+  "post-langpack-dummy": [
+    "release-beetmover-signed-langpacks"
+  ],
+  "beetmover-geckoview": [
+    "build-signing"
+  ],
+  "release-partner-repack-chunking-dummy": [
+    "release-partner-repack"
+  ],
+  "balrog": [
+    "startup-test",
+    "beetmover-repackage"
+  ],
+  "system-symbols-upload": [
+    "system-symbols"
+  ],
+  "release-update-verify": [
+    "post-balrog-dummy",
+    "release-update-verify-config",
+    "release-balrog-submit-toplevel",
+    "post-beetmover-dummy"
+  ],
+  "fxrecord": [
+    "build"
+  ],
+  "test": [
+    "fetch",
+    "repackage-signing-shippable-l10n-msix",
+    "repackage",
+    "toolchain",
+    "repackage-signing-msix",
+    "build-signing",
+    "repackage-signing",
+    "build"
+  ],
+  "release-notify-ship": [
+    "release-version-bump",
+    "release-balrog-scheduling",
+    "release-mark-as-shipped",
+    "release-bouncer-aliases"
+  ],
+  "release-partner-repack-mac-signing": [
+    "release-partner-repack"
+  ],
+  "mar-signing": [
+    "repackage"
+  ],
+  "attribution": [
+    "repackage-signing"
+  ],
+  "toolchain": [
+    "fetch",
+    "packages"
+  ],
+  "code-review": [
+    "source-test"
+  ],
+  "partials-signing": [
+    "partials"
+  ],
+  "beetmover-source": [
+    "release-source-signing"
+  ],
+  "release-partner-repack-repackage-signing": [
+    "release-partner-repack-repackage",
+    "release-partner-repack-chunking-dummy"
+  ],
+  "post-beetmover-dummy": [
+    "beetmover-repackage",
+    "beetmover-checksums"
+  ],
+  "attribution-l10n": [
+    "repackage-signing-l10n"
+  ],
+  "release-secondary-final-verify": [
+    "release-secondary-balrog-submit-toplevel",
+    "release-secondary-update-verify-config",
+    "post-balrog-dummy",
+    "post-beetmover-dummy"
+  ],
+  "generate-profile": [
+    "toolchain",
+    "instrumented-build"
+  ],
+  "release-generate-checksums": [
+    "post-beetmover-checksums-dummy",
+    "beetmover-source",
+    "release-beetmover-signed-langpacks"
+  ],
+  "diffoscope": [
+    "toolchain",
+    "build"
+  ],
+  "repackage-l10n": [
+    "shippable-l10n-signing",
+    "shippable-l10n-mac-notarization",
+    "toolchain",
+    "shippable-l10n-mac-signing"
+  ],
+  "github-sync": [
+    "toolchain",
+    "build"
+  ],
+  "system-symbols-reprocess": [
+    "system-symbols-upload",
+    "system-symbols",
+    "fetch"
+  ],
+  "partials": [
+    "repackage",
+    "repackage-l10n"
+  ],
+  "repackage-signing": [
+    "repackage"
+  ],
+  "repackage-signing-msi": [
+    "repackage-msi"
+  ],
+  "release-notify-push": [
+    "release-beetmover-push-to-release"
+  ],
+  "release-secondary-balrog-scheduling": [
+    "release-secondary-balrog-submit-toplevel",
+    "post-balrog-dummy",
+    "post-beetmover-dummy"
+  ],
+  "release-beetmover-signed-langpacks": [
+    "shippable-l10n-signing",
+    "build-signing"
+  ],
+  "artifact-build": [
+    "toolchain"
+  ],
+  "release-source-signing": [
+    "release-source"
+  ],
+  "release-source-checksums-signing": [
+    "beetmover-source"
+  ],
+  "release-msix-push": [
+    "repackage-shippable-l10n-msix"
+  ],
+  "repackage-shippable-l10n-msix": [
+    "shippable-l10n-signing",
+    "toolchain",
+    "build-signing"
+  ],
+  "bouncer-locations": [
+    "post-beetmover-dummy"
+  ],
+  "searchfox": [
+    "toolchain",
+    "fetch"
+  ],
+  "release-eme-free-repack-mac-signing": [
+    "release-eme-free-repack"
+  ],
+  "build-fat-aar": [
+    "toolchain",
+    "build"
+  ],
+  "are-we-esmified-yet": [
+    "toolchain",
+    "fetch"
+  ],
+  "system-symbols": [
+    "toolchain",
+    "fetch"
+  ],
+  "release-beetmover-source-checksums": [
+    "release-source-checksums-signing"
+  ],
+  "shippable-l10n-signing": [
+    "shippable-l10n"
+  ],
+  "beetmover-apt": [
+    "beetmover-repackage"
+  ],
+  "release-balrog-scheduling": [
+    "release-push-langpacks",
+    "release-bouncer-check"
+  ],
+  "release-secondary-notify-ship": [
+    "release-secondary-balrog-scheduling"
+  ],
+  "post-update-verify-dummy": [
+    "release-update-verify"
+  ],
+  "mar-signing-autograph-stage": [
+    "repackage"
+  ],
+  "upload-symbols": [
+    "toolchain",
+    "build"
+  ],
+  "release-version-bump": [
+    "release-beetmover-push-to-release"
+  ],
+  "repackage-signing-shippable-l10n-msix": [
+    "repackage-shippable-l10n-msix"
+  ],
+  "source-test": [
+    "toolchain",
+    "fetch",
+    "build"
+  ],
+  "release-beetmover-signed-langpacks-checksums": [
+    "release-beetmover-signed-langpacks"
+  ],
+  "build-mac-signing": [
+    "build"
+  ],
+  "release-generate-checksums-beetmover": [
+    "release-generate-checksums-signing"
+  ],
+  "release-partner-attribution-beetmover": [
+    "release-partner-attribution"
+  ],
+  "release-eme-free-repack-mac-notarization": [
+    "release-eme-free-repack-mac-signing"
+  ],
+  "geckodriver-mac-notarization": [
+    "geckodriver-signing"
+  ],
+  "repackage-deb-l10n": [
+    "shippable-l10n-signing"
+  ],
+  "release-flatpak-repackage": [
+    "post-langpack-dummy",
+    "post-beetmover-dummy"
+  ],
+  "shippable-l10n-mac-signing": [
+    "shippable-l10n"
+  ],
+  "release-secondary-flatpak-push": [
+    "release-flatpak-repackage"
+  ],
+  "release-secondary-update-verify": [
+    "release-secondary-balrog-submit-toplevel",
+    "release-secondary-update-verify-config",
+    "post-balrog-dummy",
+    "post-beetmover-dummy"
+  ],
+  "updatebot": [
+    "toolchain",
+    "fetch"
+  ],
+  "release-partner-attribution": [
+    "repackage-signing",
+    "repackage-signing-l10n"
+  ],
+  "repackage-msix": [
+    "toolchain",
+    "build-signing"
+  ],
+  "release-source": [
+    "toolchain"
+  ],
+  "release-notify-av-announce": [
+    "post-beetmover-dummy"
+  ],
+  "mar-signing-l10n": [
+    "repackage-l10n"
+  ],
+  "upload-generated-sources-dummy": [
+    "build",
+    "upload-generated-sources"
+  ],
+  "static-analysis-autotest": [
+    "toolchain"
+  ],
+  "instrumented-build": [
+    "toolchain",
+    "fetch"
+  ],
+  "release-generate-checksums-signing": [
+    "release-generate-checksums"
+  ],
+  "release-partner-repack-beetmover": [
+    "release-partner-repack-repackage-signing"
+  ],
+  "perftest": [
+    "toolchain",
+    "build"
+  ],
+  "spidermonkey": [
+    "toolchain"
+  ],
+  "upload-generated-sources": [
+    "build"
+  ],
+  "release-bouncer-aliases": [
+    "release-bouncer-check"
+  ],
+  "openh264-plugin": [
+    "toolchain"
+  ],
+  "build-mac-notarization": [
+    "build-mac-signing"
+  ],
+  "repackage-signing-l10n": [
+    "repackage-l10n"
+  ],
+  "release-eme-free-repack-beetmover-checksums": [
+    "release-eme-free-repack-beetmover"
+  ],
+  "release-bouncer-check": [
+    "release-beetmover-push-to-release"
+  ],
+  "shippable-l10n-mac-notarization": [
+    "shippable-l10n-mac-signing"
+  ],
+  "repackage-signing-msix": [
+    "repackage-msix"
+  ],
+  "release-final-verify": [
+    "release-update-verify-config",
+    "release-bouncer-check"
+  ],
+  "release-eme-free-repack-repackage-signing": [
+    "release-eme-free-repack-repackage"
+  ],
+  "beetmover-checksums": [
+    "beetmover-repackage"
+  ],
+  "release-partner-repack-mac-notarization": [
+    "release-partner-repack-mac-signing"
+  ],
+  "docker-image": [
+    "packages"
+  ],
+  "post-balrog-dummy": [
+    "balrog"
+  ],
+  "release-eme-free-repack-beetmover": [
+    "release-eme-free-repack-repackage-signing"
+  ],
+  "bootstrap": [
+    "toolchain"
+  ],
+  "build-signing": [
+    "build",
+    "build-fat-aar"
+  ],
+  "valgrind": [
+    "toolchain"
+  ],
+  "hazard": [
+    "toolchain"
+  ]
+}

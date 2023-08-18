@@ -1,0 +1,3886 @@
+{
+  "nodes": [
+    {
+      "key": "system-symbols",
+      "attributes": {
+        "color": "#B30000",
+        "label": "system-symbols",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": 0.4403973509933775
+      }
+    },
+    {
+      "key": "fetch",
+      "attributes": {
+        "color": "#B30000",
+        "label": "fetch",
+        "size": 5,
+        "x": -0.6357615894039735,
+        "y": 0.22019867549668876
+      }
+    },
+    {
+      "key": "toolchain",
+      "attributes": {
+        "color": "#B30000",
+        "label": "toolchain",
+        "size": 5,
+        "x": -0.5728476821192053,
+        "y": 0.03145695364238411
+      }
+    },
+    {
+      "key": "spidermonkey",
+      "attributes": {
+        "color": "#B30000",
+        "label": "spidermonkey",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": 0.3774834437086093
+      }
+    },
+    {
+      "key": "release-notify-ship",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-notify-ship",
+        "size": 5,
+        "x": 1.0,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "release-mark-as-shipped",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-mark-as-shipped",
+        "size": 5,
+        "x": 0.9370860927152318,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "release-bouncer-aliases",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-bouncer-aliases",
+        "size": 5,
+        "x": 0.8741721854304636,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "release-version-bump",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-version-bump",
+        "size": 5,
+        "x": 0.8112582781456954,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "release-balrog-scheduling",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-balrog-scheduling",
+        "size": 5,
+        "x": 0.8741721854304636,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "release-generate-checksums",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-generate-checksums",
+        "size": 5,
+        "x": 0.5596026490066226,
+        "y": 0.12582781456953643
+      }
+    },
+    {
+      "key": "post-beetmover-checksums-dummy",
+      "attributes": {
+        "color": "#B30000",
+        "label": "post-beetmover-checksums-dummy",
+        "size": 5,
+        "x": 0.49668874172185434,
+        "y": 0.28311258278145696
+      }
+    },
+    {
+      "key": "beetmover-source",
+      "attributes": {
+        "color": "#B30000",
+        "label": "beetmover-source",
+        "size": 5,
+        "x": -0.3841059602649006,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "release-beetmover-signed-langpacks",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-beetmover-signed-langpacks",
+        "size": 5,
+        "x": -0.006622516556291384,
+        "y": 0.09437086092715233
+      }
+    },
+    {
+      "key": "release-secondary-update-verify",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-secondary-update-verify",
+        "size": 5,
+        "x": 0.49668874172185434,
+        "y": 0.22019867549668876
+      }
+    },
+    {
+      "key": "release-secondary-update-verify-config",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-secondary-update-verify-config",
+        "size": 5,
+        "x": -0.6357615894039735,
+        "y": 0.15728476821192053
+      }
+    },
+    {
+      "key": "post-balrog-dummy",
+      "attributes": {
+        "color": "#B30000",
+        "label": "post-balrog-dummy",
+        "size": 5,
+        "x": 0.43377483443708614,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "post-beetmover-dummy",
+      "attributes": {
+        "color": "#B30000",
+        "label": "post-beetmover-dummy",
+        "size": 5,
+        "x": 0.43377483443708614,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "release-secondary-balrog-submit-toplevel",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-secondary-balrog-submit-toplevel",
+        "size": 5,
+        "x": -0.6357615894039735,
+        "y": 0.09437086092715233
+      }
+    },
+    {
+      "key": "beetmover-repackage",
+      "attributes": {
+        "color": "#B30000",
+        "label": "beetmover-repackage",
+        "size": 5,
+        "x": 0.3079470198675497,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "repackage-signing-l10n",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage-signing-l10n",
+        "size": 5,
+        "x": 0.11920529801324505,
+        "y": 0.18874172185430466
+      }
+    },
+    {
+      "key": "repackage-deb-l10n",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage-deb-l10n",
+        "size": 5,
+        "x": -0.006622516556291384,
+        "y": 0.03145695364238411
+      }
+    },
+    {
+      "key": "build-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "build-signing",
+        "size": 5,
+        "x": -0.2582781456953642,
+        "y": 0.15728476821192053
+      }
+    },
+    {
+      "key": "shippable-l10n-mac-notarization",
+      "attributes": {
+        "color": "#B30000",
+        "label": "shippable-l10n-mac-notarization",
+        "size": 5,
+        "x": -0.006622516556291384,
+        "y": -0.03145695364238411
+      }
+    },
+    {
+      "key": "mar-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "mar-signing",
+        "size": 5,
+        "x": -0.13245033112582782,
+        "y": 0.15728476821192053
+      }
+    },
+    {
+      "key": "mar-signing-l10n",
+      "attributes": {
+        "color": "#B30000",
+        "label": "mar-signing-l10n",
+        "size": 5,
+        "x": 0.11920529801324505,
+        "y": 0.12582781456953643
+      }
+    },
+    {
+      "key": "repackage-l10n",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage-l10n",
+        "size": 5,
+        "x": 0.05629139072847683,
+        "y": 0.18874172185430466
+      }
+    },
+    {
+      "key": "partials",
+      "attributes": {
+        "color": "#B30000",
+        "label": "partials",
+        "size": 5,
+        "x": 0.11920529801324505,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "repackage-deb",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage-deb",
+        "size": 5,
+        "x": -0.19536423841059603,
+        "y": 0.09437086092715233
+      }
+    },
+    {
+      "key": "attribution",
+      "attributes": {
+        "color": "#B30000",
+        "label": "attribution",
+        "size": 5,
+        "x": -0.0695364238410596,
+        "y": 0.12582781456953643
+      }
+    },
+    {
+      "key": "repackage-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage-signing",
+        "size": 5,
+        "x": -0.13245033112582782,
+        "y": 0.09437086092715233
+      }
+    },
+    {
+      "key": "shippable-l10n-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "shippable-l10n-signing",
+        "size": 5,
+        "x": -0.0695364238410596,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "repackage-signing-msi",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage-signing-msi",
+        "size": 5,
+        "x": 0.24503311258278146,
+        "y": 0.09437086092715233
+      }
+    },
+    {
+      "key": "shippable-l10n",
+      "attributes": {
+        "color": "#B30000",
+        "label": "shippable-l10n",
+        "size": 5,
+        "x": -0.13245033112582782,
+        "y": 0.03145695364238411
+      }
+    },
+    {
+      "key": "partials-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "partials-signing",
+        "size": 5,
+        "x": 0.18211920529801326,
+        "y": 0.15728476821192053
+      }
+    },
+    {
+      "key": "build-mac-notarization",
+      "attributes": {
+        "color": "#B30000",
+        "label": "build-mac-notarization",
+        "size": 5,
+        "x": -0.2582781456953642,
+        "y": 0.09437086092715233
+      }
+    },
+    {
+      "key": "attribution-l10n",
+      "attributes": {
+        "color": "#B30000",
+        "label": "attribution-l10n",
+        "size": 5,
+        "x": 0.18211920529801326,
+        "y": 0.09437086092715233
+      }
+    },
+    {
+      "key": "build-mac-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "build-mac-signing",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": 0.3774834437086093
+      }
+    },
+    {
+      "key": "repackage-signing-shippable-l10n-msix",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage-signing-shippable-l10n-msix",
+        "size": 5,
+        "x": 0.05629139072847683,
+        "y": 0.12582781456953643
+      }
+    },
+    {
+      "key": "repackage",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage",
+        "size": 5,
+        "x": -0.19536423841059603,
+        "y": 0.03145695364238411
+      }
+    },
+    {
+      "key": "build",
+      "attributes": {
+        "color": "#B30000",
+        "label": "build",
+        "size": 5,
+        "x": -0.3841059602649006,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "shippable-l10n-mac-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "shippable-l10n-mac-signing",
+        "size": 5,
+        "x": -0.0695364238410596,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "release-eme-free-repack-beetmover-checksums",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-eme-free-repack-beetmover-checksums",
+        "size": 5,
+        "x": 0.43377483443708614,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "release-beetmover-source-checksums",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-beetmover-source-checksums",
+        "size": 5,
+        "x": -0.2582781456953642,
+        "y": 0.03145695364238411
+      }
+    },
+    {
+      "key": "release-beetmover-signed-langpacks-checksums",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-beetmover-signed-langpacks-checksums",
+        "size": 5,
+        "x": 0.05629139072847683,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "beetmover-checksums",
+      "attributes": {
+        "color": "#B30000",
+        "label": "beetmover-checksums",
+        "size": 5,
+        "x": 0.37086092715231794,
+        "y": 0.12582781456953643
+      }
+    },
+    {
+      "key": "release-update-verify-next",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-update-verify-next",
+        "size": 5,
+        "x": 0.49668874172185434,
+        "y": 0.15728476821192053
+      }
+    },
+    {
+      "key": "release-update-verify-config-next",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-update-verify-config-next",
+        "size": 5,
+        "x": -0.6357615894039735,
+        "y": 0.03145695364238411
+      }
+    },
+    {
+      "key": "release-balrog-submit-toplevel",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-balrog-submit-toplevel",
+        "size": 5,
+        "x": -0.6357615894039735,
+        "y": -0.03145695364238411
+      }
+    },
+    {
+      "key": "balrog",
+      "attributes": {
+        "color": "#B30000",
+        "label": "balrog",
+        "size": 5,
+        "x": 0.37086092715231794,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "startup-test",
+      "attributes": {
+        "color": "#B30000",
+        "label": "startup-test",
+        "size": 5,
+        "x": -0.0695364238410596,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "repackage-msi",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage-msi",
+        "size": 5,
+        "x": 0.18211920529801326,
+        "y": 0.03145695364238411
+      }
+    },
+    {
+      "key": "release-eme-free-repack-repackage",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-eme-free-repack-repackage",
+        "size": 5,
+        "x": 0.24503311258278146,
+        "y": 0.03145695364238411
+      }
+    },
+    {
+      "key": "release-eme-free-repack",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-eme-free-repack",
+        "size": 5,
+        "x": 0.05629139072847683,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "release-eme-free-repack-mac-notarization",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-eme-free-repack-mac-notarization",
+        "size": 5,
+        "x": 0.18211920529801326,
+        "y": -0.03145695364238411
+      }
+    },
+    {
+      "key": "release-eme-free-repack-mac-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-eme-free-repack-mac-signing",
+        "size": 5,
+        "x": 0.11920529801324505,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "fuzzing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "fuzzing",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": 0.31456953642384106
+      }
+    },
+    {
+      "key": "repackage-shippable-l10n-msix",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage-shippable-l10n-msix",
+        "size": 5,
+        "x": -0.006622516556291384,
+        "y": -0.09437086092715233
+      }
+    },
+    {
+      "key": "repackage-msix",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage-msix",
+        "size": 5,
+        "x": -0.19536423841059603,
+        "y": -0.03145695364238411
+      }
+    },
+    {
+      "key": "release-snap-repackage",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-snap-repackage",
+        "size": 5,
+        "x": 0.49668874172185434,
+        "y": 0.09437086092715233
+      }
+    },
+    {
+      "key": "post-langpack-dummy",
+      "attributes": {
+        "color": "#B30000",
+        "label": "post-langpack-dummy",
+        "size": 5,
+        "x": 0.05629139072847683,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "release-partner-repack",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-partner-repack",
+        "size": 5,
+        "x": 0.05629139072847683,
+        "y": -0.12582781456953643
+      }
+    },
+    {
+      "key": "release-beetmover-push-to-release",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-beetmover-push-to-release",
+        "size": 5,
+        "x": 0.7483443708609272,
+        "y": 0.03145695364238411
+      }
+    },
+    {
+      "key": "release-generate-checksums-beetmover",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-generate-checksums-beetmover",
+        "size": 5,
+        "x": 0.685430463576159,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "post-update-verify-dummy",
+      "attributes": {
+        "color": "#B30000",
+        "label": "post-update-verify-dummy",
+        "size": 5,
+        "x": 0.5596026490066226,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "packages",
+      "attributes": {
+        "color": "#B30000",
+        "label": "packages",
+        "size": 5,
+        "x": -0.6357615894039735,
+        "y": -0.09437086092715233
+      }
+    },
+    {
+      "key": "build-fat-aar",
+      "attributes": {
+        "color": "#B30000",
+        "label": "build-fat-aar",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": 0.25165562913907286
+      }
+    },
+    {
+      "key": "upload-generated-sources",
+      "attributes": {
+        "color": "#B30000",
+        "label": "upload-generated-sources",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": 0.18874172185430466
+      }
+    },
+    {
+      "key": "upload-generated-sources-dummy",
+      "attributes": {
+        "color": "#B30000",
+        "label": "upload-generated-sources-dummy",
+        "size": 5,
+        "x": -0.2582781456953642,
+        "y": -0.03145695364238411
+      }
+    },
+    {
+      "key": "diffoscope",
+      "attributes": {
+        "color": "#B30000",
+        "label": "diffoscope",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": 0.12582781456953643
+      }
+    },
+    {
+      "key": "github-sync",
+      "attributes": {
+        "color": "#B30000",
+        "label": "github-sync",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "condprof",
+      "attributes": {
+        "color": "#B30000",
+        "label": "condprof",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "release-bouncer-check",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-bouncer-check",
+        "size": 5,
+        "x": 0.8112582781456954,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "artifact-build",
+      "attributes": {
+        "color": "#B30000",
+        "label": "artifact-build",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": 0.31456953642384106
+      }
+    },
+    {
+      "key": "release-eme-free-repack-beetmover",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-eme-free-repack-beetmover",
+        "size": 5,
+        "x": 0.37086092715231794,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "release-eme-free-repack-repackage-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-eme-free-repack-repackage-signing",
+        "size": 5,
+        "x": 0.3079470198675497,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "release-final-verify",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-final-verify",
+        "size": 5,
+        "x": 0.8741721854304636,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "release-update-verify-config",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-update-verify-config",
+        "size": 5,
+        "x": -0.6357615894039735,
+        "y": -0.15728476821192053
+      }
+    },
+    {
+      "key": "release-update-verify",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-update-verify",
+        "size": 5,
+        "x": 0.49668874172185434,
+        "y": 0.03145695364238411
+      }
+    },
+    {
+      "key": "release-partner-repack-repackage",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-partner-repack-repackage",
+        "size": 5,
+        "x": 0.24503311258278146,
+        "y": -0.03145695364238411
+      }
+    },
+    {
+      "key": "release-partner-repack-mac-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-partner-repack-mac-signing",
+        "size": 5,
+        "x": 0.11920529801324505,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "release-partner-repack-mac-notarization",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-partner-repack-mac-notarization",
+        "size": 5,
+        "x": 0.18211920529801326,
+        "y": -0.09437086092715233
+      }
+    },
+    {
+      "key": "release-notify-promote",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-notify-promote",
+        "size": 5,
+        "x": 0.7483443708609272,
+        "y": -0.03145695364238411
+      }
+    },
+    {
+      "key": "release-bouncer-sub",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-bouncer-sub",
+        "size": 5,
+        "x": -0.6357615894039735,
+        "y": -0.22019867549668876
+      }
+    },
+    {
+      "key": "l10n",
+      "attributes": {
+        "color": "#B30000",
+        "label": "l10n",
+        "size": 5,
+        "x": -0.13245033112582782,
+        "y": -0.03145695364238411
+      }
+    },
+    {
+      "key": "upload-symbols-dummy",
+      "attributes": {
+        "color": "#B30000",
+        "label": "upload-symbols-dummy",
+        "size": 5,
+        "x": -0.2582781456953642,
+        "y": -0.09437086092715233
+      }
+    },
+    {
+      "key": "upload-symbols",
+      "attributes": {
+        "color": "#B30000",
+        "label": "upload-symbols",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "geckodriver-mac-notarization",
+      "attributes": {
+        "color": "#B30000",
+        "label": "geckodriver-mac-notarization",
+        "size": 5,
+        "x": -0.4470198675496689,
+        "y": 0.12582781456953643
+      }
+    },
+    {
+      "key": "geckodriver-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "geckodriver-signing",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": 0.25165562913907286
+      }
+    },
+    {
+      "key": "release-secondary-final-verify",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-secondary-final-verify",
+        "size": 5,
+        "x": 0.49668874172185434,
+        "y": -0.03145695364238411
+      }
+    },
+    {
+      "key": "source-test",
+      "attributes": {
+        "color": "#B30000",
+        "label": "source-test",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": -0.12582781456953643
+      }
+    },
+    {
+      "key": "generate-profile",
+      "attributes": {
+        "color": "#B30000",
+        "label": "generate-profile",
+        "size": 5,
+        "x": -0.4470198675496689,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "are-we-esmified-yet",
+      "attributes": {
+        "color": "#B30000",
+        "label": "are-we-esmified-yet",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": 0.18874172185430466
+      }
+    },
+    {
+      "key": "instrumented-build",
+      "attributes": {
+        "color": "#B30000",
+        "label": "instrumented-build",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": 0.12582781456953643
+      }
+    },
+    {
+      "key": "valgrind",
+      "attributes": {
+        "color": "#B30000",
+        "label": "valgrind",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": 0.06291390728476821
+      }
+    },
+    {
+      "key": "webrender",
+      "attributes": {
+        "color": "#B30000",
+        "label": "webrender",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": -0.18874172185430466
+      }
+    },
+    {
+      "key": "release-generate-checksums-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-generate-checksums-signing",
+        "size": 5,
+        "x": 0.6225165562913908,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "bootstrap",
+      "attributes": {
+        "color": "#B30000",
+        "label": "bootstrap",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "snap-upstream-build",
+      "attributes": {
+        "color": "#B30000",
+        "label": "snap-upstream-build",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "release-flatpak-repackage",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-flatpak-repackage",
+        "size": 5,
+        "x": 0.49668874172185434,
+        "y": -0.09437086092715233
+      }
+    },
+    {
+      "key": "release-partner-attribution",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-partner-attribution",
+        "size": 5,
+        "x": 0.18211920529801326,
+        "y": -0.15728476821192053
+      }
+    },
+    {
+      "key": "searchfox",
+      "attributes": {
+        "color": "#B30000",
+        "label": "searchfox",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": -0.12582781456953643
+      }
+    },
+    {
+      "key": "release-secondary-flatpak-push",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-secondary-flatpak-push",
+        "size": 5,
+        "x": 0.5596026490066226,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "release-partner-repack-repackage-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-partner-repack-repackage-signing",
+        "size": 5,
+        "x": 0.3079470198675497,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "release-partner-repack-chunking-dummy",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-partner-repack-chunking-dummy",
+        "size": 5,
+        "x": 0.11920529801324505,
+        "y": -0.12582781456953643
+      }
+    },
+    {
+      "key": "release-notify-push",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-notify-push",
+        "size": 5,
+        "x": 0.8112582781456954,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "release-source-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-source-signing",
+        "size": 5,
+        "x": -0.4470198675496689,
+        "y": 0.0
+      }
+    },
+    {
+      "key": "fxrecord",
+      "attributes": {
+        "color": "#B30000",
+        "label": "fxrecord",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": -0.25165562913907286
+      }
+    },
+    {
+      "key": "test",
+      "attributes": {
+        "color": "#B30000",
+        "label": "test",
+        "size": 5,
+        "x": 0.11920529801324505,
+        "y": -0.18874172185430466
+      }
+    },
+    {
+      "key": "repackage-signing-msix",
+      "attributes": {
+        "color": "#B30000",
+        "label": "repackage-signing-msix",
+        "size": 5,
+        "x": -0.13245033112582782,
+        "y": -0.09437086092715233
+      }
+    },
+    {
+      "key": "release-partner-attribution-beetmover",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-partner-attribution-beetmover",
+        "size": 5,
+        "x": 0.24503311258278146,
+        "y": -0.09437086092715233
+      }
+    },
+    {
+      "key": "mar-signing-autograph-stage",
+      "attributes": {
+        "color": "#B30000",
+        "label": "mar-signing-autograph-stage",
+        "size": 5,
+        "x": -0.13245033112582782,
+        "y": -0.15728476821192053
+      }
+    },
+    {
+      "key": "release-source",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-source",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": -0.18874172185430466
+      }
+    },
+    {
+      "key": "code-review",
+      "attributes": {
+        "color": "#B30000",
+        "label": "code-review",
+        "size": 5,
+        "x": -0.2582781456953642,
+        "y": -0.15728476821192053
+      }
+    },
+    {
+      "key": "updatebot",
+      "attributes": {
+        "color": "#B30000",
+        "label": "updatebot",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": -0.25165562913907286
+      }
+    },
+    {
+      "key": "release-source-checksums-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-source-checksums-signing",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": -0.31456953642384106
+      }
+    },
+    {
+      "key": "release-notify-av-announce",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-notify-av-announce",
+        "size": 5,
+        "x": 0.49668874172185434,
+        "y": -0.15728476821192053
+      }
+    },
+    {
+      "key": "release-secondary-notify-ship",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-secondary-notify-ship",
+        "size": 5,
+        "x": 0.5596026490066226,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "release-secondary-balrog-scheduling",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-secondary-balrog-scheduling",
+        "size": 5,
+        "x": 0.49668874172185434,
+        "y": -0.22019867549668876
+      }
+    },
+    {
+      "key": "static-analysis-autotest",
+      "attributes": {
+        "color": "#B30000",
+        "label": "static-analysis-autotest",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": -0.31456953642384106
+      }
+    },
+    {
+      "key": "bouncer-locations",
+      "attributes": {
+        "color": "#B30000",
+        "label": "bouncer-locations",
+        "size": 5,
+        "x": 0.49668874172185434,
+        "y": -0.28311258278145696
+      }
+    },
+    {
+      "key": "beetmover-geckoview",
+      "attributes": {
+        "color": "#B30000",
+        "label": "beetmover-geckoview",
+        "size": 5,
+        "x": -0.19536423841059603,
+        "y": -0.09437086092715233
+      }
+    },
+    {
+      "key": "release-flatpak-push",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-flatpak-push",
+        "size": 5,
+        "x": 0.5596026490066226,
+        "y": -0.12582781456953643
+      }
+    },
+    {
+      "key": "release-push-langpacks",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-push-langpacks",
+        "size": 5,
+        "x": -0.0695364238410596,
+        "y": -0.12582781456953643
+      }
+    },
+    {
+      "key": "release-partner-repack-beetmover",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-partner-repack-beetmover",
+        "size": 5,
+        "x": 0.37086092715231794,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "hazard",
+      "attributes": {
+        "color": "#B30000",
+        "label": "hazard",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": -0.3774834437086093
+      }
+    },
+    {
+      "key": "openh264-signing",
+      "attributes": {
+        "color": "#B30000",
+        "label": "openh264-signing",
+        "size": 5,
+        "x": -0.4470198675496689,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "openh264-plugin",
+      "attributes": {
+        "color": "#B30000",
+        "label": "openh264-plugin",
+        "size": 5,
+        "x": -0.509933774834437,
+        "y": -0.4403973509933775
+      }
+    },
+    {
+      "key": "beetmover-apt",
+      "attributes": {
+        "color": "#B30000",
+        "label": "beetmover-apt",
+        "size": 5,
+        "x": 0.37086092715231794,
+        "y": -0.12582781456953643
+      }
+    },
+    {
+      "key": "system-symbols-reprocess",
+      "attributes": {
+        "color": "#B30000",
+        "label": "system-symbols-reprocess",
+        "size": 5,
+        "x": -0.3841059602649006,
+        "y": -0.06291390728476821
+      }
+    },
+    {
+      "key": "system-symbols-upload",
+      "attributes": {
+        "color": "#B30000",
+        "label": "system-symbols-upload",
+        "size": 5,
+        "x": -0.4470198675496689,
+        "y": -0.12582781456953643
+      }
+    },
+    {
+      "key": "docker-image",
+      "attributes": {
+        "color": "#B30000",
+        "label": "docker-image",
+        "size": 5,
+        "x": -0.5728476821192053,
+        "y": -0.03145695364238411
+      }
+    },
+    {
+      "key": "perftest",
+      "attributes": {
+        "color": "#B30000",
+        "label": "perftest",
+        "size": 5,
+        "x": -0.3211920529801324,
+        "y": -0.3774834437086093
+      }
+    },
+    {
+      "key": "release-msix-push",
+      "attributes": {
+        "color": "#B30000",
+        "label": "release-msix-push",
+        "size": 5,
+        "x": 0.05629139072847683,
+        "y": -0.18874172185430466
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "0",
+      "source": "fetch",
+      "target": "system-symbols",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "system-symbols"
+      }
+    },
+    {
+      "key": "1",
+      "source": "toolchain",
+      "target": "system-symbols",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "system-symbols"
+      }
+    },
+    {
+      "key": "2",
+      "source": "fetch",
+      "target": "toolchain",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "toolchain"
+      }
+    },
+    {
+      "key": "3",
+      "source": "packages",
+      "target": "toolchain",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "toolchain"
+      }
+    },
+    {
+      "key": "4",
+      "source": "toolchain",
+      "target": "spidermonkey",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "spidermonkey"
+      }
+    },
+    {
+      "key": "5",
+      "source": "release-mark-as-shipped",
+      "target": "release-notify-ship",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-notify-ship"
+      }
+    },
+    {
+      "key": "6",
+      "source": "release-bouncer-aliases",
+      "target": "release-notify-ship",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-notify-ship"
+      }
+    },
+    {
+      "key": "7",
+      "source": "release-version-bump",
+      "target": "release-notify-ship",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-notify-ship"
+      }
+    },
+    {
+      "key": "8",
+      "source": "release-balrog-scheduling",
+      "target": "release-notify-ship",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-notify-ship"
+      }
+    },
+    {
+      "key": "9",
+      "source": "release-version-bump",
+      "target": "release-mark-as-shipped",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-mark-as-shipped"
+      }
+    },
+    {
+      "key": "10",
+      "source": "release-bouncer-aliases",
+      "target": "release-mark-as-shipped",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-mark-as-shipped"
+      }
+    },
+    {
+      "key": "11",
+      "source": "release-balrog-scheduling",
+      "target": "release-mark-as-shipped",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-mark-as-shipped"
+      }
+    },
+    {
+      "key": "12",
+      "source": "release-bouncer-check",
+      "target": "release-bouncer-aliases",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-bouncer-aliases"
+      }
+    },
+    {
+      "key": "13",
+      "source": "release-beetmover-push-to-release",
+      "target": "release-version-bump",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-version-bump"
+      }
+    },
+    {
+      "key": "14",
+      "source": "release-push-langpacks",
+      "target": "release-balrog-scheduling",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-balrog-scheduling"
+      }
+    },
+    {
+      "key": "15",
+      "source": "release-bouncer-check",
+      "target": "release-balrog-scheduling",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-balrog-scheduling"
+      }
+    },
+    {
+      "key": "16",
+      "source": "post-beetmover-checksums-dummy",
+      "target": "release-generate-checksums",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-generate-checksums"
+      }
+    },
+    {
+      "key": "17",
+      "source": "beetmover-source",
+      "target": "release-generate-checksums",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-generate-checksums"
+      }
+    },
+    {
+      "key": "18",
+      "source": "release-beetmover-signed-langpacks",
+      "target": "release-generate-checksums",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-generate-checksums"
+      }
+    },
+    {
+      "key": "19",
+      "source": "release-eme-free-repack-beetmover-checksums",
+      "target": "post-beetmover-checksums-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "post-beetmover-checksums-dummy"
+      }
+    },
+    {
+      "key": "20",
+      "source": "release-beetmover-source-checksums",
+      "target": "post-beetmover-checksums-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "post-beetmover-checksums-dummy"
+      }
+    },
+    {
+      "key": "21",
+      "source": "release-beetmover-signed-langpacks-checksums",
+      "target": "post-beetmover-checksums-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "post-beetmover-checksums-dummy"
+      }
+    },
+    {
+      "key": "22",
+      "source": "beetmover-checksums",
+      "target": "post-beetmover-checksums-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "post-beetmover-checksums-dummy"
+      }
+    },
+    {
+      "key": "23",
+      "source": "release-source-signing",
+      "target": "beetmover-source",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-source"
+      }
+    },
+    {
+      "key": "24",
+      "source": "build-signing",
+      "target": "release-beetmover-signed-langpacks",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-beetmover-signed-langpacks"
+      }
+    },
+    {
+      "key": "25",
+      "source": "shippable-l10n-signing",
+      "target": "release-beetmover-signed-langpacks",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-beetmover-signed-langpacks"
+      }
+    },
+    {
+      "key": "26",
+      "source": "release-secondary-update-verify-config",
+      "target": "release-secondary-update-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-update-verify"
+      }
+    },
+    {
+      "key": "27",
+      "source": "post-balrog-dummy",
+      "target": "release-secondary-update-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-update-verify"
+      }
+    },
+    {
+      "key": "28",
+      "source": "post-beetmover-dummy",
+      "target": "release-secondary-update-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-update-verify"
+      }
+    },
+    {
+      "key": "29",
+      "source": "release-secondary-balrog-submit-toplevel",
+      "target": "release-secondary-update-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-update-verify"
+      }
+    },
+    {
+      "key": "30",
+      "source": "balrog",
+      "target": "post-balrog-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "post-balrog-dummy"
+      }
+    },
+    {
+      "key": "31",
+      "source": "beetmover-repackage",
+      "target": "post-beetmover-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "post-beetmover-dummy"
+      }
+    },
+    {
+      "key": "32",
+      "source": "beetmover-checksums",
+      "target": "post-beetmover-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "post-beetmover-dummy"
+      }
+    },
+    {
+      "key": "33",
+      "source": "repackage-signing-l10n",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "34",
+      "source": "repackage-deb-l10n",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "35",
+      "source": "build-signing",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "36",
+      "source": "shippable-l10n-mac-notarization",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "37",
+      "source": "mar-signing",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "38",
+      "source": "mar-signing-l10n",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "39",
+      "source": "repackage-l10n",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "40",
+      "source": "partials",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "41",
+      "source": "repackage-deb",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "42",
+      "source": "attribution",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "43",
+      "source": "repackage-signing",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "44",
+      "source": "shippable-l10n-signing",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "45",
+      "source": "repackage-signing-msi",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "46",
+      "source": "shippable-l10n",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "47",
+      "source": "partials-signing",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "48",
+      "source": "build-mac-notarization",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "49",
+      "source": "attribution-l10n",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "50",
+      "source": "build-mac-signing",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "51",
+      "source": "repackage-signing-shippable-l10n-msix",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "52",
+      "source": "repackage",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "53",
+      "source": "build",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "54",
+      "source": "shippable-l10n-mac-signing",
+      "target": "beetmover-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-repackage"
+      }
+    },
+    {
+      "key": "55",
+      "source": "repackage-l10n",
+      "target": "repackage-signing-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-signing-l10n"
+      }
+    },
+    {
+      "key": "56",
+      "source": "shippable-l10n-signing",
+      "target": "repackage-deb-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-deb-l10n"
+      }
+    },
+    {
+      "key": "57",
+      "source": "build-fat-aar",
+      "target": "build-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "build-signing"
+      }
+    },
+    {
+      "key": "58",
+      "source": "build",
+      "target": "build-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "build-signing"
+      }
+    },
+    {
+      "key": "59",
+      "source": "shippable-l10n-mac-signing",
+      "target": "shippable-l10n-mac-notarization",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "shippable-l10n-mac-notarization"
+      }
+    },
+    {
+      "key": "60",
+      "source": "repackage",
+      "target": "mar-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "mar-signing"
+      }
+    },
+    {
+      "key": "61",
+      "source": "repackage-l10n",
+      "target": "mar-signing-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "mar-signing-l10n"
+      }
+    },
+    {
+      "key": "62",
+      "source": "toolchain",
+      "target": "repackage-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-l10n"
+      }
+    },
+    {
+      "key": "63",
+      "source": "shippable-l10n-mac-signing",
+      "target": "repackage-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-l10n"
+      }
+    },
+    {
+      "key": "64",
+      "source": "shippable-l10n-signing",
+      "target": "repackage-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-l10n"
+      }
+    },
+    {
+      "key": "65",
+      "source": "shippable-l10n-mac-notarization",
+      "target": "repackage-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-l10n"
+      }
+    },
+    {
+      "key": "66",
+      "source": "repackage-l10n",
+      "target": "partials",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "partials"
+      }
+    },
+    {
+      "key": "67",
+      "source": "repackage",
+      "target": "partials",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "partials"
+      }
+    },
+    {
+      "key": "68",
+      "source": "toolchain",
+      "target": "repackage-deb",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-deb"
+      }
+    },
+    {
+      "key": "69",
+      "source": "build-signing",
+      "target": "repackage-deb",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-deb"
+      }
+    },
+    {
+      "key": "70",
+      "source": "repackage-signing",
+      "target": "attribution",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "attribution"
+      }
+    },
+    {
+      "key": "71",
+      "source": "repackage",
+      "target": "repackage-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-signing"
+      }
+    },
+    {
+      "key": "72",
+      "source": "shippable-l10n",
+      "target": "shippable-l10n-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "shippable-l10n-signing"
+      }
+    },
+    {
+      "key": "73",
+      "source": "repackage-msi",
+      "target": "repackage-signing-msi",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-signing-msi"
+      }
+    },
+    {
+      "key": "74",
+      "source": "fetch",
+      "target": "shippable-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "shippable-l10n"
+      }
+    },
+    {
+      "key": "75",
+      "source": "repackage",
+      "target": "shippable-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "shippable-l10n"
+      }
+    },
+    {
+      "key": "76",
+      "source": "build-signing",
+      "target": "shippable-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "shippable-l10n"
+      }
+    },
+    {
+      "key": "77",
+      "source": "build",
+      "target": "shippable-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "shippable-l10n"
+      }
+    },
+    {
+      "key": "78",
+      "source": "toolchain",
+      "target": "shippable-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "shippable-l10n"
+      }
+    },
+    {
+      "key": "79",
+      "source": "partials",
+      "target": "partials-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "partials-signing"
+      }
+    },
+    {
+      "key": "80",
+      "source": "build-mac-signing",
+      "target": "build-mac-notarization",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "build-mac-notarization"
+      }
+    },
+    {
+      "key": "81",
+      "source": "repackage-signing-l10n",
+      "target": "attribution-l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "attribution-l10n"
+      }
+    },
+    {
+      "key": "82",
+      "source": "build",
+      "target": "build-mac-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "build-mac-signing"
+      }
+    },
+    {
+      "key": "83",
+      "source": "repackage-shippable-l10n-msix",
+      "target": "repackage-signing-shippable-l10n-msix",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-signing-shippable-l10n-msix"
+      }
+    },
+    {
+      "key": "84",
+      "source": "toolchain",
+      "target": "repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage"
+      }
+    },
+    {
+      "key": "85",
+      "source": "build-mac-notarization",
+      "target": "repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage"
+      }
+    },
+    {
+      "key": "86",
+      "source": "build-signing",
+      "target": "repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage"
+      }
+    },
+    {
+      "key": "87",
+      "source": "build-mac-signing",
+      "target": "repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage"
+      }
+    },
+    {
+      "key": "88",
+      "source": "fetch",
+      "target": "build",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "build"
+      }
+    },
+    {
+      "key": "89",
+      "source": "generate-profile",
+      "target": "build",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "build"
+      }
+    },
+    {
+      "key": "90",
+      "source": "toolchain",
+      "target": "build",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "build"
+      }
+    },
+    {
+      "key": "91",
+      "source": "shippable-l10n",
+      "target": "shippable-l10n-mac-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "shippable-l10n-mac-signing"
+      }
+    },
+    {
+      "key": "92",
+      "source": "release-eme-free-repack-beetmover",
+      "target": "release-eme-free-repack-beetmover-checksums",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack-beetmover-checksums"
+      }
+    },
+    {
+      "key": "93",
+      "source": "release-source-checksums-signing",
+      "target": "release-beetmover-source-checksums",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-beetmover-source-checksums"
+      }
+    },
+    {
+      "key": "94",
+      "source": "release-beetmover-signed-langpacks",
+      "target": "release-beetmover-signed-langpacks-checksums",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-beetmover-signed-langpacks-checksums"
+      }
+    },
+    {
+      "key": "95",
+      "source": "beetmover-repackage",
+      "target": "beetmover-checksums",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-checksums"
+      }
+    },
+    {
+      "key": "96",
+      "source": "release-update-verify-config-next",
+      "target": "release-update-verify-next",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-update-verify-next"
+      }
+    },
+    {
+      "key": "97",
+      "source": "release-balrog-submit-toplevel",
+      "target": "release-update-verify-next",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-update-verify-next"
+      }
+    },
+    {
+      "key": "98",
+      "source": "post-balrog-dummy",
+      "target": "release-update-verify-next",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-update-verify-next"
+      }
+    },
+    {
+      "key": "99",
+      "source": "post-beetmover-dummy",
+      "target": "release-update-verify-next",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-update-verify-next"
+      }
+    },
+    {
+      "key": "100",
+      "source": "beetmover-repackage",
+      "target": "balrog",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "balrog"
+      }
+    },
+    {
+      "key": "101",
+      "source": "startup-test",
+      "target": "balrog",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "balrog"
+      }
+    },
+    {
+      "key": "102",
+      "source": "build-signing",
+      "target": "startup-test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "startup-test"
+      }
+    },
+    {
+      "key": "103",
+      "source": "repackage-signing",
+      "target": "startup-test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "startup-test"
+      }
+    },
+    {
+      "key": "104",
+      "source": "repackage",
+      "target": "startup-test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "startup-test"
+      }
+    },
+    {
+      "key": "105",
+      "source": "fetch",
+      "target": "repackage-msi",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-msi"
+      }
+    },
+    {
+      "key": "106",
+      "source": "repackage-signing-l10n",
+      "target": "repackage-msi",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-msi"
+      }
+    },
+    {
+      "key": "107",
+      "source": "repackage-signing",
+      "target": "repackage-msi",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-msi"
+      }
+    },
+    {
+      "key": "108",
+      "source": "release-eme-free-repack",
+      "target": "release-eme-free-repack-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack-repackage"
+      }
+    },
+    {
+      "key": "109",
+      "source": "release-eme-free-repack-mac-notarization",
+      "target": "release-eme-free-repack-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack-repackage"
+      }
+    },
+    {
+      "key": "110",
+      "source": "toolchain",
+      "target": "release-eme-free-repack-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack-repackage"
+      }
+    },
+    {
+      "key": "111",
+      "source": "release-eme-free-repack-mac-signing",
+      "target": "release-eme-free-repack-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack-repackage"
+      }
+    },
+    {
+      "key": "112",
+      "source": "build-signing",
+      "target": "release-eme-free-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack"
+      }
+    },
+    {
+      "key": "113",
+      "source": "build-mac-notarization",
+      "target": "release-eme-free-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack"
+      }
+    },
+    {
+      "key": "114",
+      "source": "shippable-l10n-signing",
+      "target": "release-eme-free-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack"
+      }
+    },
+    {
+      "key": "115",
+      "source": "shippable-l10n-mac-notarization",
+      "target": "release-eme-free-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack"
+      }
+    },
+    {
+      "key": "116",
+      "source": "shippable-l10n-mac-signing",
+      "target": "release-eme-free-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack"
+      }
+    },
+    {
+      "key": "117",
+      "source": "build-mac-signing",
+      "target": "release-eme-free-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack"
+      }
+    },
+    {
+      "key": "118",
+      "source": "release-eme-free-repack-mac-signing",
+      "target": "release-eme-free-repack-mac-notarization",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack-mac-notarization"
+      }
+    },
+    {
+      "key": "119",
+      "source": "release-eme-free-repack",
+      "target": "release-eme-free-repack-mac-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack-mac-signing"
+      }
+    },
+    {
+      "key": "120",
+      "source": "fetch",
+      "target": "fuzzing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "fuzzing"
+      }
+    },
+    {
+      "key": "121",
+      "source": "toolchain",
+      "target": "fuzzing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "fuzzing"
+      }
+    },
+    {
+      "key": "122",
+      "source": "build",
+      "target": "fuzzing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "fuzzing"
+      }
+    },
+    {
+      "key": "123",
+      "source": "toolchain",
+      "target": "repackage-shippable-l10n-msix",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-shippable-l10n-msix"
+      }
+    },
+    {
+      "key": "124",
+      "source": "build-signing",
+      "target": "repackage-shippable-l10n-msix",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-shippable-l10n-msix"
+      }
+    },
+    {
+      "key": "125",
+      "source": "shippable-l10n-signing",
+      "target": "repackage-shippable-l10n-msix",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-shippable-l10n-msix"
+      }
+    },
+    {
+      "key": "126",
+      "source": "toolchain",
+      "target": "repackage-msix",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-msix"
+      }
+    },
+    {
+      "key": "127",
+      "source": "build-signing",
+      "target": "repackage-msix",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-msix"
+      }
+    },
+    {
+      "key": "128",
+      "source": "post-beetmover-dummy",
+      "target": "release-snap-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-snap-repackage"
+      }
+    },
+    {
+      "key": "129",
+      "source": "post-langpack-dummy",
+      "target": "release-snap-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-snap-repackage"
+      }
+    },
+    {
+      "key": "130",
+      "source": "release-beetmover-signed-langpacks",
+      "target": "post-langpack-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "post-langpack-dummy"
+      }
+    },
+    {
+      "key": "131",
+      "source": "build-signing",
+      "target": "release-partner-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack"
+      }
+    },
+    {
+      "key": "132",
+      "source": "build-mac-notarization",
+      "target": "release-partner-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack"
+      }
+    },
+    {
+      "key": "133",
+      "source": "shippable-l10n-signing",
+      "target": "release-partner-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack"
+      }
+    },
+    {
+      "key": "134",
+      "source": "shippable-l10n-mac-notarization",
+      "target": "release-partner-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack"
+      }
+    },
+    {
+      "key": "135",
+      "source": "shippable-l10n-mac-signing",
+      "target": "release-partner-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack"
+      }
+    },
+    {
+      "key": "136",
+      "source": "build-mac-signing",
+      "target": "release-partner-repack",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack"
+      }
+    },
+    {
+      "key": "137",
+      "source": "release-generate-checksums-beetmover",
+      "target": "release-beetmover-push-to-release",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-beetmover-push-to-release"
+      }
+    },
+    {
+      "key": "138",
+      "source": "post-update-verify-dummy",
+      "target": "release-beetmover-push-to-release",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-beetmover-push-to-release"
+      }
+    },
+    {
+      "key": "139",
+      "source": "release-generate-checksums-signing",
+      "target": "release-generate-checksums-beetmover",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-generate-checksums-beetmover"
+      }
+    },
+    {
+      "key": "140",
+      "source": "release-update-verify",
+      "target": "post-update-verify-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "post-update-verify-dummy"
+      }
+    },
+    {
+      "key": "141",
+      "source": "toolchain",
+      "target": "build-fat-aar",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "build-fat-aar"
+      }
+    },
+    {
+      "key": "142",
+      "source": "build",
+      "target": "build-fat-aar",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "build-fat-aar"
+      }
+    },
+    {
+      "key": "143",
+      "source": "build",
+      "target": "upload-generated-sources",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "upload-generated-sources"
+      }
+    },
+    {
+      "key": "144",
+      "source": "build",
+      "target": "upload-generated-sources-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "upload-generated-sources-dummy"
+      }
+    },
+    {
+      "key": "145",
+      "source": "upload-generated-sources",
+      "target": "upload-generated-sources-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "upload-generated-sources-dummy"
+      }
+    },
+    {
+      "key": "146",
+      "source": "toolchain",
+      "target": "diffoscope",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "diffoscope"
+      }
+    },
+    {
+      "key": "147",
+      "source": "build",
+      "target": "diffoscope",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "diffoscope"
+      }
+    },
+    {
+      "key": "148",
+      "source": "toolchain",
+      "target": "github-sync",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "github-sync"
+      }
+    },
+    {
+      "key": "149",
+      "source": "build",
+      "target": "github-sync",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "github-sync"
+      }
+    },
+    {
+      "key": "150",
+      "source": "toolchain",
+      "target": "condprof",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "condprof"
+      }
+    },
+    {
+      "key": "151",
+      "source": "build",
+      "target": "condprof",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "condprof"
+      }
+    },
+    {
+      "key": "152",
+      "source": "release-beetmover-push-to-release",
+      "target": "release-bouncer-check",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-bouncer-check"
+      }
+    },
+    {
+      "key": "153",
+      "source": "toolchain",
+      "target": "artifact-build",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "artifact-build"
+      }
+    },
+    {
+      "key": "154",
+      "source": "release-eme-free-repack-repackage-signing",
+      "target": "release-eme-free-repack-beetmover",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack-beetmover"
+      }
+    },
+    {
+      "key": "155",
+      "source": "release-eme-free-repack-repackage",
+      "target": "release-eme-free-repack-repackage-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-eme-free-repack-repackage-signing"
+      }
+    },
+    {
+      "key": "156",
+      "source": "release-update-verify-config",
+      "target": "release-final-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-final-verify"
+      }
+    },
+    {
+      "key": "157",
+      "source": "release-bouncer-check",
+      "target": "release-final-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-final-verify"
+      }
+    },
+    {
+      "key": "158",
+      "source": "release-balrog-submit-toplevel",
+      "target": "release-update-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-update-verify"
+      }
+    },
+    {
+      "key": "159",
+      "source": "post-balrog-dummy",
+      "target": "release-update-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-update-verify"
+      }
+    },
+    {
+      "key": "160",
+      "source": "release-update-verify-config",
+      "target": "release-update-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-update-verify"
+      }
+    },
+    {
+      "key": "161",
+      "source": "post-beetmover-dummy",
+      "target": "release-update-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-update-verify"
+      }
+    },
+    {
+      "key": "162",
+      "source": "release-partner-repack",
+      "target": "release-partner-repack-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack-repackage"
+      }
+    },
+    {
+      "key": "163",
+      "source": "release-partner-repack-mac-signing",
+      "target": "release-partner-repack-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack-repackage"
+      }
+    },
+    {
+      "key": "164",
+      "source": "toolchain",
+      "target": "release-partner-repack-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack-repackage"
+      }
+    },
+    {
+      "key": "165",
+      "source": "release-partner-repack-mac-notarization",
+      "target": "release-partner-repack-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack-repackage"
+      }
+    },
+    {
+      "key": "166",
+      "source": "release-partner-repack",
+      "target": "release-partner-repack-mac-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack-mac-signing"
+      }
+    },
+    {
+      "key": "167",
+      "source": "release-partner-repack-mac-signing",
+      "target": "release-partner-repack-mac-notarization",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack-mac-notarization"
+      }
+    },
+    {
+      "key": "168",
+      "source": "release-bouncer-sub",
+      "target": "release-notify-promote",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-notify-promote"
+      }
+    },
+    {
+      "key": "169",
+      "source": "release-generate-checksums-beetmover",
+      "target": "release-notify-promote",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-notify-promote"
+      }
+    },
+    {
+      "key": "170",
+      "source": "post-beetmover-dummy",
+      "target": "release-notify-promote",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-notify-promote"
+      }
+    },
+    {
+      "key": "171",
+      "source": "fetch",
+      "target": "l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "l10n"
+      }
+    },
+    {
+      "key": "172",
+      "source": "repackage",
+      "target": "l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "l10n"
+      }
+    },
+    {
+      "key": "173",
+      "source": "build-signing",
+      "target": "l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "l10n"
+      }
+    },
+    {
+      "key": "174",
+      "source": "build",
+      "target": "l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "l10n"
+      }
+    },
+    {
+      "key": "175",
+      "source": "toolchain",
+      "target": "l10n",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "l10n"
+      }
+    },
+    {
+      "key": "176",
+      "source": "upload-symbols",
+      "target": "upload-symbols-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "upload-symbols-dummy"
+      }
+    },
+    {
+      "key": "177",
+      "source": "build",
+      "target": "upload-symbols-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "upload-symbols-dummy"
+      }
+    },
+    {
+      "key": "178",
+      "source": "toolchain",
+      "target": "upload-symbols",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "upload-symbols"
+      }
+    },
+    {
+      "key": "179",
+      "source": "build",
+      "target": "upload-symbols",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "upload-symbols"
+      }
+    },
+    {
+      "key": "180",
+      "source": "geckodriver-signing",
+      "target": "geckodriver-mac-notarization",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "geckodriver-mac-notarization"
+      }
+    },
+    {
+      "key": "181",
+      "source": "toolchain",
+      "target": "geckodriver-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "geckodriver-signing"
+      }
+    },
+    {
+      "key": "182",
+      "source": "release-secondary-update-verify-config",
+      "target": "release-secondary-final-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-final-verify"
+      }
+    },
+    {
+      "key": "183",
+      "source": "post-balrog-dummy",
+      "target": "release-secondary-final-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-final-verify"
+      }
+    },
+    {
+      "key": "184",
+      "source": "post-beetmover-dummy",
+      "target": "release-secondary-final-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-final-verify"
+      }
+    },
+    {
+      "key": "185",
+      "source": "release-secondary-balrog-submit-toplevel",
+      "target": "release-secondary-final-verify",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-final-verify"
+      }
+    },
+    {
+      "key": "186",
+      "source": "fetch",
+      "target": "source-test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "source-test"
+      }
+    },
+    {
+      "key": "187",
+      "source": "toolchain",
+      "target": "source-test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "source-test"
+      }
+    },
+    {
+      "key": "188",
+      "source": "build",
+      "target": "source-test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "source-test"
+      }
+    },
+    {
+      "key": "189",
+      "source": "instrumented-build",
+      "target": "generate-profile",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "generate-profile"
+      }
+    },
+    {
+      "key": "190",
+      "source": "toolchain",
+      "target": "generate-profile",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "generate-profile"
+      }
+    },
+    {
+      "key": "191",
+      "source": "fetch",
+      "target": "are-we-esmified-yet",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "are-we-esmified-yet"
+      }
+    },
+    {
+      "key": "192",
+      "source": "toolchain",
+      "target": "are-we-esmified-yet",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "are-we-esmified-yet"
+      }
+    },
+    {
+      "key": "193",
+      "source": "fetch",
+      "target": "instrumented-build",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "instrumented-build"
+      }
+    },
+    {
+      "key": "194",
+      "source": "toolchain",
+      "target": "instrumented-build",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "instrumented-build"
+      }
+    },
+    {
+      "key": "195",
+      "source": "toolchain",
+      "target": "valgrind",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "valgrind"
+      }
+    },
+    {
+      "key": "196",
+      "source": "toolchain",
+      "target": "webrender",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "webrender"
+      }
+    },
+    {
+      "key": "197",
+      "source": "build",
+      "target": "webrender",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "webrender"
+      }
+    },
+    {
+      "key": "198",
+      "source": "release-generate-checksums",
+      "target": "release-generate-checksums-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-generate-checksums-signing"
+      }
+    },
+    {
+      "key": "199",
+      "source": "toolchain",
+      "target": "bootstrap",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "bootstrap"
+      }
+    },
+    {
+      "key": "200",
+      "source": "fetch",
+      "target": "snap-upstream-build",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "snap-upstream-build"
+      }
+    },
+    {
+      "key": "201",
+      "source": "toolchain",
+      "target": "snap-upstream-build",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "snap-upstream-build"
+      }
+    },
+    {
+      "key": "202",
+      "source": "post-beetmover-dummy",
+      "target": "release-flatpak-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-flatpak-repackage"
+      }
+    },
+    {
+      "key": "203",
+      "source": "post-langpack-dummy",
+      "target": "release-flatpak-repackage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-flatpak-repackage"
+      }
+    },
+    {
+      "key": "204",
+      "source": "repackage-signing-l10n",
+      "target": "release-partner-attribution",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-attribution"
+      }
+    },
+    {
+      "key": "205",
+      "source": "repackage-signing",
+      "target": "release-partner-attribution",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-attribution"
+      }
+    },
+    {
+      "key": "206",
+      "source": "fetch",
+      "target": "searchfox",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "searchfox"
+      }
+    },
+    {
+      "key": "207",
+      "source": "toolchain",
+      "target": "searchfox",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "searchfox"
+      }
+    },
+    {
+      "key": "208",
+      "source": "release-flatpak-repackage",
+      "target": "release-secondary-flatpak-push",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-flatpak-push"
+      }
+    },
+    {
+      "key": "209",
+      "source": "release-partner-repack-repackage",
+      "target": "release-partner-repack-repackage-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack-repackage-signing"
+      }
+    },
+    {
+      "key": "210",
+      "source": "release-partner-repack-chunking-dummy",
+      "target": "release-partner-repack-repackage-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack-repackage-signing"
+      }
+    },
+    {
+      "key": "211",
+      "source": "release-partner-repack",
+      "target": "release-partner-repack-chunking-dummy",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack-chunking-dummy"
+      }
+    },
+    {
+      "key": "212",
+      "source": "release-beetmover-push-to-release",
+      "target": "release-notify-push",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-notify-push"
+      }
+    },
+    {
+      "key": "213",
+      "source": "release-source",
+      "target": "release-source-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-source-signing"
+      }
+    },
+    {
+      "key": "214",
+      "source": "build",
+      "target": "fxrecord",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "fxrecord"
+      }
+    },
+    {
+      "key": "215",
+      "source": "fetch",
+      "target": "test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "test"
+      }
+    },
+    {
+      "key": "216",
+      "source": "repackage-signing-shippable-l10n-msix",
+      "target": "test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "test"
+      }
+    },
+    {
+      "key": "217",
+      "source": "repackage",
+      "target": "test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "test"
+      }
+    },
+    {
+      "key": "218",
+      "source": "build-signing",
+      "target": "test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "test"
+      }
+    },
+    {
+      "key": "219",
+      "source": "build",
+      "target": "test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "test"
+      }
+    },
+    {
+      "key": "220",
+      "source": "toolchain",
+      "target": "test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "test"
+      }
+    },
+    {
+      "key": "221",
+      "source": "repackage-signing",
+      "target": "test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "test"
+      }
+    },
+    {
+      "key": "222",
+      "source": "repackage-signing-msix",
+      "target": "test",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "test"
+      }
+    },
+    {
+      "key": "223",
+      "source": "repackage-msix",
+      "target": "repackage-signing-msix",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "repackage-signing-msix"
+      }
+    },
+    {
+      "key": "224",
+      "source": "release-partner-attribution",
+      "target": "release-partner-attribution-beetmover",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-attribution-beetmover"
+      }
+    },
+    {
+      "key": "225",
+      "source": "repackage",
+      "target": "mar-signing-autograph-stage",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "mar-signing-autograph-stage"
+      }
+    },
+    {
+      "key": "226",
+      "source": "toolchain",
+      "target": "release-source",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-source"
+      }
+    },
+    {
+      "key": "227",
+      "source": "source-test",
+      "target": "code-review",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "code-review"
+      }
+    },
+    {
+      "key": "228",
+      "source": "fetch",
+      "target": "updatebot",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "updatebot"
+      }
+    },
+    {
+      "key": "229",
+      "source": "toolchain",
+      "target": "updatebot",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "updatebot"
+      }
+    },
+    {
+      "key": "230",
+      "source": "beetmover-source",
+      "target": "release-source-checksums-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-source-checksums-signing"
+      }
+    },
+    {
+      "key": "231",
+      "source": "post-beetmover-dummy",
+      "target": "release-notify-av-announce",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-notify-av-announce"
+      }
+    },
+    {
+      "key": "232",
+      "source": "release-secondary-balrog-scheduling",
+      "target": "release-secondary-notify-ship",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-notify-ship"
+      }
+    },
+    {
+      "key": "233",
+      "source": "post-balrog-dummy",
+      "target": "release-secondary-balrog-scheduling",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-balrog-scheduling"
+      }
+    },
+    {
+      "key": "234",
+      "source": "post-beetmover-dummy",
+      "target": "release-secondary-balrog-scheduling",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-balrog-scheduling"
+      }
+    },
+    {
+      "key": "235",
+      "source": "release-secondary-balrog-submit-toplevel",
+      "target": "release-secondary-balrog-scheduling",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-secondary-balrog-scheduling"
+      }
+    },
+    {
+      "key": "236",
+      "source": "toolchain",
+      "target": "static-analysis-autotest",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "static-analysis-autotest"
+      }
+    },
+    {
+      "key": "237",
+      "source": "post-beetmover-dummy",
+      "target": "bouncer-locations",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "bouncer-locations"
+      }
+    },
+    {
+      "key": "238",
+      "source": "build-signing",
+      "target": "beetmover-geckoview",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-geckoview"
+      }
+    },
+    {
+      "key": "239",
+      "source": "release-flatpak-repackage",
+      "target": "release-flatpak-push",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-flatpak-push"
+      }
+    },
+    {
+      "key": "240",
+      "source": "shippable-l10n",
+      "target": "release-push-langpacks",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-push-langpacks"
+      }
+    },
+    {
+      "key": "241",
+      "source": "build",
+      "target": "release-push-langpacks",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-push-langpacks"
+      }
+    },
+    {
+      "key": "242",
+      "source": "release-partner-repack-repackage-signing",
+      "target": "release-partner-repack-beetmover",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-partner-repack-beetmover"
+      }
+    },
+    {
+      "key": "243",
+      "source": "toolchain",
+      "target": "hazard",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "hazard"
+      }
+    },
+    {
+      "key": "244",
+      "source": "openh264-plugin",
+      "target": "openh264-signing",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "openh264-signing"
+      }
+    },
+    {
+      "key": "245",
+      "source": "toolchain",
+      "target": "openh264-plugin",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "openh264-plugin"
+      }
+    },
+    {
+      "key": "246",
+      "source": "beetmover-repackage",
+      "target": "beetmover-apt",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "beetmover-apt"
+      }
+    },
+    {
+      "key": "247",
+      "source": "fetch",
+      "target": "system-symbols-reprocess",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "system-symbols-reprocess"
+      }
+    },
+    {
+      "key": "248",
+      "source": "system-symbols",
+      "target": "system-symbols-reprocess",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "system-symbols-reprocess"
+      }
+    },
+    {
+      "key": "249",
+      "source": "system-symbols-upload",
+      "target": "system-symbols-reprocess",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "system-symbols-reprocess"
+      }
+    },
+    {
+      "key": "250",
+      "source": "system-symbols",
+      "target": "system-symbols-upload",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "system-symbols-upload"
+      }
+    },
+    {
+      "key": "251",
+      "source": "packages",
+      "target": "docker-image",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "docker-image"
+      }
+    },
+    {
+      "key": "252",
+      "source": "toolchain",
+      "target": "perftest",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "perftest"
+      }
+    },
+    {
+      "key": "253",
+      "source": "build",
+      "target": "perftest",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "perftest"
+      }
+    },
+    {
+      "key": "254",
+      "source": "repackage-shippable-l10n-msix",
+      "target": "release-msix-push",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "release-msix-push"
+      }
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 import json
 import networkx as nx
 
-TASKGRAPH_NAME = "ship-firefox-115.0"
+TASKGRAPH_NAME = "firefox-translations-training-ru-en"
 LAYOUT_NAME = "multipartite-layout"
-LAYOUT_ALIGNMENT = "horizontal"
+LAYOUT_ALIGNMENT = "vertical"
 
 
 def load_taskgraph():
@@ -28,6 +28,60 @@ def build_digraph(taskgraph):
     print("graph_size:", f"{digraph.size():,}")
     return digraph
 
+def build_kinds_digraph():
+    with open('./ff-release-kinds.json') as f:
+        data = f.read()
+    links = json.loads(data)
+    digraph = nx.DiGraph(name="links")
+    for link in links:
+        digraph.add_node(link)
+        if links[link]:
+            for dependency in links[link]:
+                digraph.add_edge(
+                    dependency, link
+                )
+    print("graph_name:", digraph.name)
+    print("graph_order:", f"{digraph.order():,}")
+    print("graph_size:", f"{digraph.size():,}")
+    return digraph
+
+
+def serialize_kinds(kinds, pos):
+    serialized = {"nodes": [], "edges": []}
+    graph_size = 0
+    for kind in kinds:
+        serialized["nodes"].append(
+            {
+                "key": kind,
+                "attributes": {
+                    "color": "#B30000",
+                    "label": kind,
+                    "size": 5,
+                    # "size": .5,
+                    "x": pos[kind][0],
+                    "y": pos[kind][1],
+                },
+            }
+        )
+        dependencies = [edge[0] for edge in list(kinds.in_edges(kind)) if edge]
+        if dependencies:
+            for dependency in dependencies:
+                serialized["edges"].append(
+                    {
+                        "key": str(graph_size),
+                        "source": dependency,
+                        "target": kind,
+                        "attributes": {
+                            # "size": 2.5,
+                            "size": .25,
+                            "type": "arrow",
+                            "kind": kind,
+                        },
+                    }
+                )
+                graph_size += 1
+    return serialized
+
 
 def layout_digraph(digraph):
     for layer, nodes in enumerate(nx.topological_generations(digraph)):
@@ -50,8 +104,8 @@ def serialize_taskgraph(taskgraph, pos):
                 "attributes": {
                     "color": "#B30000",
                     "label": taskgraph[tasknode]["label"],
-                    # "size": 5,
-                    "size": .5,
+                    "size": 20,
+                    # "size": .5,
                     "x": pos[tasknode][0],
                     "y": pos[tasknode][1],
                 },
@@ -65,8 +119,8 @@ def serialize_taskgraph(taskgraph, pos):
                         "source": taskgraph[tasknode]["dependencies"][dependency],
                         "target": tasknode,
                         "attributes": {
-                            # "size": 2.5,
-                            "size": .25,
+                            "size": 2.5,
+                            # "size": .25,
                             "type": "arrow",
                             "kind": taskgraph[tasknode]["attributes"]["kind"],
                         },
@@ -78,11 +132,17 @@ def serialize_taskgraph(taskgraph, pos):
 
 def main():
     taskgraph = load_taskgraph()
-    digraph = build_digraph(taskgraph)
+    digraph = build_kinds_digraph()
+    # digraph = build_digraph(taskgraph)
     pos = layout_digraph(digraph)
-    serialized_taskgraph = serialize_taskgraph(taskgraph, pos)
-    with open(f"./{TASKGRAPH_NAME}-serialized-taskgraph-{LAYOUT_NAME}-{LAYOUT_ALIGNMENT}.json", "w") as f:
-        f.write(json.dumps(serialized_taskgraph, indent=2))
+    serialized_kinds = serialize_kinds(digraph, pos)
+    breakpoint()
+    exit(0)
+    with open(f"./ser-ff-release-kinds.json", "w") as f:
+        f.write(json.dumps(serialized_kinds, indent=2))
+    # serialized_taskgraph = serialize_taskgraph(taskgraph, pos)
+    # with open(f"./{TASKGRAPH_NAME}-serialized-taskgraph-{LAYOUT_NAME}-{LAYOUT_ALIGNMENT}.json", "w") as f:
+    #     f.write(json.dumps(serialized_taskgraph, indent=2))
 
 
 __name__ == "__main__" and main()
