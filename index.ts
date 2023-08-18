@@ -50,11 +50,16 @@ interface State {
 
   pinnedSet: Set<string>;
   viewSet: Set<string>;
+
+  draggedNode?: string;
+  isDragging: boolean;
 }
+
 const state: State = {
   searchQuery: "",
   pinnedSet: new Set(),
   viewSet: new Set(),
+  isDragging: false,
 };
 
 // Feed the datalist autocomplete values:
@@ -123,18 +128,27 @@ searchInput.addEventListener("blur", () => {
 });
 
 renderer.on("enterNode", ({ node }) => {
+  if (state.isDragging) {
+    return;
+  }
   state.hoveredNode = node;
   state.hoveredNeighbors = new Set(graph.neighbors(node));
   renderer.refresh();
 });
 
 renderer.on("leaveNode", () => {
+  if (state.isDragging) {
+    return;
+  }
   state.hoveredNode = undefined;
   state.hoveredNeighbors = undefined;
   renderer.refresh();
 });
 
 renderer.on("clickNode", ({ node }) => {
+  if (state.isDragging) {
+    return;
+  }
   if (state.pinnedSet.has(node)) {
     // Unpin the node if it's already pinned
     state.pinnedSet.delete(node);
@@ -213,6 +227,42 @@ renderer.setSetting("defaultEdgeColor", "black");
 renderer.setSetting("defaultNodeColor", "#054096");
 renderer.setSetting("labelDensity", 0.5);
 renderer.setSetting("labelGridCellSize", 60);
+
+renderer.on("downNode", (e) => {
+  state.isDragging = true;
+  state.draggedNode = e.node;
+  graph.setNodeAttribute(state.draggedNode, "highlighted", true);
+});
+
+// On mouse move, if the drag mode is enabled, we change the position of the draggedNode
+renderer.getMouseCaptor().on("mousemovebody", (e) => {
+  if (!state.isDragging || !state.draggedNode) return;
+
+  // Get new position of node
+  const pos = renderer.viewportToGraph(e);
+
+  graph.setNodeAttribute(state.draggedNode, "x", pos.x);
+  graph.setNodeAttribute(state.draggedNode, "y", pos.y);
+
+  // Prevent sigma to move camera:
+  e.preventSigmaDefault();
+  e.original.preventDefault();
+  e.original.stopPropagation();
+});
+
+// On mouse up, we reset the autoscale and the dragging mode
+renderer.getMouseCaptor().on("mouseup", () => {
+  if (state.draggedNode) {
+    graph.removeNodeAttribute(state.draggedNode, "highlighted");
+  }
+  state.isDragging = false;
+  state.draggedNode = null;
+});
+
+// Disable the autoscale at the first down interaction
+renderer.getMouseCaptor().on("mousedown", () => {
+  if (!renderer.getCustomBBox()) renderer.setCustomBBox(renderer.getBBox());
+});
 
 renderer.setSetting("nodeReducer", (node, data) => {
   const res: Partial<NodeDisplayData> = { ...data };
