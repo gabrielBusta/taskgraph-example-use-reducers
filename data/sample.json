@@ -1,0 +1,616 @@
+{
+  "nodes": [
+    {
+      "key": "A8DoRPw3QHycHiCilDyPBw",
+      "attributes": {
+        "color": "#B30000",
+        "label": "evaluate-teacher-ensemble-sacrebleu-sacrebleu_wmt20-ru-en",
+        "size": 5,
+        "x": 0.8645533141210373,
+        "y": 0.239193083573487
+      }
+    },
+    {
+      "key": "BMDV2ktBRh-2IOhL8tGHnA",
+      "attributes": {
+        "color": "#B30000",
+        "label": "toolchain-extract-lex",
+        "size": 5,
+        "x": 0.24207492795389046,
+        "y": -0.5216138328530259
+      }
+    },
+    {
+      "key": "BuvaweBEQB2ZvaDB-fOoLw",
+      "attributes": {
+        "color": "#B30000",
+        "label": "translate-mono-trg-ru-en-6/10",
+        "size": 5,
+        "x": 0.31123919308357345,
+        "y": -0.10662824207492794
+      }
+    },
+    {
+      "key": "CK7HZAsRRQWzpmWwRyZ3bA",
+      "attributes": {
+        "color": "#B30000",
+        "label": "clean-mono-news-crawl-news_2020-mono-src-ru-en",
+        "size": 5,
+        "x": 0.10374639769452448,
+        "y": -0.4524495677233428
+      }
+    },
+    {
+      "key": "CXHz5vFuSOCA74VOY-Ug5g",
+      "attributes": {
+        "color": "#B30000",
+        "label": "toolchain-hunspell",
+        "size": 5,
+        "x": 0.10374639769452448,
+        "y": -0.5216138328530259
+      }
+    },
+    {
+      "key": "DEuRKUZiR9S6cPI5x2VE5A",
+      "attributes": {
+        "color": "#B30000",
+        "label": "merge-corpus-ru-en",
+        "size": 5,
+        "x": -0.06916426512968299,
+        "y": -0.31412103746397685
+      }
+    },
+    {
+      "key": "Ei347dQGSWK_fWlB0mIzpQ",
+      "attributes": {
+        "color": "#B30000",
+        "label": "fetch-browsermt-marian",
+        "size": 5,
+        "x": -0.06916426512968299,
+        "y": -0.5907780979827089
+      }
+    },
+    {
+      "key": "EtWYIu0QQ86U6EG6_US_sQ",
+      "attributes": {
+        "color": "#B30000",
+        "label": "evaluate-student-sacrebleu-wmt20-ru-en",
+        "size": 5,
+        "x": 0.0,
+        "y": 0.7925072046109509
+      }
+    },
+    {
+      "key": "FYemcvwJS5K9hjz23Jz-xw",
+      "attributes": {
+        "color": "#B30000",
+        "label": "export-ru-en",
+        "size": 5,
+        "x": 0.06916426512968299,
+        "y": 0.9308357348703169
+      }
+    },
+    {
+      "key": "FnA4Ps4rQhe5k7Yz1GEW8g",
+      "attributes": {
+        "color": "#B30000",
+        "label": "split-corpus-ru-en",
+        "size": 5,
+        "x": -0.034582132564841495,
+        "y": -0.24495677233429392
+      }
+    },
+    {
+      "key": "Hzinle8JTTy8P1xQ2ULG0A",
+      "attributes": {
+        "color": "#B30000",
+        "label": "toolchain-browsermt-marian",
+        "size": 5,
+        "x": -0.034582132564841495,
+        "y": -0.4524495677233428
+      }
+    },
+    {
+      "key": "J3Yx7JE-RPWERdjJltSjyg",
+      "attributes": {
+        "color": "#B30000",
+        "label": "evaluate-quantized-flores-devtest-ru-en",
+        "size": 5,
+        "x": 0.0,
+        "y": 0.9308357348703169
+      }
+    },
+    {
+      "key": "Lt3kOedyQMK4eFwtUYQ-Ag",
+      "attributes": {
+        "color": "#B30000",
+        "label": "translate-mono-src-ru-en-8/10",
+        "size": 5,
+        "x": 0.10374639769452448,
+        "y": 0.239193083573487
+      }
+    },
+    {
+      "key": "NPxAlQCXSiCqvw-eFYzQyg",
+      "attributes": {
+        "color": "#B30000",
+        "label": "finetune-teacher-ru-en-1/2",
+        "size": 5,
+        "x": 0.17291066282420747,
+        "y": 0.17002881844380402
+      }
+    },
+    {
+      "key": "NS0i-_kxQVyXZVpuyY9t1w",
+      "attributes": {
+        "color": "#B30000",
+        "label": "collect-mono-src-ru-en",
+        "size": 5,
+        "x": 0.13832853025936598,
+        "y": 0.30835734870317005
+      }
+    },
+    {
+      "key": "OX8hePpcSIapijqmaLZA0Q",
+      "attributes": {
+        "color": "#B30000",
+        "label": "translate-corpus-ru-en-5/10",
+        "size": 5,
+        "x": 0.44956772334293943,
+        "y": 0.239193083573487
+      }
+    },
+    {
+      "key": "OafWrWyuTDq0vHCeOAXcPA",
+      "attributes": {
+        "color": "#B30000",
+        "label": "train-vocab-ru-en",
+        "size": 5,
+        "x": 0.034582132564841495,
+        "y": -0.24495677233429392
+      }
+    },
+    {
+      "key": "OdY-YNa_QpeTobYtESHtig",
+      "attributes": {
+        "color": "#B30000",
+        "label": "evaluate-quantized-sacrebleu-wmt20-ru-en",
+        "size": 5,
+        "x": -0.06916426512968299,
+        "y": 0.9308357348703169
+      }
+    },
+    {
+      "key": "Oo39Ck1QTPiMJccZco0VJQ",
+      "attributes": {
+        "color": "#B30000",
+        "label": "merge-mono-src-ru-en",
+        "size": 5,
+        "x": -0.13832853025936598,
+        "y": -0.38328530259365984
+      }
+    },
+    {
+      "key": "PVMB-9dxR6qepo2LU53W6A",
+      "attributes": {
+        "color": "#B30000",
+        "label": "split-mono-trg-ru-en",
+        "size": 5,
+        "x": 0.06916426512968299,
+        "y": -0.31412103746397685
+      }
+    },
+    {
+      "key": "QlhgWbq_QnG9i4gcnbnZyw",
+      "attributes": {
+        "color": "#B30000",
+        "label": "bicleaner-opus-ada83_v1-ru-en",
+        "size": 5,
+        "x": 0.0,
+        "y": -0.38328530259365984
+      }
+    },
+    {
+      "key": "RTSdwpl_T6e-Baf9OVUOsA",
+      "attributes": {
+        "color": "#B30000",
+        "label": "fetch-extract-lex",
+        "size": 5,
+        "x": 0.06916426512968299,
+        "y": -0.5907780979827089
+      }
+    },
+    {
+      "key": "UE5sDFydQ2CtI22pNNMrxw",
+      "attributes": {
+        "color": "#B30000",
+        "label": "toolchain-marian",
+        "size": 5,
+        "x": 0.24207492795389046,
+        "y": -0.4524495677233428
+      }
+    },
+    {
+      "key": "VMXhg5b9TRWJcNQyOP0WPQ",
+      "attributes": {
+        "color": "#B30000",
+        "label": "alignments-ru-en",
+        "size": 5,
+        "x": 0.0,
+        "y": 0.6541786743515849
+      }
+    },
+    {
+      "key": "VUW8ZlTgTfCR9Ky-midlUg",
+      "attributes": {
+        "color": "#B30000",
+        "label": "translate-mono-trg-ru-en-8/10",
+        "size": 5,
+        "x": -0.31123919308357345,
+        "y": -0.10662824207492794
+      }
+    },
+    {
+      "key": "Vs-yAEWjT9WFRWhxpP8anA",
+      "attributes": {
+        "color": "#B30000",
+        "label": "translate-corpus-ru-en-7/10",
+        "size": 5,
+        "x": 0.31123919308357345,
+        "y": 0.239193083573487
+      }
+    },
+    {
+      "key": "WKI0LMVlTC2HeTnNLMioGQ",
+      "attributes": {
+        "color": "#B30000",
+        "label": "split-mono-src-ru-en",
+        "size": 5,
+        "x": 0.0,
+        "y": -0.31412103746397685
+      }
+    },
+    {
+      "key": "WgPdyp68QS6tWlI0s3sTAw",
+      "attributes": {
+        "color": "#B30000",
+        "label": "all-ru-en",
+        "size": 5,
+        "x": 0.0,
+        "y": 0.9999999999999999
+      }
+    },
+    {
+      "key": "XA6AyEV0RVeLEQm6R1D5Ww",
+      "attributes": {
+        "color": "#B30000",
+        "label": "toolchain-cuda-toolkit",
+        "size": 5,
+        "x": 0.31123919308357345,
+        "y": -0.5216138328530259
+      }
+    },
+    {
+      "key": "XrtvtilDTp2StBN8eg4A4Q",
+      "attributes": {
+        "color": "#B30000",
+        "label": "clean-corpus-opus-GNOME_v1-ru-en",
+        "size": 5,
+        "x": -0.24207492795389046,
+        "y": -0.4524495677233428
+      }
+    },
+    {
+      "key": "XzrvJMYuQRqHeV60X3P-Tg",
+      "attributes": {
+        "color": "#B30000",
+        "label": "finetune-teacher-ru-en-2/2",
+        "size": 5,
+        "x": 0.10374639769452448,
+        "y": 0.17002881844380402
+      }
+    },
+    {
+      "key": "a1pLe3RFQdWbb7BXZQ-lfA",
+      "attributes": {
+        "color": "#B30000",
+        "label": "build-docker-image-train",
+        "size": 5,
+        "x": 0.34582132564841495,
+        "y": -0.5907780979827089
+      }
+    },
+    {
+      "key": "cjU12GBjTNi1TqvdJ_5vtw",
+      "attributes": {
+        "color": "#B30000",
+        "label": "translate-mono-src-ru-en-5/10",
+        "size": 5,
+        "x": -0.38040345821325644,
+        "y": 0.239193083573487
+      }
+    },
+    {
+      "key": "d4XfQCf2QR2_hb-hyYiAXg",
+      "attributes": {
+        "color": "#B30000",
+        "label": "translate-corpus-ru-en-10/10",
+        "size": 5,
+        "x": -0.7262247838616713,
+        "y": 0.239193083573487
+      }
+    },
+    {
+      "key": "dHmU-kmFTc2VCGQf51gl0g",
+      "attributes": {
+        "color": "#B30000",
+        "label": "dataset-flores-devtest-ru-en",
+        "size": 5,
+        "x": -0.17291066282420747,
+        "y": -0.5216138328530259
+      }
+    },
+    {
+      "key": "eTK7zOvuRye-IKBeN9NiYA",
+      "attributes": {
+        "color": "#B30000",
+        "label": "translate-corpus-ru-en-6/10",
+        "size": 5,
+        "x": 0.7262247838616713,
+        "y": 0.239193083573487
+      }
+    }
+  ],
+  "edges": [
+    {
+      "key": "334",
+      "source": "OafWrWyuTDq0vHCeOAXcPA",
+      "target": "VMXhg5b9TRWJcNQyOP0WPQ",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "alignments"
+      }
+    },
+    {
+      "key": "2",
+      "source": "XzrvJMYuQRqHeV60X3P-Tg",
+      "target": "A8DoRPw3QHycHiCilDyPBw",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-teacher-ensemble"
+      }
+    },
+    {
+      "key": "221",
+      "source": "VMXhg5b9TRWJcNQyOP0WPQ",
+      "target": "OdY-YNa_QpeTobYtESHtig",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-quantized"
+      }
+    },
+    {
+      "key": "351",
+      "source": "a1pLe3RFQdWbb7BXZQ-lfA",
+      "target": "WKI0LMVlTC2HeTnNLMioGQ",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "split-mono-src"
+      }
+    },
+    {
+      "key": "38",
+      "source": "XA6AyEV0RVeLEQm6R1D5Ww",
+      "target": "BuvaweBEQB2ZvaDB-fOoLw",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-mono-trg"
+      }
+    },
+    {
+      "key": "96",
+      "source": "DEuRKUZiR9S6cPI5x2VE5A",
+      "target": "FnA4Ps4rQhe5k7Yz1GEW8g",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "split-corpus"
+      }
+    },
+    {
+      "key": "205",
+      "source": "Lt3kOedyQMK4eFwtUYQ-Ag",
+      "target": "NS0i-_kxQVyXZVpuyY9t1w",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "collect-mono-src"
+      }
+    },
+    {
+      "key": "274",
+      "source": "CXHz5vFuSOCA74VOY-Ug5g",
+      "target": "QlhgWbq_QnG9i4gcnbnZyw",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "bicleaner"
+      }
+    },
+    {
+      "key": "335",
+      "source": "PVMB-9dxR6qepo2LU53W6A",
+      "target": "VUW8ZlTgTfCR9Ky-midlUg",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-mono-trg"
+      }
+    },
+    {
+      "key": "342",
+      "source": "FnA4Ps4rQhe5k7Yz1GEW8g",
+      "target": "Vs-yAEWjT9WFRWhxpP8anA",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-corpus"
+      }
+    },
+    {
+      "key": "124",
+      "source": "Ei347dQGSWK_fWlB0mIzpQ",
+      "target": "Hzinle8JTTy8P1xQ2ULG0A",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "toolchain"
+      }
+    },
+    {
+      "key": "82",
+      "source": "UE5sDFydQ2CtI22pNNMrxw",
+      "target": "EtWYIu0QQ86U6EG6_US_sQ",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate"
+      }
+    },
+    {
+      "key": "467",
+      "source": "XzrvJMYuQRqHeV60X3P-Tg",
+      "target": "d4XfQCf2QR2_hb-hyYiAXg",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-corpus"
+      }
+    },
+    {
+      "key": "215",
+      "source": "XA6AyEV0RVeLEQm6R1D5Ww",
+      "target": "OX8hePpcSIapijqmaLZA0Q",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-corpus"
+      }
+    },
+    {
+      "key": "477",
+      "source": "XzrvJMYuQRqHeV60X3P-Tg",
+      "target": "eTK7zOvuRye-IKBeN9NiYA",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-corpus"
+      }
+    },
+    {
+      "key": "389",
+      "source": "a1pLe3RFQdWbb7BXZQ-lfA",
+      "target": "XrtvtilDTp2StBN8eg4A4Q",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "clean-corpus"
+      }
+    },
+    {
+      "key": "345",
+      "source": "OafWrWyuTDq0vHCeOAXcPA",
+      "target": "Vs-yAEWjT9WFRWhxpP8anA",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-corpus"
+      }
+    },
+    {
+      "key": "373",
+      "source": "FYemcvwJS5K9hjz23Jz-xw",
+      "target": "WgPdyp68QS6tWlI0s3sTAw",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "all"
+      }
+    },
+    {
+      "key": "32",
+      "source": "RTSdwpl_T6e-Baf9OVUOsA",
+      "target": "BMDV2ktBRh-2IOhL8tGHnA",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "toolchain"
+      }
+    },
+    {
+      "key": "226",
+      "source": "CK7HZAsRRQWzpmWwRyZ3bA",
+      "target": "Oo39Ck1QTPiMJccZco0VJQ",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "merge-mono"
+      }
+    },
+    {
+      "key": "212",
+      "source": "NPxAlQCXSiCqvw-eFYzQyg",
+      "target": "OX8hePpcSIapijqmaLZA0Q",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-corpus"
+      }
+    },
+    {
+      "key": "1",
+      "source": "NPxAlQCXSiCqvw-eFYzQyg",
+      "target": "A8DoRPw3QHycHiCilDyPBw",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-teacher-ensemble"
+      }
+    },
+    {
+      "key": "95",
+      "source": "a1pLe3RFQdWbb7BXZQ-lfA",
+      "target": "FnA4Ps4rQhe5k7Yz1GEW8g",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "split-corpus"
+      }
+    },
+    {
+      "key": "461",
+      "source": "XzrvJMYuQRqHeV60X3P-Tg",
+      "target": "cjU12GBjTNi1TqvdJ_5vtw",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "translate-mono-src"
+      }
+    },
+    {
+      "key": "131",
+      "source": "dHmU-kmFTc2VCGQf51gl0g",
+      "target": "J3Yx7JE-RPWERdjJltSjyg",
+      "attributes": {
+        "size": 0.25,
+        "type": "arrow",
+        "kind": "evaluate-quantized"
+      }
+    }
+  ]
+}

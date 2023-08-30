@@ -98,6 +98,7 @@ def serialize_taskgraph(taskgraph, pos):
     serialized = {"nodes": [], "edges": []}
     graph_size = 0
     for tasknode in taskgraph:
+        breakpoint()
         serialized["nodes"].append(
             {
                 "key": tasknode,
@@ -132,15 +133,15 @@ def serialize_taskgraph(taskgraph, pos):
 
 def main():
     taskgraph = load_taskgraph()
-    digraph = build_kinds_digraph()
-    # digraph = build_digraph(taskgraph)
+    # digraph = build_kinds_digraph()
+    digraph = build_digraph(taskgraph)
     pos = layout_digraph(digraph)
-    serialized_kinds = serialize_kinds(digraph, pos)
-    with open(f"./ser-ff-release-kinds.json", "w") as f:
-        f.write(json.dumps(serialized_kinds, indent=2))
-    # serialized_taskgraph = serialize_taskgraph(taskgraph, pos)
-    # with open(f"./{TASKGRAPH_NAME}-serialized-taskgraph-{LAYOUT_NAME}-{LAYOUT_ALIGNMENT}.json", "w") as f:
-    #     f.write(json.dumps(serialized_taskgraph, indent=2))
+    # serialized_kinds = serialize_kinds(digraph, pos)
+    # with open(f"./ser-ff-release-kinds.json", "w") as f:
+    #     f.write(json.dumps(serialized_kinds, indent=2))
+    serialized_taskgraph = serialize_taskgraph(taskgraph, pos)
+    with open(f"./{TASKGRAPH_NAME}-serialized-taskgraph-{LAYOUT_NAME}-{LAYOUT_ALIGNMENT}.json", "w") as f:
+        f.write(json.dumps(serialized_taskgraph, indent=2))
 
 
 __name__ == "__main__" and main()
