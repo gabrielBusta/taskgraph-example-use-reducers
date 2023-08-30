@@ -7,7 +7,7 @@ LAYOUT_ALIGNMENT = "vertical"
 
 
 def load_taskgraph():
-    f = open(f"./{TASKGRAPH_NAME}-taskgraph.json")
+    f = open(f"./data/{TASKGRAPH_NAME}-taskgraph.json")
     data = f.read()
     f.close()
     taskgraph = json.loads(data)
@@ -29,7 +29,7 @@ def build_digraph(taskgraph):
     return digraph
 
 def build_kinds_digraph():
-    with open('./ff-release-kinds.json') as f:
+    with open('./output/ff-release-kinds.json') as f:
         data = f.read()
     links = json.loads(data)
     digraph = nx.DiGraph(name="links")
@@ -98,7 +98,6 @@ def serialize_taskgraph(taskgraph, pos):
     serialized = {"nodes": [], "edges": []}
     graph_size = 0
     for tasknode in taskgraph:
-        breakpoint()
         serialized["nodes"].append(
             {
                 "key": tasknode,
@@ -137,10 +136,10 @@ def main():
     digraph = build_digraph(taskgraph)
     pos = layout_digraph(digraph)
     # serialized_kinds = serialize_kinds(digraph, pos)
-    # with open(f"./ser-ff-release-kinds.json", "w") as f:
+    # with open(f"./output-serialized-ff-release-kinds.json", "w") as f:
     #     f.write(json.dumps(serialized_kinds, indent=2))
     serialized_taskgraph = serialize_taskgraph(taskgraph, pos)
-    with open(f"./{TASKGRAPH_NAME}-serialized-taskgraph-{LAYOUT_NAME}-{LAYOUT_ALIGNMENT}.json", "w") as f:
+    with open(f"./output/{TASKGRAPH_NAME}-serialized-taskgraph-{LAYOUT_NAME}-{LAYOUT_ALIGNMENT}.json", "w") as f:
         f.write(json.dumps(serialized_taskgraph, indent=2))
 
 
