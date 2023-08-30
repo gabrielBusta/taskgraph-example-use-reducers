@@ -2,7 +2,7 @@ import Sigma from "sigma";
 import { Coordinates, EdgeDisplayData, NodeDisplayData } from "sigma/types";
 import { DirectedGraph as Graph } from "graphology";
 // import data from "./data/firefox-translations-training-ru-en-serialized-taskgraph-multipartite-layout-horizontal.json";
-import data from "./data/ser-ff-release-kinds.json";
+import data from "./data/output/ser-ff-release-kinds.json";
 
 // Retrieve some useful DOM elements:
 const container = document.getElementById("sigma-container") as HTMLElement;
