@@ -9,6 +9,7 @@ readme = "README.md"
 python = ">=3.9,<3.13"
 networkx = "^3.1"
 numpy = "^1.25.1"
+taskcluster = "^54.5.0"
 
 
 [build-system]
