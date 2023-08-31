@@ -56,9 +56,10 @@ def serialize_digraph(digraph, pos):
             {
                 "key": node,
                 "attributes": {
-                    "label": node,
+                    "label": digraph.nodes[node]["task"]["metadata"]["name"],
                     "x": pos[node][0],
                     "y": pos[node][1],
+                    "data": digraph.nodes[node],
                 },
             }
         )
@@ -105,6 +106,7 @@ def build_digraph_for_task_group(task_group):
 def main(args):
     if args.task_group:
         name = args.task_group
+        input_graph = f"task-group-{args.task_group}"
         digraph = build_digraph_for_task_group(args.task_group)
 
     if args.decision_task:
@@ -114,6 +116,7 @@ def main(args):
 
     if args.input_file:
         name = Path(args.input_file).stem
+        input_graph = args.input_file
         taskgraph = load_taskgraph(args.input_file)
         digraph = build_digraph_from_taskgraph(taskgraph, name)
 
@@ -124,19 +127,19 @@ def main(args):
     )
 
     pos = layout_digraph(digraph, args.alignment)
-    serialized_taskgraph = serialize_digraph(digraph, pos)
+    serialized_digraph = serialize_digraph(digraph, pos)
     with open(
         output,
         "w",
     ) as f:
-        f.write(json.dumps(serialized_taskgraph, indent=2))
+        f.write(json.dumps(serialized_digraph, indent=2))
     config = {
         "graph_name": name,
         "graph_order": f"{digraph.order():,}",
         "graph_size": f"{digraph.size():,}",
         "layout_algorithm": args.layout,
         "layout_alignment": args.alignment,
-        "input_graph": args.input_file,
+        "input_graph": input_graph,
         "output_file": output,
     }
     logging.info(f"config {json.dumps(config, indent=2)}")
@@ -144,7 +147,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="A simple CLI tool to serialize Taskcluster Taskgraphs into Graphology Graphs."
+        description="A simple CLI tool to serialize Taskcluster Taskgraphs and Task Groups into Graphology Graphs."
     )
     parser.add_argument(
         "-g",
